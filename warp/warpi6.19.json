@@ -1,4 +1,4 @@
-W//profile-title: base64:V29tZW4gTGlmZSBGcmVlZG9tIOKcjO+4jw==
+//profile-title: base64:V29tZW4gTGlmZSBGcmVlZG9tIOKcjO+4jw==
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //profile-web-page-url:
@@ -35,7 +35,7 @@ W//profile-title: base64:V29tZW4gTGlmZSBGcmVlZG9tIOKcjO+4jw==
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "/mwQ",
-      "mtu": 1350,
+      "mtu": 1340,
       "fake_packets_mode": "m4"
     },
     {
@@ -69,7 +69,7 @@ W//profile-title: base64:V29tZW4gTGlmZSBGcmVlZG9tIOKcjO+4jw==
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "7gyI",
-      "mtu": 1350,
+      "mtu": 1340,
       "fake_packets_mode": "m4"
     },
     {
@@ -103,7 +103,7 @@ W//profile-title: base64:V29tZW4gTGlmZSBGcmVlZG9tIOKcjO+4jw==
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "9SMC",
-      "mtu": 1350,
+      "mtu": 1340,
       "fake_packets_mode": "m4"
     },
     {
@@ -137,7 +137,7 @@ W//profile-title: base64:V29tZW4gTGlmZSBGcmVlZG9tIOKcjO+4jw==
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "fLh0",
-      "mtu": 1350,
+      "mtu": 1340,
       "fake_packets_mode": "m4"
     },
     {
@@ -171,7 +171,7 @@ W//profile-title: base64:V29tZW4gTGlmZSBGcmVlZG9tIOKcjO+4jw==
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "/mwQ",
-      "mtu": 1350,
+      "mtu": 1340,
       "fake_packets_mode": "m4"
     },
     {
@@ -205,7 +205,7 @@ W//profile-title: base64:V29tZW4gTGlmZSBGcmVlZG9tIOKcjO+4jw==
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "tj3R",
-      "mtu": 1350,
+      "mtu": 1340,
       "fake_packets_mode": "m4"
     },
     {
@@ -239,7 +239,7 @@ W//profile-title: base64:V29tZW4gTGlmZSBGcmVlZG9tIOKcjO+4jw==
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "9SMC",
-      "mtu": 1350,
+      "mtu": 1340,
       "fake_packets_mode": "m4"
     },
     {
@@ -273,7 +273,7 @@ W//profile-title: base64:V29tZW4gTGlmZSBGcmVlZG9tIOKcjO+4jw==
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "fLh0",
-      "mtu": 1350,
+      "mtu": 1340,
       "fake_packets_mode": "m4"
     },
     {
@@ -307,7 +307,7 @@ W//profile-title: base64:V29tZW4gTGlmZSBGcmVlZG9tIOKcjO+4jw==
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "QEl4",
-      "mtu": 1350,
+      "mtu": 1340,
       "fake_packets_mode": "m4"
     },
     {
@@ -341,7 +341,7 @@ W//profile-title: base64:V29tZW4gTGlmZSBGcmVlZG9tIOKcjO+4jw==
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "VY+B",
-      "mtu": 1350,
+      "mtu": 1340,
       "fake_packets_mode": "m4"
     }
   ]
