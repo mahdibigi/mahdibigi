@@ -31,7 +31,7 @@
         "2606:4700:110:8ddd:a515:811a:4104:f09b/128"
       ],
       "private_key": "6FR9GtUVcsQiHrL3X35sYpRWMDZBxLv1E3QHQSGN0nA=",
-      "server": "2606:4700:d0::1a26:2355:60d9:357",
+      "server": "engage.cloudflareclient.com",
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "/mwQ",
@@ -65,7 +65,7 @@
         "2606:4700:110:8ddd:a515:811a:4104:f09b/128"
       ],
       "private_key": "CM0F4z4BFB8EUm46Lye87Me+N6ttpqu6xlSAZ7RXr0U=",
-      "server": "2606:4700:d0:0:5ced:5de3:636d:dac8",
+      "server": "engage.cloudflareclient.com",
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "7gyI",
@@ -99,7 +99,7 @@
         "2606:4700:110:89d8:4c98:7ec2:73a2:9f93/128"
       ],
       "private_key": "gEr7I8Svo1rBHUvJZdPLNxgHo3YY0wEvpxwwhWxRfUg=",
-      "server": "188.114.99.128",
+      "server": "36.rcamus.top",
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "9SMC",
@@ -133,7 +133,7 @@
         "2606:4700:110:89d8:4c98:7ec2:73a2:9f93/128"
       ],
       "private_key": "2MzAvKKAYFkfsbZGffmhjgfArts0HVWo6Y2TJTH4CHw=",
-      "server": "2606:4700:d0:0:5ced:5de3:636d:dac8",
+      "server": "363.rcamus.top",
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "fLh0",
@@ -167,7 +167,7 @@
         "2606:4700:110:8b7f:7008:e0c0:8dea:2963/128"
       ],
       "private_key": "6FR9GtUVcsQiHrL3X35sYpRWMDZBxLv1E3QHQSGN0nA=",
-      "server": "2606:4700:d0::1a26:2355:60d9:357",
+      "server": "142.rcamus.top",
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "/mwQ",
@@ -201,7 +201,7 @@
         "2606:4700:110:8cf8:8bc0:5fe2:bc29:d0d0/128"
       ],
       "private_key": "YEqX2ztz43BdP4cRlHD9tr9kyCkR8WDoAeDtzQvyzH8=",
-      "server": "2606:4700:d1::3a6e:ec52:8892:7e86",
+      "server": "122.xpdd.xyz",
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "tj3R",
@@ -235,7 +235,7 @@
         "2606:4700:110:8eec:b380:7408:d6b:754e/128"
       ],
       "private_key": "gEr7I8Svo1rBHUvJZdPLNxgHo3YY0wEvpxwwhWxRfUg=",
-      "server": "606:4700:d0::1458:32a1:f454:4a7b",
+      "server": "122.lextes.fun",
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "9SMC",
