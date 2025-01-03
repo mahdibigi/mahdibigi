@@ -1,12 +1,12 @@
-//profile-title: base64:8J+UpSBXQVJQIPCflKU=
-//profile-update-interval: 240
+//profile-title: base64:V29tZW4gTGlmZSBGcmVlZG9tIOKcjO+4jw==
+//profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
-//support-url: https://t.me/Mahdi
+//profile-web-page-url:
 {
   "outbounds": [
     {
       "type": "wireguard",
-      "tag": "IRAN💦   0",
+      "tag": "IRAN💦  0",
       "local_address": [
         "172.16.0.2/24",
         "2606:4700:110:8eaa:68c3:d6fc:33f9:eab5/128"
@@ -17,15 +17,15 @@
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "xD0y",
       "mtu": 1330,
-      "fake_packets": "5-10",
-      "fake_packets_size": "10-30",
-      "fake_packets_delay": "10-30",
+      "fake_packets": "10-20",
+      "fake_packets_size": "20-60",
+      "fake_packets_delay": "5-10",
       "fake_packets_mode": "m4"
     },
     {
       "type": "wireguard",
       "tag": "Germany💚  1",
-      "detour": "IRAN💦   0",
+      "detour": "IRAN💦  0",
       "local_address": [
         "172.16.0.2/24",
         "2606:4700:110:8ddd:a515:811a:4104:f09b/128"
@@ -51,9 +51,9 @@
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "dvPW",
       "mtu": 1330,
-      "fake_packets": "5-10",
-      "fake_packets_size": "10-30",
-      "fake_packets_delay": "10-30",
+      "fake_packets": "10-20",
+      "fake_packets_size": "20-60",
+      "fake_packets_delay": "5-10",
       "fake_packets_mode": "m4"
     },
     {
@@ -74,7 +74,7 @@
     },
     {
       "type": "wireguard",
-      "tag": "IRAN💦   4",
+      "tag": "IRAN💦  4",
       "local_address": [
         "172.16.0.2/24",
         "2606:4700:110:80b6:bb9d:7deb:5eb6:a59c/128"
@@ -85,21 +85,21 @@
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "epns",
       "mtu": 1330,
-      "fake_packets": "5-10",
-      "fake_packets_size": "10-30",
-      "fake_packets_delay": "10-30",
+      "fake_packets": "10-20",
+      "fake_packets_size": "20-60",
+      "fake_packets_delay": "5-10",
       "fake_packets_mode": "m4"
     },
     {
       "type": "wireguard",
       "tag": "Germany💚  5",
-      "detour": "IRAN💦   4",
+      "detour": "IRAN💦  4",
       "local_address": [
         "172.16.0.2/24",
         "2606:4700:110:89d8:4c98:7ec2:73a2:9f93/128"
       ],
       "private_key": "gEr7I8Svo1rBHUvJZdPLNxgHo3YY0wEvpxwwhWxRfUg=",
-      "server": "2606:4700:d0:0:5ced:5de3:636d:dac8",
+      "server": "188.114.99.128",
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "9SMC",
@@ -119,15 +119,15 @@
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "GV/E",
       "mtu": 1330,
-      "fake_packets": "5-10",
-      "fake_packets_size": "10-30",
-      "fake_packets_delay": "10-30",
+      "fake_packets": "10-20",
+      "fake_packets_size": "20-60",
+      "fake_packets_delay": "5-10",
       "fake_packets_mode": "m4"
     },
     {
       "type": "wireguard",
       "tag": "Germany💚  7",
-      "detour": "IRAN💦   6",
+      "detour": "IRAN💦  6",
       "local_address": [
         "172.16.0.2/24",
         "2606:4700:110:89d8:4c98:7ec2:73a2:9f93/128"
@@ -153,9 +153,9 @@
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "xD0y",
       "mtu": 1330,
-      "fake_packets": "5-10",
-      "fake_packets_size": "10-30",
-      "fake_packets_delay": "10-30",
+      "fake_packets": "10-20",
+      "fake_packets_size": "20-60",
+      "fake_packets_delay": "5-10",
       "fake_packets_mode": "m4"
     },
     {
@@ -187,9 +187,9 @@
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "4OL3",
       "mtu": 1330,
-      "fake_packets": "5-10",
-      "fake_packets_size": "10-30",
-      "fake_packets_delay": "10-30",
+      "fake_packets": "10-20",
+      "fake_packets_size": "20-60",
+      "fake_packets_delay": "5-10",
       "fake_packets_mode": "m4"
     },
     {
@@ -221,9 +221,9 @@
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "epns",
       "mtu": 1330,
-      "fake_packets": "5-10",
-      "fake_packets_size": "10-30",
-      "fake_packets_delay": "10-30",
+      "fake_packets": "10-20",
+      "fake_packets_size": "20-60",
+      "fake_packets_delay": "5-10",
       "fake_packets_mode": "m4"
     },
     {
@@ -235,7 +235,7 @@
         "2606:4700:110:8eec:b380:7408:d6b:754e/128"
       ],
       "private_key": "gEr7I8Svo1rBHUvJZdPLNxgHo3YY0wEvpxwwhWxRfUg=",
-      "server": "2606:4700:d0::1458:32a1:f454:4a7b",
+      "server": "606:4700:d0::1458:32a1:f454:4a7b",
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "9SMC",
@@ -255,9 +255,9 @@
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "GV/E",
       "mtu": 1330,
-      "fake_packets": "5-10",
-      "fake_packets_size": "10-30",
-      "fake_packets_delay": "10-30",
+      "fake_packets": "10-20",
+      "fake_packets_size": "20-60",
+      "fake_packets_delay": "5-10",
       "fake_packets_mode": "m4"
     },
     {
@@ -289,9 +289,9 @@
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "Jce6",
       "mtu": 1330,
-      "fake_packets": "5-10",
-      "fake_packets_size": "10-30",
-      "fake_packets_delay": "10-30",
+      "fake_packets": "10-20",
+      "fake_packets_size": "20-60",
+      "fake_packets_delay": "5-10",
       "fake_packets_mode": "m4"
     },
     {
@@ -303,7 +303,7 @@
         "2606:4700:110:8d76:9d3e:a838:424c:2300/128"
       ],
       "private_key": "gEs99JcqK7tAfu6bJnlVvGSKEwzoR/Gv3y8KzOfu9VY=",
-      "server": "2606:4700:d0::1458:32a1:f454:4a7b",
+      "server": "188.114.99.79",
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "QEl4",
@@ -323,9 +323,9 @@
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "S6mx",
       "mtu": 1330,
-      "fake_packets": "5-10",
-      "fake_packets_size": "10-30",
-      "fake_packets_delay": "10-30",
+      "fake_packets": "10-20",
+      "fake_packets_size": "20-60",
+      "fake_packets_delay": "5-10",
       "fake_packets_mode": "m4"
     },
     {
