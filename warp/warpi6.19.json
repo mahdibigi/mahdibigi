@@ -8,7 +8,7 @@
    "type": "wireguard",
    "tag": "IRAN💦   0",
    "local_address": [
-    "172.16.0.2/32",
+    "172.16.0.2/24",
     "2606:4700:110:8eaa:68c3:d6fc:33f9:eab5/128"
    ],
    "private_key": "sJXXzSdrkG6U6o05ZryjA9eL+sadCEFtyPA8SYULaHI=",
@@ -27,11 +27,11 @@
    "tag": "Germany💚  1",
    "detour": "IRAN💦  0",
    "local_address": [
-    "172.16.0.2/32",
+    "172.16.0.2/24",
     "2606:4700:110:8ddd:a515:811a:4104:f09b/128"
    ],
    "private_key": "6FR9GtUVcsQiHrL3X35sYpRWMDZBxLv1E3QHQSGN0nA=",
-   "server": "188.114.99.86",
+   "server": "2606:4700:d0::1458:32a1:f454:4a7b",
    "server_port": 0,
    "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
    "reserved": "/mwQ",
@@ -42,11 +42,11 @@
    "type": "wireguard",
    "tag": "IRAN💦  2",
    "local_address": [
-    "172.16.0.2/32",
+    "172.16.0.2/24",
     "2606:4700:110:841a:6cb:49bd:7752:5aa/128"
    ],
    "private_key": "sGdvbWefWQq7ifTJoTa3Nx14shqSN27YoMUQJvSo02g=",
-   "server": "2606:4700:d0:0:5ced:5de3:636d:dac8",
+   "server": "2606:4700:d0::1a26:2355:60d9:357",
    "server_port": 0,
    "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
    "reserved": "dvPW",
@@ -65,7 +65,7 @@
     "2606:4700:110:8ddd:a515:811a:4104:f09b/128"
    ],
    "private_key": "CM0F4z4BFB8EUm46Lye87Me+N6ttpqu6xlSAZ7RXr0U=",
-   "server": "188.114.99.84",
+   "server": "2606:4700:d0::1a26:2355:60d9:357",
    "server_port": 0,
    "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
    "reserved": "7gyI",
@@ -76,11 +76,11 @@
    "type": "wireguard",
    "tag": "IRAN💦   4",
    "local_address": [
-    "172.16.0.2/32",
+    "172.16.0.2/24",
     "2606:4700:110:80b6:bb9d:7deb:5eb6:a59c/128"
    ],
    "private_key": "0GqeWGW/5KH1lgAEgwkG0+JtmWYLlyCMDBEnZ7iD0Wo=",
-   "server": "2606:4700:d0:0:d7e2:ef99:355a:c09e",
+   "server": "2606:4700:d0::de78:d09:880:2648",
    "server_port": 0,
    "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
    "reserved": "epns",
@@ -95,11 +95,11 @@
    "tag": "Germany💚  5",
    "detour": "IRAN💦  4",
    "local_address": [
-    "172.16.0.2/32",
+    "172.16.0.2/24",
     "2606:4700:110:8eec:b380:7408:d6b:754e/128"
    ],
    "private_key": "gEr7I8Svo1rBHUvJZdPLNxgHo3YY0wEvpxwwhWxRfUg=",
-   "server": "188.114.99.128",
+   "server": "2606:4700:d0::de78:d09:880:2648",
    "server_port": 0,
    "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
    "reserved": "9SMC",
@@ -110,7 +110,7 @@
    "type": "wireguard",
    "tag": "IRAN💦   6",
    "local_address": [
-    "172.16.0.2/32",
+    "172.16.0.2/24",
     "2606:4700:110:8297:54b5:2733:49e1:18b6/128"
    ],
    "private_key": "CPkEPZzOZoDteaveydbgkcieNTebml1E0gcSsgI6H0Q=",
@@ -129,7 +129,7 @@
    "tag": "Germany💚  7",
    "detour": "IRAN💦  6",
    "local_address": [
-    "172.16.0.2/32",
+    "172.16.0.2/24",
     "2606:4700:110:89d8:4c98:7ec2:73a2:9f93/128"
    ],
    "private_key": "2MzAvKKAYFkfsbZGffmhjgfArts0HVWo6Y2TJTH4CHw=",
@@ -144,7 +144,7 @@
    "type": "wireguard",
    "tag": "IRAN💦 8",
    "local_address": [
-    "172.16.0.2/32",
+    "172.16.0.2/24",
     "2606:4700:110:87d9:1605:4db2:3057:641a/128"
    ],
    "private_key": "sJXXzSdrkG6U6o05ZryjA9eL+sadCEFtyPA8SYULaHI=",
@@ -163,7 +163,7 @@
    "tag": "Germany💚 9",
    "detour": "IRAN💦 8",
    "local_address": [
-    "172.16.0.2/32",
+    "172.16.0.2/24",
     "2606:4700:110:8b7f:7008:e0c0:8dea:2963/128"
    ],
    "private_key": "6FR9GtUVcsQiHrL3X35sYpRWMDZBxLv1E3QHQSGN0nA=",
@@ -178,7 +178,7 @@
    "type": "wireguard",
    "tag": "IRAN💦  10",
    "local_address": [
-    "172.16.0.2/32",
+    "172.16.0.2/24",
     "2606:4700:110:88b3:95cb:c879:7941:af43/128"
    ],
    "private_key": "IJ0voKto0YVOr4FUwnpyBimVHzej3FYQAqgpmMwe/1E=",
@@ -197,7 +197,7 @@
    "tag": "Germany💚  11",
    "detour": "IRAN💦  10",
    "local_address": [
-    "172.16.0.2/32",
+    "172.16.0.2/24",
     "2606:4700:110:8cf8:8bc0:5fe2:bc29:d0d0/128"
    ],
    "private_key": "YEqX2ztz43BdP4cRlHD9tr9kyCkR8WDoAeDtzQvyzH8=",
@@ -231,7 +231,7 @@
    "tag": "Germany💚 13",
    "detour": "IRAN💦 12",
    "local_address": [
-    "172.16.0.2/32",
+    "172.16.0.2/24",
     "2606:4700:110:8eec:b380:7408:d6b:754e/128"
    ],
    "private_key": "gEr7I8Svo1rBHUvJZdPLNxgHo3YY0wEvpxwwhWxRfUg=",
@@ -246,7 +246,7 @@
    "type": "wireguard",
    "tag": "IRAN💦  14",
    "local_address": [
-    "172.16.0.2/32",
+    "172.16.0.2/24",
     "2606:4700:110:8297:54b5:2733:49e1:18b6/128"
    ],
    "private_key": "CPkEPZzOZoDteaveydbgkcieNTebml1E0gcSsgI6H0Q=",
@@ -265,7 +265,7 @@
    "tag": "Germany💚 15",
    "detour": "IRAN💦  14",
    "local_address": [
-    "172.16.0.2/32",
+    "172.16.0.2/24",
     "2606:4700:110:89d8:4c98:7ec2:73a2:9f93/128"
    ],
    "private_key": "2MzAvKKAYFkfsbZGffmhjgfArts0HVWo6Y2TJTH4CHw=",
@@ -280,7 +280,7 @@
    "type": "wireguard",
    "tag": "IRAN💦  16",
    "local_address": [
-    "172.16.0.2/32",
+    "172.16.0.2/24",
     "2606:4700:110:8fe6:869:8aae:e4bc:1cd6/128"
    ],
    "private_key": "EI0qIaEm3AJutrlRjMWyIjf9+9bXBO8q4syf26m0rmQ=",
@@ -299,7 +299,7 @@
    "tag": "Germany💚 17",
    "detour": "IRAN💦  16",
    "local_address": [
-    "172.16.0.2/32",
+    "172.16.0.2/24",
     "2606:4700:110:8d76:9d3e:a838:424c:2300/128"
    ],
    "private_key": "gEs99JcqK7tAfu6bJnlVvGSKEwzoR/Gv3y8KzOfu9VY=",
@@ -314,7 +314,7 @@
    "type": "wireguard",
    "tag": "IRAN💦  18",
    "local_address": [
-    "172.16.0.2/32",
+    "172.16.0.2/24",
     "2606:4700:110:82c2:9873:fb8e:259a:ee5b/128"
    ],
    "private_key": "0KMARXvS42tVKNTmolpUh5fDqOwUvEb58zhk8NNASHc=",
@@ -333,7 +333,7 @@
    "tag": "Germany💚 19",
    "detour": "IRAN💦  18",
    "local_address": [
-    "172.16.0.2/32",
+    "172.16.0.2/24",
     "2606:4700:110:821e:9aec:297b:5a38:7e8b/128"
    ],
    "private_key": "cKjVPqfnuBI7XN9gwKYt95Guee7qNGSRVmfgXzUG42M=",
