@@ -1,0 +1,305 @@
+{
+  "outbounds": [
+    {
+      "type": "wireguard",
+      "tag": "Iran-👽-1",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8bce:259:c05c:721:15dc/128"
+      ],
+      "private_key": "SB1jXfRqP6X4NriMipPmeIbYA65ZDQ3A9iqw07VOUmw=",
+      "server": "2606:4700:d1::ff86:fded:6410:c219",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "7Lx2",
+      "mtu": 1330
+    },
+    {
+      "type": "wireguard",
+      "tag": "Sweden-🇸🇪 1",
+      "detour": "Iran-👽-1",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:81dc:2d9c:d528:50e1:b22e/128"
+      ],
+      "private_key": "EH6IweMxQKirgaLURR6n5vYMC4tTbf0cpgk/724oSk4=",
+      "server": "rula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "1Ev5",
+      "mtu": 1280
+    },
+    {
+      "type": "wireguard",
+      "tag": "Iran-👽 2",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8fc7:4e9:bb4b:90dd:ff4e/128"
+      ],
+      "private_key": "8MLfAH/bhZLGuetsoWpcjGG9i7cFw4JfzzwHfCVSP1E=",
+      "server": "2606:4700:d1::9e08:97f5:a4b2:665f",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "rRT3",
+      "mtu": 1330
+    },
+    {
+      "type": "wireguard",
+      "tag": "Sweden-🇸🇪 2",
+      "detour": "Iran-👽 2",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8695:7a13:145:187f:2d05/128"
+      ],
+      "private_key": "yPDyk2TQwC6ibxB7PV6T6g9kpYLOTUiiphbiBOuda1c=",
+      "server": "cloudflare.com",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Polc",
+      "mtu": 1280
+    },
+    {
+      "type": "wireguard",
+      "tag": "Iran-👽 3",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:81a0:8fc:e43c:3a5c:d761/128"
+      ],
+      "private_key": "SB1jXfRqP6X4NriMipPmeIbYA65ZDQ3A9iqw07VOUmw=",
+      "server": "2606:4700:d1::ff86:fded:6410:c219",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "7Lx2",
+      "mtu": 1330
+    },
+    {
+      "type": "wireguard",
+      "tag": "Sweden-🇸🇪 3",
+      "detour": "Iran-👽 3",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8fda:dcb0:4a5e:2ebd:1740/128"
+      ],
+      "private_key": "EH6IweMxQKirgaLURR6n5vYMC4tTbf0cpgk/724oSk4=",
+      "server": "speedtest.org",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "1Ev5",
+      "mtu": 1280
+    },
+    {
+      "type": "wireguard",
+      "tag": "Iran-👽 4",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8695:7a13:145:187f:2d05/128"
+      ],
+      "private_key": "8MLfAH/bhZLGuetsoWpcjGG9i7cFw4JfzzwHfCVSP1E=",
+      "server": "2606:4700:d1::9e08:97f5:a4b2:665f",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "rRT3",
+      "mtu": 1330
+    },
+    {
+      "type": "wireguard",
+      "tag": "Sweden-🇸🇪 4",
+      "detour": "Iran-👽 4",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8fda:dcb0:4a5e:2ebd:1740/128"
+      ],
+      "private_key": "yPDyk2TQwC6ibxB7PV6T6g9kpYLOTUiiphbiBOuda1c=",
+      "server": "cloudflare.com",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Polc",
+      "mtu": 1280
+    },
+    {
+      "type": "wireguard",
+      "tag": "Iran-👽 5",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8bce:259:c05c:721:15dc/128"
+      ],
+      "private_key": "4EcvmF32dUKbhQpCCPXnpBw0RyN8rjo40k5HVXj6P2k=",
+      "server": "2606:4700:d0::7de8:26e8:837e:3a5a",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "/7re",
+      "mtu": 1330
+    },
+    {
+      "type": "wireguard",
+      "tag": "Sweden-🇸🇪 5",
+      "detour": "Iran-👽 5",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:81dc:2d9c:d528:50e1:b22e/128"
+      ],
+      "private_key": "aH1mN1EhRpFr7aqyGCFTgxfbQPcTF7NzWKKmwfZFJkg=",
+      "server": "2606:4700:d0::7de8:26e8:837e:3a5a",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Polc",
+      "mtu": 1280
+      }
+    ]
+ }
+
+//profile-title: base64:8J+UpSBXQVJQIPCflKU=
+//profile-update-interval: 240
+//subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
+//support-url: https://t.me/Mahdi
+{
+  "outbounds": [
+    {
+      "type": "wireguard",
+      "tag": "Iran-👽-1",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8bce:259:c05c:721:15dc/128"
+      ],
+      "private_key": "SB1jXfRqP6X4NriMipPmeIbYA65ZDQ3A9iqw07VOUmw=",
+      "server": "2606:4700:d1::ff86:fded:6410:c219",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "7Lx2",
+      "mtu": 1330
+    },
+    {
+      "type": "wireguard",
+      "tag": "Sweden-🇸🇪 1",
+      "detour": "Iran-👽-1",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:81dc:2d9c:d528:50e1:b22e/128"
+      ],
+      "private_key": "EH6IweMxQKirgaLURR6n5vYMC4tTbf0cpgk/724oSk4=",
+      "server": "zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "1Ev5",
+      "mtu": 1280
+    },
+    {
+      "type": "wireguard",
+      "tag": "Iran-👽 2",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8fc7:4e9:bb4b:90dd:ff4e/128"
+      ],
+      "private_key": "8MLfAH/bhZLGuetsoWpcjGG9i7cFw4JfzzwHfCVSP1E=",
+      "server": "2606:4700:d1::9e08:97f5:a4b2:665f",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "rRT3",
+      "mtu": 1330
+    },
+    {
+      "type": "wireguard",
+      "tag": "Sweden-🇸🇪 2",
+      "detour": "Iran-👽 2",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8695:7a13:145:187f:2d05/128"
+      ],
+      "private_key": "yPDyk2TQwC6ibxB7PV6T6g9kpYLOTUiiphbiBOuda1c=",
+      "server": "cloudflareclient.com",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Polc",
+      "mtu": 1280
+    },
+    {
+      "type": "wireguard",
+      "tag": "Iran-👽 3",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:81a0:8fc:e43c:3a5c:d761/128"
+      ],
+      "private_key": "SB1jXfRqP6X4NriMipPmeIbYA65ZDQ3A9iqw07VOUmw=",
+      "server": "2606:4700:d1::ff86:fded:6410:c219",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "7Lx2",
+      "mtu": 1330
+    },
+    {
+      "type": "wireguard",
+      "tag": "Sweden-🇸🇪 3",
+      "detour": "Iran-👽 3",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8fda:dcb0:4a5e:2ebd:1740/128"
+      ],
+      "private_key": "EH6IweMxQKirgaLURR6n5vYMC4tTbf0cpgk/724oSk4=",
+      "server": "speedtest.org",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "1Ev5",
+      "mtu": 1280
+    },
+    {
+      "type": "wireguard",
+      "tag": "Iran-👽 4",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8695:7a13:145:187f:2d05/128"
+      ],
+      "private_key": "8MLfAH/bhZLGuetsoWpcjGG9i7cFw4JfzzwHfCVSP1E=",
+      "server": "2606:4700:d1::9e08:97f5:a4b2:665f",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "rRT3",
+      "mtu": 1330
+    },
+    {
+      "type": "wireguard",
+      "tag": "Sweden-🇸🇪 4",
+      "detour": "Iran-👽 4",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8fda:dcb0:4a5e:2ebd:1740/128"
+      ],
+      "private_key": "yPDyk2TQwC6ibxB7PV6T6g9kpYLOTUiiphbiBOuda1c=",
+      "server": "cloudflare.com",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Polc",
+      "mtu": 1280
+    },
+    {
+      "type": "wireguard",
+      "tag": "Iran-👽 5",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8bce:259:c05c:721:15dc/128"
+      ],
+      "private_key": "4EcvmF32dUKbhQpCCPXnpBw0RyN8rjo40k5HVXj6P2k=",
+      "server": "2606:4700:d0::7de8:26e8:837e:3a5a",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "/7re",
+      "mtu": 1330
+    },
+    {
+      "type": "wireguard",
+      "tag": "Sweden-🇸🇪 5",
+      "detour": "Iran-👽 5",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:81dc:2d9c:d528:50e1:b22e/128"
+      ],
+      "private_key": "aH1mN1EhRpFr7aqyGCFTgxfbQPcTF7NzWKKmwfZFJkg=",
+      "server": "nodejs.org",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Polc",
+      "mtu": 1280
+      }
+    ]
+ }
+ 
+ 
