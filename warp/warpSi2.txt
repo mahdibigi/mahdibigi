@@ -1,0 +1,6 @@
+warp://[2606:4700:d0::15ed:af59:3973:eec]:0/?ifp=20-40&ifps=40-100&ifpd=8-9&ifpm=m4#Tehron☔️&&detour=warp://npmjs.comifpm=m4#Sweden🇸🇪
+warp://[2606:4700:d0::1a00:e902:e9cc:ee60]:0/?ifp=10-20&ifps=40-80&ifpd=4-8&ifpm=m4#Tehron☔&&detour=warp:/pkg.cloudflareclient.com:0/?ifpm=m4#Sweden🇸🇪
+warp://[2606:4700:d0:0:7b86:6790:956d:1823]:0/?ifp=10-20&ifps=40-80&ifpd=4-8&ifpm=m4#Tehron☔&&detour=warp://bizoncase.eu:0/&ifpm=m5#Sweden🇸🇪
+warp://[2606:4700:d0::2ebd:1edb:d65a:14b9]:0/?ifp=40-100&ifps=20-30&ifpd=3-6&ifpm=m4#Tehron☔️&&detour=warp://jsdelivr.ren:0/?ifpm=m4#Sweden🇸🇪
+warp://[2606:4700:d0::b127:9cdb:8191:64be]:0/?ifp=10-20&ifps=40-80&ifpd=1-2&ifpm=m4#Tehron☔️&&detour=warp://32xpdd.xyz:0/?ifpm=m4#Sweden🇸🇪
+warp://[2606:4700:d0:0:a893:2a6a:350:bf11]:0/?ifp=10-20&ifps=40-80&ifpd=4-8&ifpm=m6#Tehron☔&&detour=warp://engage.cloudflareclient.com:0/?ifpm=m6#Sweden🇸🇪
