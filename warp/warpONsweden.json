@@ -128,7 +128,7 @@
       ],
       "private_key": "yPDyk2TQwC6ibxB7PV6T6g9kpYLOTUiiphbiBOuda1c=",
       "server": "cloudflare.com",
-      "server_port": 968,
+      "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "Polc",
       "mtu": 1280
@@ -142,7 +142,7 @@
       ],
       "private_key": "iKIw/82p6EsR3cXHmi1C5rY9d3+fx/XQDZGM7fpR22k=",
       "server": "2606:4700:d0::7de8:26e8:837e:3a5a",
-      "server_port": 903,
+      "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "acd6",
       "mtu": 1330,
@@ -154,7 +154,7 @@
       "type": "wireguard",
       "tag": "Sweden-🇸🇪 5",
       "detour": "Iran💙 5",
-      "local_address".: [
+      "local_address": [
         "172.16.0.2/24",
         "2606:4700:110:8b78:293c:7d16:bef5:2408/128"
       ],
