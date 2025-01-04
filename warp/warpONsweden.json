@@ -62,7 +62,7 @@
         "2606:4700:110:8695:7a13:145:187f:2d05/128"
       ],
       "private_key": "yPDyk2TQwC6ibxB7PV6T6g9kpYLOTUiiphbiBOuda1c=",
-      "server": "cloudflareclient.com",
+      "server": "engage.cloudflareclient.com",
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "Polc",
@@ -94,7 +94,7 @@
         "2606:4700:110:8fda:dcb0:4a5e:2ebd:1740/128"
       ],
       "private_key": "EH6IweMxQKirgaLURR6n5vYMC4tTbf0cpgk/724oSk4=",
-      "server": "speedtest.org",
+      "server": "engage.cloudflareclient.com",
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "1Ev5",
@@ -126,7 +126,7 @@
         "2606:4700:110:8fda:dcb0:4a5e:2ebd:1740/128"
       ],
       "private_key": "yPDyk2TQwC6ibxB7PV6T6g9kpYLOTUiiphbiBOuda1c=",
-      "server": "cloudflare.com",
+      "server": "engage.cloudflareclient.com",
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "Polc",
@@ -158,7 +158,7 @@
         "2606:4700:110:81dc:2d9c:d528:50e1:b22e/128"
       ],
       "private_key": "aH1mN1EhRpFr7aqyGCFTgxfbQPcTF7NzWKKmwfZFJkg=",
-      "server": "nodejs.org",
+      "server": "speedtest.org",
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "Polc",
