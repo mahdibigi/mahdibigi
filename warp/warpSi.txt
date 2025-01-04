@@ -1,0 +1,5 @@
+warp://5Sk92AN6-15e2ZLU0-2G6EYj38@[2606:4700:d0:0::e5c2:dcf4:f5a:693d]:0/?ifp=40-60&ifps=30-90&ifpd=5-7&ifpm=m4#Tehron☔️&&detour=warp://cloudflare.com:0/?ifpm=m4#Sweden🇸🇪
+warp://5Sk92AN6-15e2ZLU0-2G6EYj38@[2606:4700:d1:0::7e5c:f756:69e:a0cd]:0/?ifp=40-60&ifps=30-90&ifpd=5-7&ifpm=m4#Tehron☔️&&detour=warp://cloudflare.com:0/?ifpm=m4#Sweden🇸🇪
+warp://5Sk92AN6-15e2ZLU0-2G6EYj38@[2606:4700:d1:0::e2b8:6195:653f:4550]:0/?ifp=40-80&ifps=20-60&ifpd=4-8&ifpm=m4#Tehron☔️&&detour=warp://zula.ir:0/?&ifpm=m4#Sweden🇸🇪
+warp://85jIR91D-T432DQg9-3x9uE02N@[2606:4700:d1:0::7290:cd82:b085:55d4]:0/?ifp=3-6&ifps=10-30&ifpd=10-30&ifpm=m4#Tehron☔️&&detour=warp://12.xpdd.xyz:0/?&ifpm=m4#Sweden🇸🇪
+
