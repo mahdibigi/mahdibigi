@@ -3,7 +3,7 @@
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/Mahdi
 
-warp://73mv1lg0-62x1QJ9a-Q3L78r6l@[2606:4700:d0:0::e5c2:dcf4:f5a:693d]:0/?ifp=40-60&ifps=30-90&ifpd=5-7&ifpm=m4#Tehron☔️&&detour=warp://cloudflare.com:0/?ifpm=m4#Sweden🇸🇪
-warp://73mv1lg0-62x1QJ9a-Q3L78r6l@[2606:4700:d1:0::7e5c:f756:69e:a0cd]:0/?ifp=40-60&ifps=30-90&ifpd=5-7&ifpm=m4#Tehron☔️&&detour=warp://cloudflare.com:0/?ifpm=m4#Sweden🇸🇪
-warp://73mv1lg0-62x1QJ9a-Q3L78r6l@[2606:4700:d1:0::e2b8:6195:653f:4550]:0/?ifp=40-80&ifps=20-60&ifpd=4-8&ifpm=m4#Tehron☔️&&detour=warp://zula.ir:0/?&ifpm=m4#Sweden🇸🇪
-warp://73mv1lg0-62x1QJ9a-Q3L78r6l@[2606:4700:d1:0::7290:cd82:b085:55d4]:0/?ifp=3-6&ifps=10-30&ifpd=10-30&ifpm=m4#Tehron☔️&&detour=warp://12.xpdd.xyz:0/?&ifpm=m4#Sweden🇸🇪
+warp://73mv1lg0-62x1QJ9a-Q3L78r6l@[2606:4700:d0:0::e5c2:dcf4:f5a:693d]:0/?ifp=40-60&ifps=30-90&ifpd=5-7&ifpm=m4#Tehron☔️&&detour=warp://324.xpdd.xyz:0/?ifpm=m4#Sweden🇸🇪
+warp://05m64fNq-63yX0R9l-vX5q17H2@[2606:4700:d1:0::7e5c:f756:69e:a0cd]:0/?ifp=40-60&ifps=30-90&ifpd=5-7&ifpm=m4#Tehron☔️&&detour=warp://sky.rethinkdns.com:0/?ifpm=m4#Sweden🇸🇪
+warp://06GM19ya-j50lo94v-6K79zTf5@[2606:4700:d1:0::e2b8:6195:653f:4550]:0/?ifp=40-80&ifps=20-60&ifpd=4-8&ifpm=m4#Tehron☔️&&detour=warp://zula.ir:0/?&ifpm=m4#Sweden🇸🇪
+warp://06x32HRE-4mb915IC-5mY614sU@[2606:4700:d1:0::7290:cd82:b085:55d4]:0/?ifp=3-6&ifps=10-30&ifpd=10-30&ifpm=m4#Tehron☔️&&detour=warp://12.xpdd.xyz:0/?&ifpm=m4#Sweden🇸🇪
