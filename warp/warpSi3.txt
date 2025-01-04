@@ -1,0 +1,6 @@
+warp://[2606:4700:d0::b127:9cdb:8191:64be]:0/?ifp=20-40&ifps=40-100&ifpd=8-9&ifpm=m4#Tehron☔️&&detour=warp://12.xpdd.xyz:0/?ifpm=m4#Sweden🇸🇪
+warp://[2606:4700:d0::c6c2:99f4:eadf:d89b]:0/?ifp=20-40&ifps=40-100&ifpd=8-9&ifpm=m4#Tehron☔️&&detour=warp://341.lextes.fun:0?ifpm=m4#Sweden🇸🇪
+warp://[2606:4700:d1:0:c2c2:97f6:a8bc:4c3b]:0/?ifp=40-80&ifps=50-100&ifpd=6-7&ifpm=m4#Tehron☔️&&detour=warp://123.lextes.fun:0/?ifpm=m4#Sweden🇸🇪
+warp://[2606:4700:d0::e5c2:dcf4:f5a:693d]:0/?ifp=50-100&ifps=40-80&ifpd=4-8&ifpm=m4#Tehron☔️&&detour=warp://speedtest.org:0/?ifpm=m4#Sweden🇸🇪
+warp://[2606:4700:d1::9d2e:e1f2:3aa9:a108]:0/?ifp=10-20&ifps=150-200&ifpd=2-6&ifpm=m4#Tehron☔️&&detour=warp://3ln.ir:0/?ifpm=m4#Sweden🇸🇪
+warp://[2606:4700:d1::9e08:97f5:a4b2:665f]:0/?ifp=40-80&ifps=50-100&ifpd=6-7&ifpm=m4#Tehron☔️&&detour=warp://142.lextes.fun:0/?ifpm=m4#Sweden🇸🇪
