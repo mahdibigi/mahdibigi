@@ -3,12 +3,13 @@
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/Mahdi
 {
+  
   "outbounds": [
     {
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "yMoUawfEawUJOjfmbaYZL1CWnPZQ0fgx5qkuYFVG0k0=",
@@ -31,7 +32,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "+NPSi0zxW22G4wWtR8UlWR2OXLbDlD0WP7o7kTT+OGg=",
@@ -50,7 +51,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-1",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "wL5tu6xO7RZw0IgY7VuHYyFcBMKOiLBW1dnto/ncD2Y=",
@@ -73,7 +74,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-1",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "iBcxQwB7YtCZHDhEjJjidDGDgTCxHJZsQSYn25hXTkI=",
@@ -92,7 +93,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-2",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "uBsD+h7kAeFOHcP/n620HBpkQiPrkRpeJTqtA/dTvGE=",
@@ -115,7 +116,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-2",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "MBhZek7QgGHqShFpklarIZV5lLTMVn358scUutSmIW8=",
@@ -134,7 +135,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-3",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "sFA8qbVd7HPn9eIlbqaiUm1UhscuxxFTdz2Lv0QEXFA=",
@@ -157,7 +158,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-3",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "wBwKYRT49NcfQZCWsCN2I7im/lKqUgrL42z+n0lY0Gk=",
@@ -176,7 +177,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-4",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "qBldyTxQkX05tYbNlEWccBBbmB9fM2oYCDIBycyDeHA=",
@@ -199,7 +200,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-4",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "2Avx5TsAMDeDL/ZbK9nM0OELwZeKLv/EKv/ifpvcZXo=",
@@ -218,7 +219,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-5",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "oHyyWqdMj2NVNtlA5s0JqujLhckn5nSfSxP4YsclPmQ=",
@@ -241,7 +242,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-5",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "2Kn1HlIp3eSliVn5fCjKELCpdM+D6mZyrSORDS7vhUw=",
@@ -260,7 +261,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-6",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "oCGD1a8vP+KEuDGNYLVhQx3O97/IfcbGQ3amGtg+V1w=",
@@ -283,7 +284,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-6",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "IOYtLiwiLh7FgE6pKEAmA8IBoMDQhPtD4ephQcpUUFs=",
@@ -302,7 +303,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-7",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "mJ7TqW0QLfFzdtDjAd2ReORKRanzqomZT3+jrc9SsFo=",
@@ -325,7 +326,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-7",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "QB2Oann86pKnRF1hkdRYfV/ZaX6FqNVsx3i/Y2IWjFI=",
@@ -344,7 +345,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-8",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "mF/Hfl1ad14RUsw0rvMmnRwO8jU5iC09bjEgflpTXmI=",
@@ -367,7 +368,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-8",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "yAhhJYzDnqA1FMsXQgVmcOVqk5g4uVtJNXujpsKSnlc=",
@@ -386,7 +387,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-9",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "kOm4T6gN4HkohSF7HspQmi8LSWNmrKxbwIrkxO4kkV0=",
@@ -409,7 +410,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-9",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "+Bd6NQ06ce71SqxSsb0+NvLUqCWIMmYuHTlQ0HWi7kA=",
@@ -428,7 +429,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-10",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "gIiURtHBWg0qvP1X2LQINJKYgzlJHbrvJB50yhlJymo=",
@@ -451,7 +452,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-10",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "OEQGPP9pogpwuYyf6TnB9b/vXOpDel1XR7YXupcvCEs=",
@@ -470,7 +471,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-11",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "aMq8IF5cT4lrlPpH8ZMM5k5OTd9zQmGsGLXhaP26fmI=",
@@ -493,7 +494,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-11",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "iKOW9Suj6Mv0HRk9XprMJ/jlcbltOnCymlWfUMAofUA=",
@@ -512,7 +513,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-12",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "UEbjj3IxX9MogFWJx9CeGf1SrTM1M35Wd9t/GqvTlEk=",
@@ -535,7 +536,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-12",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "2MayLGfG0ZKz4IpCV3es1mgFyeS8T4DBQZeZfN9Qcn8=",
@@ -554,7 +555,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-13",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "SAhlA5GJkcesVeXEXt1uYT21htPezd8ZS7lKCvMlhWI=",
@@ -577,7 +578,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-13",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "OIjEpKXms72VUw6XyBQvwR8pHXGlTwXSqqNM8OVhG2c=",
@@ -596,7 +597,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-14",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "ODdyOMLmrpyahi7mgzKAOc4WeF76qFQS3D6QeGKy72E=",
@@ -619,7 +620,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-14",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "2G5Uiw6ZF/BrVPNrdmLJJaZJOdZh7iOG2D8OtuMcbnA=",
@@ -638,7 +639,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-15",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "KP58K36L5PPSMOfBdVQakzvL8cxSWpUOH9sk4I4dJUU=",
@@ -661,7 +662,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-15",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "iPoPTAJZ6ZOeCxPk2AxG6/aZVsAH2Dj9dGtAaCJyGlc=",
@@ -680,7 +681,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-16",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "KL82vidRyB47iv1hVFklr6SYfj+ZX8bYjYooKpT64Go=",
@@ -703,7 +704,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-16",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "wOAiGTfEwCXGwM7gid0nee/Mx4x+dBWC2ZwkQSIzzXQ=",
@@ -722,7 +723,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-17",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "GKcjb5pWG6HiaaEMCv52Z81GTA16keFsttYTT1EeLn0=",
@@ -745,7 +746,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-17",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "6I34McNHI8EP6ZdXYxQ4gZJA8y83UUCteoqB3IW1Oms=",
@@ -764,7 +765,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-18",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "EH79i7ECor/rJrweYl5tGb5MjzzVaqAozWAKUvmjM0o=",
@@ -787,7 +788,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-18",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "gOjamorNB0ciX3ICIPonG4zVlim+elhr/eJPVQejMk0=",
@@ -806,7 +807,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-19",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "EDpZxuPUZhZ7XQ3nGpz+sd6q31N4lfil+hgQdVjdW2k=",
@@ -829,7 +830,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-19",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "UFLWiJ6rJDdAmkLAmloYd3YEe5zdoRhjj3/RcJImlns=",
@@ -848,7 +849,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-20",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "8OCgqC9QKi5Fle0DdJCLQ4DIksnLmx99pyE1iQw4pVQ=",
@@ -871,7 +872,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-20",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "CBS5HMsmSYU2Wu967LJZNXsoZtNr0+/TJ8xodvVpGnM=",
@@ -890,7 +891,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-21",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "8Hihgga0FCZ3L8FJetHDguQ/19RFe4WBOae1KJtt0kk=",
@@ -913,7 +914,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-21",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "CL40XS10tHcXrmqp3dlJEtX4SlsJhh0JMJ85DObVaVg=",
@@ -932,7 +933,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-22",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "2F0ZA7B/qyuznsulTFLgJQbjkU/LlXXgOq8U6cDXVHU=",
@@ -955,7 +956,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-22",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "SD55yhy4iSntp83izpp9Yn3JEPS5KV4yZk/kYxir7VM=",
@@ -974,7 +975,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-23",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "2Bf3jZjBo3F7AEAEAR0UWjoAZgmkRFDAzGzsbOMWyGc=",
@@ -997,7 +998,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-23",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "KDuh26wBb9P4wGK7ify4EMRGh4O0S1SB1uu07fWtdns=",
@@ -1016,7 +1017,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-24",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "0KyjLzqq7aX/EDwZsLpFL/MEBvJbnHlSvOGyFi7MtmA=",
@@ -1039,7 +1040,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-24",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "2G/gRa09f1SLFRNK/7hFahwPBNm9JX2nuLrSx0XE43E=",
@@ -1058,7 +1059,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-25",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "0Ev2bjDAew+yH6OeamFal7DTWoIjsgXHmqn05Bxvr3o=",
@@ -1081,7 +1082,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-25",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "UH1iNlFz59u8AfnzY2c418FQkJjGS0bYBKj9lC1rW2g=",
@@ -1100,7 +1101,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-26",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "+IEeNPumbBxNdmAiyzCC95eN3KYRL/0CA+V4MB1Nnk0=",
@@ -1123,7 +1124,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-26",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "0A2EvThB5God9XkETahHIOMxHlIEl3kElRM8lrB0Ins=",
@@ -1142,7 +1143,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-27",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "wIs2q5rncJ14CmOrXn7CvjYvrztrIRAGRtBiNDjc0nE=",
@@ -1165,7 +1166,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-27",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "0A5a92dXakpKmt+Lda5uHVZTVJdYiRxky0qr/rmrmX8=",
@@ -1184,7 +1185,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-28",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "uIK9nnLboqkFKRZNlHygr43V53V7IoMw5vrS2XBTY1w=",
@@ -1207,7 +1208,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-28",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "qD0xssh0EQGTwDwwJJsW3T+gG29M/018RnX5APVTqVY=",
@@ -1226,7 +1227,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-29",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "uH/0DFWMjesCMJ/Nl7dcW+IIc5dfEg9PZ/+Gy9FU418=",
@@ -1249,7 +1250,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-29",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "8PD92Cmlw+ak+gBDWb8mYWt/wwa7st8CgCzP9gOHg2c=",
@@ -1268,7 +1269,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-30",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "uFNtcvs0s/xi19qb8kGDOAYEPvvgyYNEVae9WSZmwU4=",
@@ -1291,7 +1292,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-30",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "mH1YkJoj40mwsAt7TsEIspjB5f10XlZXmt4t/dfkW34=",
@@ -1310,7 +1311,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-31",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "sJKc/AOGvCSGdpS45V44t9dposp5NQAyIVPKgw8u20g=",
@@ -1333,7 +1334,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-31",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "aKi4m8p955KIB7zJjDLt37llBT0f+CaHI8AbOMwL5UE=",
@@ -1352,7 +1353,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-32",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "qNx6VfWNErUVA81PKl8aeNh8PhOeCCc0z6Izthk0eWY=",
@@ -1375,7 +1376,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-32",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "iJlym/p3p33iOw0uiCSSialY+pHEJhIwb+l+K0LHuH4=",
@@ -1394,7 +1395,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-33",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "qH0ccyQTRovYDYlprvLNBMCY8NJ84v8qHK8iuR6C9kI=",
@@ -1417,7 +1418,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-33",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "UOC2+9yaklJVqXUvN+bY6TT9gVeD5B4VkupoK0mGO3I=",
@@ -1436,7 +1437,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-34",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "qGFIg1z24qmNR3PZuD7QWFJRHdGiMTNZUVl5iIWP22w=",
@@ -1459,7 +1460,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-34",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "oKP91JeCEs6RYiIhEMoBLPYQ2qc8pIZl7BMwbTTt3U0=",
@@ -1478,7 +1479,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-35",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "qE7Ef5ofH+yx4fRbkMpPPfyN6h/3QSYTJjchn4zWJkU=",
@@ -1501,7 +1502,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-35",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "yOzornvIfPD04bx8Gmc+jRjri0Vrtb12063u0Y7RKF4=",
@@ -1520,7 +1521,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-36",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "oMKRBq8dWlGziGLHPi194FZFBSyo7M+L8EZMxYkpUUg=",
@@ -1543,7 +1544,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-36",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "wKDxyVmzrmYHufytOHRmAnQoEBmqNO9rYQF1+Uqye1k=",
@@ -1562,7 +1563,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-37",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "iGmgo5S4Fn/vCV0SPpFq+hraSmrdicXcce5A5DTEBE4=",
@@ -1585,7 +1586,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-37",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "aMkovVqKB0xxHqLn9Zc0vjwRO9BWpT+kHd4Jerx1kX8=",
@@ -1604,7 +1605,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-38",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "gN2oXtYRzU/T6qMyAAWKW770AzwhvSfWygsxODy+bE4=",
@@ -1627,7 +1628,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-38",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "QFOBzWlSg/aW4Bb6bFFnHDdzTht43OLNz55ljsKaWUk=",
@@ -1646,7 +1647,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-39",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "gI4mchYgH8zGNRMLHyNKlGosPoArqgt+Ns3yBneak1Y=",
@@ -1669,7 +1670,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-39",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "sG66EX77MnceSLfb3WL4WV65HHATOxIhSWFHnN7fc0s=",
@@ -1688,7 +1689,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-40",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "gBYUYM6f1SIQ/9LixzNs2Ya3bRvRfOl4psrESCll+mQ=",
@@ -1711,7 +1712,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-40",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "sOZGMkHncLufzemntOU90a4Xktbz538tdQw3pOQJSEM=",
@@ -1730,7 +1731,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-41",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "gAOG95yifRjzgf19NTW60JqmPY1hnS+jQlyFpv3Zhnc=",
@@ -1753,7 +1754,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-41",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "IIwTpF2VVAoNIVffwl2FrmVntXQjD/kIPKWo4nWAH0Q=",
@@ -1772,7 +1773,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-42",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "eLS3VAv0Wre4qbmIHbWu2/BLyYpFwNdCH2hlViJrsnk=",
@@ -1795,7 +1796,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-42",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "YKYU95P67yHw2kRV+bkrjub4M3208uH+BrXFsIj2e1k=",
@@ -1814,7 +1815,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-43",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "YIIJwTsOZqPlTVi3l14UEz9ZqG3y7FhYogTpWEZGQEk=",
@@ -1837,7 +1838,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-43",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "YG2pcNpFI/ENudXTYRUChbcRizTPe+tl4D6fmi2c0GQ=",
@@ -1856,7 +1857,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-44",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "YHp4JBpA2+8PmLfeZeYK7O3EXUKUJ1EGvSBVYmCZBkI=",
@@ -1879,7 +1880,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-44",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "GAuFK1R0PLoRhONyywp5Lze7RQWiyADIvnp9/jUzU1A=",
@@ -1898,7 +1899,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-45",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "YER6dxCIyW9mZvHSVeoNZz+HlLK6JAtahcRbqN1EfEs=",
@@ -1921,7 +1922,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-45",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "WNZUbYunTrzXEg3CHP1ewHfxIUuQGTFPV9PNcrTaBGM=",
@@ -1940,7 +1941,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-46",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "UCywvLTPZjjvWCQv6Imiz8GXiFZYQj2TLD4XXbZCoWw=",
@@ -1963,7 +1964,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-46",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "uMx07suRsWHkDcEsSMnTtaIPg97ZWIrBky9kUSbTsmE=",
@@ -1982,7 +1983,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-47",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "QNpJogLyMD6EtQfxK3Zfbds5FTlzSwrVdjSz0Cmplks=",
@@ -2005,7 +2006,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-47",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "YC9Mf57aulOrc7xVicU4rA0Z3I4gEUzqvgR+7CXBhl0=",
@@ -2024,7 +2025,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-48",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "KOpYwC2r26c7s6To9Zvmh0UVgOZd3dzkTy4y+R/Q1FA=",
@@ -2047,7 +2048,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-48",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "+H2ZjiJ6ia/XFgsnlFOBq6fi6fZSTxAriKd4RDiMcWY=",
@@ -2066,7 +2067,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-49",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "IN1ws+VrAXWYTyAWWusYF8oxtEQRCAfPARdP2lbESVw=",
@@ -2089,7 +2090,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-49",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "EJnQ4ZdfK4G4sjpfhtbnk7mMxFI4mIYPhJHC1VdAv0I=",
@@ -2108,7 +2109,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-50",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "GGMbyxBAowl2g1RnAwAcQiyfKgvigKHFwa8zVSCbCUg=",
@@ -2131,7 +2132,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-50",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "AKtM/kMokuV0+qoC5HXOfp1fEf4nX308OmINl6WcDko=",
@@ -2150,7 +2151,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-51",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "GF/3Iu3kJOdnQto0yIxZHbZPffPSVzoxLlmm/blULFU=",
@@ -2173,7 +2174,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-51",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "OEknAofXA6tcsI+H6jlBLjfFQ7xIkRIdiLeRtg5zyF0=",
@@ -2192,7 +2193,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-52",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "EFrzg/LoFC6+9QFijJCXDYS93SrH+yOk/46U/CiV7Eg=",
@@ -2215,7 +2216,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-52",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "cNQA1ogh3soLGKpdW/6MWQWvTKf+0mafb8wQGo4KEHw=",
@@ -2234,7 +2235,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-53",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "EAVenuAt9pd6aq35kmPvpTlljchRu2WuPw9R/lqpon0=",
@@ -2257,7 +2258,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-53",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "sFWfouNpLVURBWoPKquEi0pR46IL4zGzJjMZx1kPQ2U=",
@@ -2276,7 +2277,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-54",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "CAjbGZqG0vq+NDhLdaHc9ND3fdlzMhbmtbaylk6DNXg=",
@@ -2299,7 +2300,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-54",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "IIgjJQUpkEWsWq2H/NYCrk/Mb4WsusKiXC/dRobro3Q=",
@@ -2318,7 +2319,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-55",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "AN/jPz4gRgv3tFg057u/YUZwxzD+e/ADYyxYO0+lM0g=",
@@ -2341,7 +2342,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-55",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "yB3Z441pPzkddEgFCOzw7+M3fb05efP8FiK6z/NDj1U=",
@@ -2360,7 +2361,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-56",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "8PAgglX9Cd0YBOIjFEcqsgmTzdkvmHS1MPeeKgXTK1I=",
@@ -2383,7 +2384,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-56",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "8Ck3karx1IxYxVPj2LBimkZkBV0NjdaAik7okSFHkE4=",
@@ -2402,7 +2403,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-57",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "8DJeapufT3lgLXlDli9iQRedvrD+oya/DQhBok/d628=",
@@ -2425,7 +2426,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-57",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "sLhnNhzcGYbvK1eUW7iDinO9RRI8m/vNfRAXnjJ9jls=",
@@ -2444,7 +2445,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-58",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "8A+la4rGo7U04iT4OH33IDuAvPOEdvS44hEhbYhBbW0=",
@@ -2467,7 +2468,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-58",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "qHejBD+55+8ZR4DVOAKE9wAzuojyMaz2SPN5l5r5KW8=",
@@ -2486,7 +2487,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-59",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "2EYRBdAPSRxi/dFSs3ZnNNb2gilzpdRd9dwLF+SlfX0=",
@@ -2509,7 +2510,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-59",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "ABGphCU7xN7iRHTvtg9CXNfYRpEA6EiUzT3l6sn2CEA=",
@@ -2528,7 +2529,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-60",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "2BGKLOhU5JQ5/NfwSGD+CgSCY5kTa5N1coU+g9GIEWg=",
@@ -2551,7 +2552,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-60",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "0FmG4kETTFB7j90x0Otq+G9SYFsJhmijuUgKuc5UC1I=",
@@ -2570,7 +2571,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-61",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "0FEvn6yb887kEBW5+tLKxZ+wbYpQmSnGjNV1RAcYe3I=",
@@ -2593,7 +2594,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-61",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "eJbmR9cQuya/DR37qAq1ndRLR+DiTE8uKDa94xsbvn0=",
@@ -2612,7 +2613,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-62",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "+GrBPJjJm5dv+n3WX5H05madsaxpfy80eEGO6DlFOUo=",
@@ -2635,7 +2636,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-62",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "wHsLmTpx9sCsySyOyT4Zee4V4CHfmbL7gPpixUV+v04=",
@@ -2654,7 +2655,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-63",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "wGCFBCj/YVUg53JKwhxbyu0+eKh5tQGOM4p1Wnu2DV0=",
@@ -2677,7 +2678,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-63",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "0Bd4bsO8e9Skiilk15+ZgYy6iL2Ljv/14r/zWim4a1M=",
@@ -2696,7 +2697,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-64",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "mOOhJBHvvX4H23b4XuFZIaXENYKcuW7IUGNIILyn9V0=",
@@ -2719,7 +2720,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-64",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "uLYHh+JwgPAXs01dxia/jrxwYdmiRnylj5+na9KHdVA=",
@@ -2738,7 +2739,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-65",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "mK1pciIXmmXo4HU2vyJVakt+t3BFoSdmV5QySR0xB0s=",
@@ -2761,7 +2762,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-65",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "kMVGmnYkMFRNiSyd8AILuW7k7uuOck+RJkjJE1oheXw=",
@@ -2780,7 +2781,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-66",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "kP5EJ75w1y7QuwjEijBKDHhmHIFo37HbsbgYQUcMPk8=",
@@ -2803,7 +2804,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-66",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "cLPSRg9qB7vpMY4gByrOS3uW7mP39ZvZ+qBYI4KUukg=",
@@ -2822,7 +2823,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-67",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "iFnFjZ1TBIyoNg4sPpAW3CIYzaRLuF7EVufBV2emFnw=",
@@ -2845,7 +2846,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-67",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "OCKLHNZvo/SclwP1vm08GjSOoRNIEAbwRgg0HZzI/VI=",
@@ -2864,7 +2865,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-68",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "UApofpDKb5JhG2DZxl8xZwXitYyH4p9k6j5n9rFpbEY=",
@@ -2887,7 +2888,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-68",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "0PfEp5THePJyFlkGBqHUvisJbcN6LFMH8fo9vkwbEEA=",
@@ -2906,7 +2907,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-69",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "EPYCDswQzbIg8UOAzawIske4gXXtAcGARfUpvNSykW0=",
@@ -2929,7 +2930,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-69",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "eAHe9DrcuL4iwYbpDKCBUYwSqKS1C5sTVhGyuITSoFQ=",
@@ -2948,7 +2949,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-70",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "EFLwBlc9yqEOpoGVNY/BQJBajOOuMV8pbOjD4/zgsVg=",
@@ -2971,7 +2972,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-70",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "4L7ZfOEgU9EY4t7AVVMFsa5jA0e206qyWL4Kk4xwwXs=",
@@ -2990,7 +2991,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-71",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "CIoT3U79Mvs9Jglrj91gBcBTzTXNUEMCohIjnqrI53k=",
@@ -3013,7 +3014,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-71",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "KNBdHfaRQ9XmP0nWE+JcPQbALUkRhiNj17yk/3bZWWg=",
@@ -3032,7 +3033,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-72",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "CGajF//I4odM/XN2XXCaiti6uDPfH6P2yyAra4h/pGc=",
@@ -3055,7 +3056,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-72",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "2CltJYyb8oNJOqHMtt+SXsKaVyKwAf0qyerkdde0O34=",
@@ -3074,7 +3075,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-73",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "8GxyZRA11ySt7hJogMCI5vvI4z7RBCuMwGybpIHiJ2k=",
@@ -3097,7 +3098,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-73",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "8ApQCLYd2sg9suQcrgnGQFMjQgu/og1kR0f/4ltk3nk=",
@@ -3116,7 +3117,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-74",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "8DKoi8NZNV50eFiACoRy9Fp20RgwsTBE0pTzcdIl9mE=",
@@ -3139,7 +3140,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-74",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "AC5FmP6zrhWMtrx/DH/NWdrRgCY2MSs0qjUKn7unnUc=",
@@ -3158,7 +3159,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-75",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "0KmeKVKpT7MUlMEJR/2hQK8/xaqb4rfFCLBVCaQG3H0=",
@@ -3181,7 +3182,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-75",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "+IQ8vLDFiBNbgwjxH4gW8tcOfAlej8fThgksSmlo6HY=",
@@ -3200,7 +3201,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-76",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "yNv4JMzorXhcAlgKSLxzYDiThhSp4DBt8sdOZnnV62k=",
@@ -3223,7 +3224,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-76",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "QD4r5tpXP5ha5Jm3qCSUWmtEdkg2Y71Ir6adddW+Nl4=",
@@ -3242,7 +3243,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-77",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "yIskuCdoNwRDNZDEeYMZ0CvOQ4EEjV4BYMqAgfCvOUk=",
@@ -3265,7 +3266,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-77",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "0D/7NQUxAIepnznri8WYvRavxfw9q0K53xdRdbIu434=",
@@ -3284,7 +3285,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-78",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "yBok8GLNfcvd/CrLmqrpt8JIwtobX3ckkSxL9tVb/X4=",
@@ -3307,7 +3308,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-78",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "OFV0ec24khVqXGJytypJjgxjULyU582pkjweiQtSpXk=",
@@ -3326,7 +3327,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-79",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "wCE3TESJjmWbmX3Dvpjy5yD5cxMe44abY6b+ZQe5P0c=",
@@ -3349,7 +3350,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-79",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "QK5AAOJ+iSVEYg3Ar5wjwy0yGBXY7Y8BGgJ86tcYw0w=",
@@ -3368,7 +3369,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-80",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "uN2qkcbbwiFgxM6lU/Snwg5UIFHWA+Km8jycuzKL808=",
@@ -3391,7 +3392,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-80",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "+GCWwlRe3hrz91GejHeB7MElWSJ7qESfo0CyO26+PEc=",
@@ -3410,7 +3411,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-81",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "sCo4PMP0QmaHcaaatnIgQpdVrpZo+kMnZ6quZT05hkY=",
@@ -3433,7 +3434,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-81",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "OAz6Qrw75GC7u9LsC9SB1mPVoEoabFOwBY3IwzEh93I=",
@@ -3452,7 +3453,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-82",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "oKz85ogmiY0fEuuQQX1M3sRwtIB5t3oXCqs+oDrRfGY=",
@@ -3475,7 +3476,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-82",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "yDNRtYh+r1pp75GJBExoYWPCY8/1xtwAsKoG+qm+9X8=",
@@ -3494,7 +3495,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-83",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "kDslnCkx3LDRyc8R3budyo4zxp6a48zCdlSm3B8dV00=",
@@ -3517,7 +3518,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-83",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "MKi7E2jOqmP6LyhKXcKth11c1OiqZKPgaBIrD002HUo=",
@@ -3536,7 +3537,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-84",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "kBwkkYPg/5QN8O3JQ+1mj4Qwh9zlAmbFB3+KZ2alZGc=",
@@ -3559,7 +3560,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-84",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "+KQh7QfBPDpw91d/Aj1XLXNdqupjRTQl/awENw53w3k=",
@@ -3578,7 +3579,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-85",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "iPrjp/7VqBGTWA0R4SvtlwZBN+4gbSoYI8D+s4wx+Fk=",
@@ -3601,7 +3602,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-85",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "6O5PwBcUGnS1uFhJv1FdQncocBGZWQ87ZAh+MHI983I=",
@@ -3620,7 +3621,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-86",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "iJ8tZqX1LHxunVDg5nPp+4Cf/2Gig/ropKr832JBl2U=",
@@ -3643,7 +3644,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-86",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "GHqsN77zSfg+aU3C3QTGaTsVADD/75qrl4oe29LhmkQ=",
@@ -3662,7 +3663,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-87",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "eOV738K5pdq+ymjcoRlPQSYnQSpe3JYOEzNgI+qrf00=",
@@ -3685,7 +3686,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-87",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "0GHmdZezrkwHHdOOd69fic3u3GEXkKfDELcSCKayqE0=",
@@ -3704,7 +3705,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-88",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "aMSJbf/t8jJa6oZLlV0nJdrgbkfYoNfpKs48FfvVgX8=",
@@ -3727,7 +3728,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-88",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "GCGG8N26nPBAlBzXMkul1bfBSWzmdMyjLXGOBa7p83k=",
@@ -3746,7 +3747,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-89",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "YLA8nbFoAy45sZEWne4zGWuef68+aKEJ9rCVeJxU5Hs=",
@@ -3769,7 +3770,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-89",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "YFIBaIOYDuBYP7fS5L6LIjr/BmE4iolx2xK+xdgIx28=",
@@ -3788,7 +3789,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-90",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "WOxYk+lcV420A2ldwc2kT+Q1DklKz/f6K7qR+Rvip2E=",
@@ -3811,7 +3812,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-90",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "0MxVqXawmh8WvFlnc1hdhieVVBYH8aatU6DSsPiT6Wc=",
@@ -3830,7 +3831,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-91",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "UPlVRMHJgla4IpHuiEFam67xzyOCk9GxfZwg4qeDaUc=",
@@ -3853,7 +3854,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-91",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "6D3lMJXMN1IBbkTDq5sVMCPQM/yrMesn728AGzF7Z3M=",
@@ -3872,7 +3873,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-92",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "SG8RjN5iovGNe9k5LnYh5pxiCJhm5xTN5jY1wDD+7Xk=",
@@ -3895,7 +3896,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-92",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "OFO0pkKhkoUC9Ruzz34Cg+iQLnmbYGl3YvopUvLSP0M=",
@@ -3914,7 +3915,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-93",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "QBeWy9jYJzo1BNkJPxPXfEsWMgV/jKI1bZaDwdy0SGg=",
@@ -3937,7 +3938,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-93",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "GKZFqHvr4dJDFA8dgK9M8XqGrZ9zhN78FVeappgxcF4=",
@@ -3956,7 +3957,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-94",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "KK3spKn/CE/WIR0VeMR8+T+Jbo5j1QunscFWGSKEtkk=",
@@ -3979,7 +3980,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-94",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "8Opo5qn1Nd7NF9n670dwrP/yB6iXjD+H2lgPsgW1P0g=",
@@ -3998,7 +3999,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-95",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "KB0jImfUNoANDpUjNcpVg9+l9dam0r2Ino9g9pQqj0Q=",
@@ -4021,7 +4022,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-95",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "mMo6ABbGNfxf6HiP3zlfWFNg8iIjZIHFvhEYGuv5t0w=",
@@ -4040,7 +4041,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-96",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "GO1Lh1ORPsNjo0ojZxX2oOyMTG4nCVbTJzwLwS+d/14=",
@@ -4063,7 +4064,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-96",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "EDjqPkMOZ2iukXrzZ23yf3gbGrGXwe9z/288m9/1Nn4=",
@@ -4082,7 +4083,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-97",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "GHMnpB0gl8lQJLS1lGYrMWnTf+XlXx+TbCSkvaKpYk4=",
@@ -4105,7 +4106,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-97",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "qPeY/28mHZKDhms4CXIQcfxGlXL3XH0Z+2na1piRDEk=",
@@ -4124,7 +4125,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-98",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "CECfP4InC/lGmy9K2hO2u1vp6HtJi6kK0KqJ0mLQx0c=",
@@ -4147,7 +4148,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-98",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "IH9LfOY0/uF8D4HHv27/ITrE04YsB3lWWdyAEf2qqWk=",
@@ -4166,7 +4167,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-99",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "ANsinpj2gTsfSooBnyiB0KTIMwLJXgNPUIPU6uB1AVg=",
@@ -4189,7 +4190,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-99",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "OAkA+u2iOXz+3Vb/ZXcR8vTTz3cgB4+6FW80RnZjnm8=",
@@ -4208,7 +4209,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-100",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "AHS81pRDdlds+MY5JyYaEnIko1xJyUftraEYnT3rs2A=",
@@ -4231,7 +4232,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-100",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "YHrf1cEiv6Xn6fNQKYHj+hpFGl4kp9lwQUkJn2Ccq2I=",
@@ -4250,7 +4251,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-101",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "AFeJXid7LHUYjLD/TwN9mUDAcAhZHkL77bV6BS02ukQ=",
@@ -4273,7 +4274,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-101",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "OLLsbnakLAKTaeaSZ/pv8zShCCrtUDcjpkEa5CwRgX4=",
@@ -4292,7 +4293,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-102",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "AEzc8o2qMY//t6oEkghkzww0vk+6Wfe4CLPDIu5hE2A=",
@@ -4315,7 +4316,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-102",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "EFqHKo9qppUWR/7WXgRkA+P/UmdgFeajKkUchmVAp1M=",
@@ -4334,7 +4335,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-103",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "8GLiF2f/alLx9qo/3R0LlksAB7oNTbC1mPpdAaX/kWE=",
@@ -4357,7 +4358,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-103",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "CKx2PJKbyHkQkRmVTNSxJUoMn2c8FEM2gKjnELMr4mE=",
@@ -4376,7 +4377,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-104",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "8ANbGYTcjLOe704gj8/1P6TRA7NjhzsbgBym9qsy7WA=",
@@ -4399,7 +4400,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-104",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "QJjPVOS1Gm9ZS4YVzFYQTbgdSzjQdFSnFlobP2AxyFU=",
@@ -4418,7 +4419,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-105",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "6IRTG9Y4wxeTCn8WHgGJzOBqt55EdPcNZvtv27fDZXM=",
@@ -4441,7 +4442,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-105",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "aM+3MyHiEE0MrPiB3VvZwI5EvYG2MbHZeCj94gGUQnY=",
@@ -4460,7 +4461,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-106",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "0HJ5rhabQCk49jib0kyCfr/H0C5JosJgnGZn4Hz1nlQ=",
@@ -4483,7 +4484,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-106",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "MA6QAh+lu3IEyojQIulqf7i4gRU3K6hNNMzGV+Qpa1c=",
@@ -4502,7 +4503,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-107",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "0A1ut59B4jN+NUlLWEa1ax5ZvwgBUNCRAM7rHpzPA0s=",
@@ -4525,7 +4526,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-107",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "8PNb0FoSXKlBnzdXgOqk6oTq0oA+GGwH+47LfTbh1XU=",
@@ -4544,7 +4545,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-108",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "+Oyp1EkGNGbGIOr4BUTEyVwuieaJrdFPqLzJ8wAZhE0=",
@@ -4567,7 +4568,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-108",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "SOpkFqxRymhl01QHU+Py3gQSqpm4NJVKpAoainES0EQ=",
@@ -4586,7 +4587,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-109",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "+GHgHN6v8g5ZD4G5Mmq5zVfXX49KEl3U79KzIZSOdl0=",
@@ -4609,7 +4610,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-109",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "QImo2lM0PRZED40L9mtkGZLVzEE6uOnRaQcjjbXWO0w=",
@@ -4628,7 +4629,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-110",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "+DacdkVvMJgvitPqfP1n9WEfHAnSXNjk5Sfn2mGkemI=",
@@ -4651,7 +4652,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-110",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "qPxQtNYAtAsMEBbu3AQ7VqALu3ZiPI3IiaRzwQr1R2M=",
@@ -4670,7 +4671,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-111",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "0HCiLyG1mOzV0DEX6AduGfDM/YoCSt8AF9RFUis37Ww=",
@@ -4693,7 +4694,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-111",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "MCezHlGArv2zVuzdOnDFB0uaOPfPAz5vSlrwH4od4lM=",
@@ -4712,7 +4713,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-112",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "4Lfbqei5hu4W/RmQponQ6xplRziGE7rpIREzZUWyyWk=",
@@ -4735,7 +4736,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-112",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "EDhTyl16LyOIBWErRLjo8UoKYKDxrwLwseveIpk2q1Y=",
@@ -4754,7 +4755,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-113",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "6JkLUh94yjAbnpHtez0YMHriR8qY39SGx9+JRkNCLFo=",
@@ -4777,7 +4778,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-113",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "8MJT6ojHmH0Yc0433QgVevZsTSUFlvXBWGaNzbf1104=",
@@ -4796,7 +4797,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-114",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "6N/T20V5tuQWnkpy4BtUOvlVgherLlG4z9IbnHLW8Vc=",
@@ -4819,7 +4820,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-114",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "SCbVPCMUGfwZ/W4eYNsy2vno7wKHE1JXLdbAf4r4Ql8=",
@@ -4838,7 +4839,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-115",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "8G7ecmAKNoNKvMOU9YJlo8B5Dys/fgzfaResfX1B9UQ=",
@@ -4861,7 +4862,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-115",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "aK4/5z0CZ5bZBOz1iFMPo6UvoJ2jiDQoh0LIeyudrFs=",
@@ -4880,7 +4881,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-116",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "AIdxMv5jOipq4iM0+8mHRX5wBXRRKGH+rWYuvrj4kmc=",
@@ -4903,7 +4904,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-116",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "MHx63KCBenkGJD0OUgmvN6k0tye/g0km9xhN3AlE92A=",
@@ -4922,7 +4923,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-117",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "IPaNRh1wYRu8R4uh4tx+Ou+8NGwdRzKmQp8csqDdwFQ=",
@@ -4945,7 +4946,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-117",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "iNs13bMLyp26lXvb5RpBms/L3mCYLCkNFst/YMeefGo=",
@@ -4964,7 +4965,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-118",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "KCMs6w9xAnj1EIczjmdD995/IWxrG3IL57js6ULuKkY=",
@@ -4987,7 +4988,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-118",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "6KkeuSA7cjv9mITBPAPHflfTaFGUlc5bI0l6cpV2pEU=",
@@ -5006,7 +5007,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-119",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "MADxaXknpiyZZeND0lC5uSAVxAv2R5LwSyDGuwX+J24=",
@@ -5029,7 +5030,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-119",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "gGtPzUxjGVJY6uijMU3KVgu3RvLDbbvRRLbSBMDwWmw=",
@@ -5048,7 +5049,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-120",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "MCM1IOrncSqMzR6MNOr5HZViHs8kT9q3bxjCtd3ujEc=",
@@ -5071,7 +5072,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-120",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "2GkBxhkbTWI+EvfdCQqE8LJOb2yLehu0O48xPV8pPnk=",
@@ -5090,7 +5091,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-121",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "MJL2++b0StUViLCWdDr0rahodpwqeTpwpWjghmS7OVM=",
@@ -5113,7 +5114,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-121",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "qNaTrbHTwy0AJZFaNo2uKWzf/B8bbEIAZNgW3xM/Dm8=",
@@ -5132,7 +5133,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-122",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "MMRQyd/kMlO3HUkwWsXGp7mmxEUthmSGhMNPI4Z3UXw=",
@@ -5155,7 +5156,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-122",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "SGVxTEyqc75KsYnmnR+LtvYRW013vZjESiBxpV8ECko=",
@@ -5174,7 +5175,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-123",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "MPXjRulihf0dxpDmYolLyiioU5JfbpARgqthQw33KF4=",
@@ -5197,7 +5198,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-123",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "UN5BYwdtgp8Xxn3QKgoH4usBRIsi5ZNtWDkuCqPFCFE=",
@@ -5216,7 +5217,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-124",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "OGbdK0MSfH9kZDORepQbweyWsWj7dcX9UwOQ2p6jOVQ=",
@@ -5239,7 +5240,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-124",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "YKC1wlmzk7nQ0MAwTA6hAZK2zODlT8FIaTKF2hC3jnA=",
@@ -5258,7 +5259,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-125",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "OPlkw1OOItMn+wTsBrfOSmkwcKbkhx1Cjz4ZxUClelo=",
@@ -5281,7 +5282,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-125",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "EHkd2rAmAt8Tek3xUWO5OxjVxVB4PVN7jpR8U9kqJVY=",
@@ -5300,7 +5301,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-126",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "SC3MEyL+8x65YDDlZlqk0VAiDau9bsM8UwrmlAHu5WY=",
@@ -5323,7 +5324,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-126",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "ULjwncYaK64TiVkIYBaC+1yaVXDK8ywQE/N2syxVwFM=",
@@ -5342,7 +5343,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-127",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "cHVNzuOeRf33NXQs8IubfVmEC3gwu7YIdoPLrN8rBXA=",
@@ -5365,7 +5366,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-127",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "6NAW0PZzyOnlGmbu5+v7VjS/RmrzdixucL769YmH73E=",
@@ -5384,7 +5385,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-128",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "gFkNYzdqrf2/GwdnDK3XR9lx3MlmKPDa9q3kcfBGnGA=",
@@ -5407,7 +5408,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-128",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "sDWN60rouMMwyt9vcSQrPpb5QEIvngHdlw6957Tb5m4=",
@@ -5426,7 +5427,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-129",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "iE0YzyrwOFbxjR7RwUV8w/FpDOXQBrle1Ur9j/hCUk4=",
@@ -5449,7 +5450,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-129",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "ODy6IbDM3pQp77ntArbCjsNnFBUFws8vTPCYemcCXW0=",
@@ -5468,7 +5469,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-130",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "oLUuJ7Mce235DsT4g+l5d74VAhXbhSohuETY0f0jLmk=",
@@ -5491,7 +5492,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-130",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "wFWiLzOl2AOjTGkvESB5PLXBsmsjc7fCW3fkAL4h5X4=",
@@ -5510,7 +5511,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-131",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "uGhjEQT0dceYfUktyj1fXf8iU+3sXLYQyY1jq7DXbm0=",
@@ -5533,7 +5534,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-131",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "GOTrV8A3TIQWvCXQ6HlD+48GfcdIjJgWb8IbQlXeFF0=",
@@ -5552,7 +5553,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-132",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "uIWGC9L17DvIFHdIIm7CAzFvcMpvLibj29LN5y7X5mI=",
@@ -5575,7 +5576,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-132",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "yOPXbR/rTvLIJIqJTHHDYqHY/5y7sn8n4q6UXBe6OGI=",
@@ -5594,7 +5595,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-133",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "+ErWqj77SG0GpiQKK+DphoADY50onqW8oxrizX0vxVo=",
@@ -5617,7 +5618,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-133",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "iI0hJsjRRcFxh17QN4gc68Iwy2mkSQ9AV2wRUStD6U0=",
@@ -5636,7 +5637,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-134",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "4PuMN5lcVWrj0AutMm136G25ew0CHRLRD+He6j/Kp1Y=",
@@ -5659,7 +5660,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-134",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "cHG888S1L6GACr1dl9bWVYVWnFsSPX61MAcoqseu2HQ=",
@@ -5678,7 +5679,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-135",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "8Il+2lGJoMOvANbpG6qV3as6OmG09V2mhP/6BCuPZmk=",
@@ -5701,7 +5702,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-135",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "YO6MyUw6lDwSGO/vKxmcwQYzBB3B1gPB2WTh9uT5t38=",
@@ -5720,7 +5721,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-136",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "AIqIjDw+VWh40uDRGPyOzIXcRzw1R13k3t2xIka49mw=",
@@ -5743,7 +5744,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-136",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "2NOwgfQhqtrxJkAHk5MhIN/sUYM9B1XsDchki2OERVw=",
@@ -5762,7 +5763,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-137",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "AMIn5Of0y0mEYguTahlNO17Ql+jpMi2CUXlFS3oUG3Y=",
@@ -5785,7 +5786,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-137",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "oDhaKHvcpcvSB/yTMKgi6G1U1QxZsmfPyxjkAF2Wv1M=",
@@ -5804,7 +5805,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-138",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "CAM4+XeaN9ZfFpYdIgvPPdOv1uxG/yo1EATjMsJZ+0k=",
@@ -5827,7 +5828,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-138",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "CNXhS1j5FsT200tgoNIxFdIPq3Afn4cAoqKdwIAmWE4=",
@@ -5846,7 +5847,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-139",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "EBZvjzcQ/u/KViugQ2Z/+gLkG5Uh8xx4nDHn9nztwkQ=",
@@ -5869,7 +5870,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-139",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "MPeo3QWa0JIE691k2tXj2V0pYR7qpz3xYxRWJHaVGV4=",
@@ -5888,7 +5889,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-140",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "EIeo9OQQB+lZ293hPjP9xRVs8SJTngxosWM0ySOOl3Q=",
@@ -5911,7 +5912,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-140",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "QJxuWjmY/5zAIsOBqtzyJSXLOb8bOw5x9s3AjGKBJnY=",
@@ -5930,7 +5931,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-141",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "EOp4jj/Ytb1poPbeFlxHkOtsW73aCPfC74jMIPWz3WE=",
@@ -5953,7 +5954,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-141",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "iO6ha6mljUjshIdFKu62K/oCH5gFWrjuUVvxxb2dEVc=",
@@ -5972,7 +5973,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-142",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "IArY4NZkyN6nD+TDEff/YMkgrbMD7+07aDUljUdZ3n8=",
@@ -5995,7 +5996,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-142",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "kOpZ+MqVLEaS3Jjfs5RqPbcq7MFua9eM18QJSMou7GU=",
@@ -6014,7 +6015,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-143",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "IJt4SBTtXHgr8x5Wz7EXGjAxMvCm/LlXjBV64Q+/pW8=",
@@ -6037,7 +6038,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-143",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "MN1BMEbTtWGT57mcSqyep8uOHHQJFkW1cZKeiOsg+G8=",
@@ -6056,7 +6057,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-144",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "INoJ2hnfE7CkOfyK5aC7jePRqRybN5zd33KDiOvqEEU=",
@@ -6079,7 +6080,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-144",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "UBTxlW4RLJMZVT1NLQxc2lUkg3lD/dipI90XveQpdGI=",
@@ -6098,7 +6099,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-145",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "MLY4Ax2LpTx9FTzw4do6BEV8Ux4ReDmPidZy81B5H00=",
@@ -6121,7 +6122,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-145",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "eB/11go8A7MVux/GjT2SkhOoAXIBzCK7x7GtH3avcXs=",
@@ -6140,7 +6141,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-146",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "OCc44GQbiKMLnzf+NpYLwc+lxZY6oxazPRdraS8+C38=",
@@ -6163,7 +6164,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-146",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "UNok2UPisln3EG5Y+al0c68UxFJD64u1poROH2NFtE8=",
@@ -6182,7 +6183,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-147",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "QBMJWslKR0Zm3w1vkkiYgot97JLF6xxG6bdV3miE6W8=",
@@ -6205,7 +6206,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-147",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "sJolM25W2dI8R1bPFiEwTEl1nisA58vAJSCtMkZOSWY=",
@@ -6224,7 +6225,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-148",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "QLFNrVICIa5fa+Pk83rhSoOX0WEt+33NO4ZTGKuFTFI=",
@@ -6247,7 +6248,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-148",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "MBsGBiRsQcJV1OPaNGkGqi7tyKhbVicQ6aDOvp8IQX8=",
@@ -6266,7 +6267,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-149",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "SCwo8UYUyZoek8Ik/T2oGzuedBsHcJL/Qir5haSgv0A=",
@@ -6289,7 +6290,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-149",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "mActroIPoF0GR4G/EWIoZkyhJjRye03cCABUncQbgUw=",
@@ -6308,7 +6309,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-150",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "YLNHKRRDp0FI/bl9wLkM4k1DLJSUQe9ezW2mvpdxbHE=",
@@ -6331,7 +6332,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-150",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "+KV6aJ5zK1DU4FcmIU8SRaGDL4LDfqIGUkHDCWCYdFI=",
@@ -6350,7 +6351,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-151",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "eCaHB3XVg83ownKe+0z1dpdQCB5hTDfbkfTO/vXNLk4=",
@@ -6373,7 +6374,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-151",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "4BnS94q3t4q8Safp2K3nAUHfUchQ5IbNN1fueysVtU0=",
@@ -6392,7 +6393,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-152",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "eDhPKFM5KwLr6euRIZC1Yiy4XQuDkjxKXsGkhMvNH0g=",
@@ -6415,7 +6416,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-152",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "YM1Id37KIO77PHsrrFPwJODznAtlnAMLTlE9+lDkLnE=",
@@ -6434,7 +6435,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-153",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "gFQKyW0+S059xBMsmwZaYy3vpYMQLsnouApfFCnIZWU=",
@@ -6457,7 +6458,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-153",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "0E5nnh58jPmYK9mgDuOLmhXB/ZIUAughq9SwJD8LV2A=",
@@ -6476,7 +6477,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-154",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "iF4c4scniZqRZaxuUUU2bea7uF0iZLUyhVJ2SgF0R0o=",
@@ -6499,7 +6500,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-154",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "aPNBVRbtpJIIDJ+3rkMT+klIVsxkNRZz24KQz+E1o3k=",
@@ -6518,7 +6519,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-155",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "iNzX9qth1e3fm3IPoeONRur9TgMcZN3F1M+8nwnZmGQ=",
@@ -6541,7 +6542,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-155",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "QNVZmSLzhTB/cXzjiVebf6Qh0gyRCrMagIA5LyvKoEY=",
@@ -6560,7 +6561,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-156",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "kAw5kvV5cdtvuV6436uzvHonzqmqLScZgayQM2PMF14=",
@@ -6583,7 +6584,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-156",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "EItprrQqIJVgO+CesrrCCgEKSsECASdwNPxBGXQu5nM=",
@@ -6602,7 +6603,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-157",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "kIIKeY5fjuMRzI7eFfvwqzXoVFRJM51IlcXYvs/q+Hw=",
@@ -6625,7 +6626,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-157",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "kLDS9fD3GjIskzOW/ZQRRbQsv2tA2JvbXlXJNlodZl4=",
@@ -6644,7 +6645,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-158",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "kKmfQHasKWf/+RhUMVCbuq1AnC0RH9y3CNZXKevBQ18=",
@@ -6667,7 +6668,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-158",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "uMbJyNCyoaNvwNy3PrG5J197IWKypCxscgEdUuPwuUw=",
@@ -6686,7 +6687,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-159",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "oGNoThF6Phhg5jG23xEZdpIS0lAIQwIk6nFG3FwOkG0=",
@@ -6709,7 +6710,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-159",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "8Lnjd2UkFCl5PAWoq9HFE5FNMxWLhzHb2MGn2Ib5snc=",
@@ -6728,7 +6729,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-160",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "qBTdOLetQp0/sqPyIImq6MnRNG56+n7bMg7fwzJox2k=",
@@ -6751,7 +6752,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-160",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "qBboY3JDGI5pEIYyAwuWnLHfYNGbI+8yudYsk1aNv38=",
@@ -6770,7 +6771,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-161",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "uIVUBXLSa5wiWo3nQKF7P//q6ZO7MwD5c1kCPZszkUo=",
@@ -6793,7 +6794,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-161",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "2GgAMPzu5bU1EVnq3BqcwNs2iQOriamxn8roh+vKkVs=",
@@ -6812,7 +6813,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-162",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "yOlG3GckLHTqPbbx0p2CmzI3aar1Uy6hI1zXLqUCOXI=",
@@ -6835,7 +6836,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-162",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "GJ/4hnkDuttSMXazg+Z1e3AdnpeXfzpsAd+nw6Zxano=",
@@ -6854,7 +6855,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-163",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "yEGaaGcVE6G0tw2M3UyzQbvvceCs52TaRoqbe7ENFWI=",
@@ -6877,7 +6878,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-163",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "mAhGvC4zhhKW0opUQcufetBCZpNjd0PNmr9zfQahIkA=",
@@ -6896,7 +6897,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-164",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "wDZ3qg4X3/lC7y5DwoBxlSYJbCL6E37MI2LrVGaPSHE=",
@@ -6919,7 +6920,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-164",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "qFM++lC2kFIuucHa3VUGCidKLKBK7i+9/BOA3jz4cVo=",
@@ -6938,7 +6939,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-165",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "uHwrcPjf2HB7KaSDdj2TI/Hv9PIXIpCuufYdodLVPVw=",
@@ -6961,7 +6962,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-165",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "iMpAwBtqNisl/sCVFTUXYEWBRn4t+9ijbXzUIXK573s=",
@@ -6980,7 +6981,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-166",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "uBjpwxAGxTmJkIk+iN4N3w3mB+7fsbT09m/vnWq/AHA=",
@@ -7003,7 +7004,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-166",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "WBm3IjXvVEontqI0uQOwjfIOdxkFB+tmsX9q5s8NUGc=",
@@ -7022,7 +7023,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-167",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "sHIee4jGcXn2Z+advR+AuIRbgfJYPnhHaEMcBShE6kg=",
@@ -7045,7 +7046,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-167",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "GJ4Fco+BR4+wmU6Sk9PkQLMGY0vhdyZdHCnF5h1CEHo=",
@@ -7064,7 +7065,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-168",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "sF4LjXWNOky0Qy+g8nvxNFfbzGPynLhQ/PkYbzdjGUY=",
@@ -7087,7 +7088,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-168",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "UMYtcd18plQbvSE5EWYHn2aYSgm4ToGXAzNqcx9UKk0=",
@@ -7106,7 +7107,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-169",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "qDvHv5thRzDV9V9X6BSnorcvIFIILhh9oHwybNFlj0M=",
@@ -7129,7 +7130,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-169",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "wOSufAiIZsjmCKSzZJ/fKmBqqy1RsRtsCK2anHPnf1k=",
@@ -7148,7 +7149,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-170",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "mFqG8TnZE1kUWVKoA1ksF7lL+zctKKzEkXtVST5lgnU=",
@@ -7171,7 +7172,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-170",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "iBW7XGJ+mpMkrbx16JQcm504nOQBnJY3CVPCUMQyFEE=",
@@ -7190,7 +7191,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-171",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "kLGShlNrksNmQaD7F3M6GAC1pEdtZFGzJWiRPqBjxEo=",
@@ -7213,7 +7214,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-171",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "KG391kV0xCw7vetpD4iS5IeeCZZfRHBWWZ1PQzuXZWQ=",
@@ -7232,7 +7233,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-172",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "kAgcyEM4sBrae1bf0A0Ww9Hw6LL6F5xtalLsWsY9418=",
@@ -7255,7 +7256,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-172",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "CNFOx62OjLssQa/1ahCczqpR9ETtfVDRkktddKdPlX4=",
@@ -7274,7 +7275,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-173",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "eOKcblmSUW+45Rr8XNDNo+pVrCydBiDdBvfXzWKj7lI=",
@@ -7297,7 +7298,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-173",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "kBAKDG2GN/ShGINTsi5lRA65DxcZadkRz2krjRmkb3Q=",
@@ -7316,7 +7317,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-174",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "eLs/W5hfSWdppO3thVZwQ8b/dMBLUv5MZV7Pkwpcllo=",
@@ -7339,7 +7340,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-174",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "8Km3KxN9Jf/wjpeZX54LPKKd6dMJJwF8VH7gNFySB2M=",
@@ -7358,7 +7359,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-175",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "eDWs/6o65HiRo/52iD8nziNSxycQA5dUekgAAjIazVM=",
@@ -7381,7 +7382,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-175",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "WLOX2oUjqExGcfYURa7lAZ8nvpQh/3PC764odbhfn14=",
@@ -7400,7 +7401,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-176",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "cLqIDIXvJQwS1poH7zl1cdO11vYuZiHN0TJR/e7w924=",
@@ -7423,7 +7424,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-176",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "ENgvV4+l8JShCxMCT3n+Ewnd55x04eo4/Zm3jnIFa2Y=",
@@ -7442,7 +7443,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-177",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "cIgB6JSQkQLj0UjLu+N1EkNen8xQf9Ikyx3cltIPo2Y=",
@@ -7465,7 +7466,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-177",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "SB1bOiahhALw8+k48hR2RFx0dTrjsoNO6kknb8kwaXE=",
@@ -7484,7 +7485,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-178",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "aCNRVadjVuM5nG3W/4CxMaUKEuGW1kSkV98ZCekchXU=",
@@ -7507,7 +7508,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-178",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "qCM2DJmoUpjIn4XQuXHU+zEqcyV/Psndnc29uWAtiEA=",
@@ -7526,7 +7527,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-179",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "YOw0wTqNUaRLrAFrKD4LQZgvbokZ+BNjb6s5iVWAtGc=",
@@ -7549,7 +7550,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-179",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "SPpqvV0m/SCm5YDEw4AgBig50MgPfXXFtAAdXNlwy0I=",
@@ -7568,7 +7569,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-180",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "YJYDNQ5Ox7tEMQ/lsYZGhV396/3or2kPI7QKExXDYnI=",
@@ -7591,7 +7592,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-180",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "uJoh3bjVWriaBIYfx0L9vgVzViwqhfFIhuwAOGV62mU=",
@@ -7610,7 +7611,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-181",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "SP/8GmgDlWG5Fio8Bzl+3857olutbDRHe6r+8C6mbGw=",
@@ -7633,7 +7634,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-181",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "SKwCfwrqPOtA41p7ZyoBFapjImiUqW2Zzx1YU2DuL08=",
@@ -7652,7 +7653,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-182",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "SD/zt6lNBNmCmXjKiV7v4QGpudCDb8toD81jxTP0s0Y=",
@@ -7675,7 +7676,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-182",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "aBQjnK7gYfNFS9LMLvV+SrWoPfa+oZLjY6bmXCR+/mk=",
@@ -7694,7 +7695,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-183",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "OCo9Ohif8UdwprLnbkBk+u6u/UpasQkPcXTXW3fKeWE=",
@@ -7717,7 +7718,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-183",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "uImhrUDvWZgIHIIerL+HOqIZNHqWpia0LUXQPXMUO2s=",
@@ -7736,7 +7737,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-184",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "MBjjunnOUvSLiuWU0/JpVvV45+7IFjEhWxOYEcVuKUE=",
@@ -7759,7 +7760,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-184",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "GKQzPr4gk9qIiCQWQvemmqa5MLl1d3Y5mbeT7Sil93w=",
@@ -7778,7 +7779,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-185",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "KMDJsFUuvWA0dMnbst531rCce4vEqdaNxLXQ3TgOMl4=",
@@ -7801,7 +7802,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-185",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "aNx9gOajJTtY+0Jv2hUVjcnLSUxqirl+SsdKaywizFo=",
@@ -7820,7 +7821,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-186",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "II9la7QLucCyByRW2L8NWvZb70thqLta3LzGHmXUJ0w=",
@@ -7843,7 +7844,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-186",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "qGLyYUoNZVwzaovV9eShmxWn01bg2eLv7Fv8fTMQQlM=",
@@ -7862,7 +7863,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-187",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "AI8OSOE1c3PBXERDZvdxMNd77WmD2DgG617OHshttXI=",
@@ -7885,7 +7886,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-187",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "YGmdfn3Q8m2KLNKXkyRfCS+VTJ6nRlwGpnBHV0x5+UQ=",
@@ -7904,7 +7905,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-188",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "8Hw3eLQCu7OKQPlEzdEUFJOIYVjAy2pLcBo90Y6VDG4=",
@@ -7927,7 +7928,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-188",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "oIsImkRQ7f3d2ZulmVs9fxQX6kCPEyQiSfjnFAXT61A=",
@@ -7946,7 +7947,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-189",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "4JQEZR05+xPs15mDGn9V0nfJxkV84+JgW2cxdVez3FM=",
@@ -7969,7 +7970,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-189",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "IDJlx3q1DwaAJnNi1BdbNSAP/5Jy3fZclUAtwO0DsXc=",
@@ -7988,7 +7989,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-190",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "2PLdhU4oMvsfHK73oWI4qlgJKGcYFN0F8CyOg0CA/EI=",
@@ -8011,7 +8012,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-190",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "UPnGWEMs1TXl5/7x8wv09LPX9zfvXjugo93YYpfel2s=",
@@ -8030,7 +8031,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-191",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "0LnBhOyebPsWvEKiLe7Zkbsw674ytDAWLoT8oqaT6mU=",
@@ -8053,7 +8054,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-191",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "8EK5VXGgBmsC8xtgCOBUxdN/OembVlstp78wwDTZkFc=",
@@ -8072,7 +8073,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-192",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "0EH430R8ohRljdh0K5bykguYVUR/LUshRq+SYtAXMFo=",
@@ -8095,7 +8096,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-192",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "8KQW08Uvl3DfrESnG3qjUY3M32FerozPLyCYiEwS9Wk=",
@@ -8114,7 +8115,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-193",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "wHOmZYolkx/o8llVeIzDB0FFqPdt1ebHHCB86uuk5HY=",
@@ -8137,7 +8138,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-193",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "sDX0q8JLcUhL1gaHTWd4qcHehJ02Mos5qmGViUd8qVw=",
@@ -8156,7 +8157,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-194",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "uKqu7XMlkYvWhTdlYC0BIQTViSzFmrFjPbeo/ViSwnw=",
@@ -8179,7 +8180,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-194",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "2F+SmIGXlgjo3GfxgzrJfbyYwTJ8q0P17hX3DTGDDHM=",
@@ -8198,7 +8199,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-195",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "uF6ISgvAZVqN+MrFRGAx0q60OjS+f/FXxGbOYlowo3o=",
@@ -8221,7 +8222,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-195",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "mJGJ6LHUrwfhqGsMMpQACqFjUj2ZV0BRO0e6z08mJnI=",
@@ -8240,7 +8241,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-196",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "sBzDesHpiyklgY8bD9cB1toBEmeRMyLqUMlBa3ipGGg=",
@@ -8263,7 +8264,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-196",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "+F0M0WjTqbYLMaHuhSKlHzyKxzGS4ADG7kBJsH/Pnl4=",
@@ -8282,7 +8283,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-197",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "sAwA324Nbn+I8FqbSzsbYduahT26gAg1emfUExTcblo=",
@@ -8305,7 +8306,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-197",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "MKmsquhqDyDShTUkcvsvxX7dGxrg/AtNVB+ZHLvwyGQ=",
@@ -8324,7 +8325,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-198",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "qFRqx9QBPlBUca2qAIvNcA8MzUIBCsV6pAhlJk9I7VA=",
@@ -8347,7 +8348,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-198",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "EJO2DhWzk2R2GHL+WWbEF17e9vjjsM8h14uWKlGiH0I=",
@@ -8366,7 +8367,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-199",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "iO0tkGgmB8SLMTbEVxpeUpEX4s549reG36bNuNrrcFA=",
@@ -8389,7 +8390,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-199",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "+LwDLUdFMe3MoeTrZC+CZ9aE2HV3fG5GCHura8H9GUA=",
@@ -8408,7 +8409,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-200",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "iAivsYIqkb0FlZcOnstikpXupEnLeSmDIoXDGmq0RmE=",
@@ -8431,7 +8432,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-200",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "iH5q9SzWMZe0ki1rTNYWCkUl/AKd2V16V8fTAgU/LHY=",
@@ -8450,7 +8451,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-201",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "eKpGx0RK+1ha2AoSntugX0poisecX8EPnKqwitXg2H0=",
@@ -8473,7 +8474,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-201",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "GNv6cGBqqqkva+NvUk88Z/oeEsDMr9V91L/wgEnWNmA=",
@@ -8492,7 +8493,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-202",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "cIL8nbm55TqaOHzg32IT74na0Uet14pwzmI0j+7LWW8=",
@@ -8515,7 +8516,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-202",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "IOfSqoXhEx6XnXXyPBihC0+PkSCxVEXZeEAUL0rpSWM=",
@@ -8534,7 +8535,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-203",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "cDQn9pwmz2Blf/LbQSoUfFxJNVhhM8DD10LFkPUcJFA=",
@@ -8557,7 +8558,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-203",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "4HPgljUusDjPEwVX607m8ZYGTroY9rKdLmi9dNLi8kc=",
@@ -8576,7 +8577,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-204",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "aPRUc5L89AuMxgHPgLq28vfrX5K+yg6h/NMOd8uum1M=",
@@ -8599,7 +8600,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-204",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "2J0bPdAQTSROu0CDwGxw70ojJTaUTecITbYH9ao5wk4=",
@@ -8618,7 +8619,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-205",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "aLA+doTPJGeCDqiUqdi/m4aWCETkR5gYQXkC82gbR0g=",
@@ -8641,7 +8642,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-205",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "gGXLWjL4HS2/b2IzCZVsvN4ki+RkzxntC1t1fGzsqUc=",
@@ -8660,7 +8661,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-206",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "aGHed8DFn+k40/2yLsWgwLoxX+ubAmeJ5dVVddR5DV0=",
@@ -8683,7 +8684,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-206",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "ECE0VjnznM+M1KfCllGgtL2Dle8Jn4eQJAi3ME8JmUU=",
@@ -8702,7 +8703,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-207",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "YN1GLkJdEx6kQaEQ6dB/xBUNCgz4JTz3lCWZErR4S1w=",
@@ -8725,7 +8726,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-207",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "IHoISemvrhEnFNIZDcIEITQN3ogxN+DWDahSXd+bT08=",
@@ -8744,7 +8745,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-208",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "WLu7BqmK5pFsoAxy9Q8bvV6No8qxDTip1iGxMHPrZVs=",
@@ -8767,7 +8768,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-208",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "0LrM9s2rmB1boJi6swHR4O63Q71OZyvM14ed5haRQFY=",
@@ -8786,7 +8787,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-209",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "WGrNmC0ywN/q/cg2M1HOfbCauCjd4XrMz3kQNb+/6V8=",
@@ -8809,7 +8810,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-209",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "WO7ww1zosVDdZ8AjT6/OWNclSrH8LrB+hfaOlzUiaE4=",
@@ -8828,7 +8829,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-210",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "WEg1WqaV3oNM9A1jyF+Rzk6qMCbKOfRqxsNcdSxQIEs=",
@@ -8851,7 +8852,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-210",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "CP0Bv6Xtdkuj14AIcSurfAbU3AOvLAOhhAn4Xj0v6nE=",
@@ -8870,7 +8871,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-211",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "WDXOfwAc+vLELfHkaqmn3qgPDA4u1xxv2ILyQ0WqLGM=",
@@ -8893,7 +8894,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-211",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "KA/qO72+JYV1hoY3PlU2xAOrkiG+9gvyjLiHbOK8F24=",
@@ -8912,7 +8913,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-212",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "UFSy/17x5XeeftWeunACGjuXzyzPYy8G9UKhG/hAUHs=",
@@ -8935,7 +8936,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-212",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "gCgUNmcRmZkhxnqkBib0wGR2nc5i3LCg8VoI3EKebkk=",
@@ -8954,7 +8955,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-213",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "QEPrzEVNzS1P0VoS3ECFsMekS6/hlc/9Wt8J1opxwmw=",
@@ -8977,7 +8978,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-213",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "qPG648lzpnJuwUWl5pcGIw7zpBKxbUbBpLAMnexoREk=",
@@ -8996,7 +8997,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-214",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "MLT7bcIU562SxOzAeaqDU7QkMhpKkxL9Q3nQfO3b0FI=",
@@ -9019,7 +9020,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-214",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "6JdESvo9PdENxaKz45MnkZzAoyEun8FfXTyLIEQKA14=",
@@ -9038,7 +9039,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-215",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "IIuiMaCj4fyLSqTFoeWCM3VtfSDkT/ERf2ySRsKlSkc=",
@@ -9061,7 +9062,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-215",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "qEiKWBRiqkOTx/so27DAOqEDavacIij1ze/6gMmoBmo=",
@@ -9080,7 +9081,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-216",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "GI3lx8QUqUrcU0xCuiJ3dqKVxK7OYubghmo2rbBJ1mQ=",
@@ -9103,7 +9104,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-216",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "cKPhQ34kphpwDw+OQmuwr4Z+xlVhGyhOacHkgGr5RUA=",
@@ -9122,7 +9123,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-217",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "GH043wklyHqE547vMkprfqV1uSpyjY1Ovz3x9/Zr6VQ=",
@@ -9145,7 +9146,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-217",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "8DzSpbii/Y8TeoUQM4gTOkKnJRbiR9xSPM2XzZ9vhWc=",
@@ -9164,7 +9165,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-218",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "EGwVuXmP9WjUfeU3iIoqosRESBPpqj30yFtAI/qnl2E=",
@@ -9187,7 +9188,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-218",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "WK4Q4RKoDq/pgZe4LFy041r9o5ORLKD4AXgt84JeKHs=",
@@ -9206,7 +9207,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-219",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "8H0osZiajovrLAF9eKtdHjAOL/Uyi5LZ7GTcmjSiWHM=",
@@ -9229,7 +9230,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-219",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "wAW9Iu+AuqO91Dd0VhYEU3x2e2k7Lnvtr3CVeYdDXHo=",
@@ -9248,7 +9249,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-220",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "8Gb1ip2LRLMy4/n/ZswEuAXsnUKVrp/PhUZJ9F6O8Es=",
@@ -9271,7 +9272,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-220",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "ENGdt9bfH2QEJRACS4v2wcX53HfoYvZvV/9+1pckO0Y=",
@@ -9290,7 +9291,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-221",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "0O8+N5IN47tBDLLUagyaNds93ExsNfOkgLcN/PPHtms=",
@@ -9313,7 +9314,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-221",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "qHjcVbGqAFCih1moJwo4/u6BI/VrNYDEccNUU1OVJlY=",
@@ -9332,7 +9333,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-222",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "sAWTn8LCIgg0coey844iXaE3xmB4yqQXFPAfWhRjTnc=",
@@ -9355,7 +9356,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-222",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "6FXWQvZ1Era+1r5qpcZe1/SQDkwlOAVofSVWwJBEK24=",
@@ -9374,7 +9375,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-223",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "mKvmXMJVhdZ+1JNFv8rESb9JIwWDne2/qlaZ5jkmN1M=",
@@ -9397,7 +9398,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-223",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "6P65dNFOZHTd/IfJ3X8oPGFG4MNvKBXPqMy9AIe+E2A=",
@@ -9416,7 +9417,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-224",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "eMbQFGP3f9lqBkuu9JY2oQ8tTNIygyG5vhuiD/lZdGA=",
@@ -9439,7 +9440,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-224",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "OA2GpR1rI+a3HP7UXImiGnafqu39LjxHZO3Cem64Ak4=",
@@ -9458,7 +9459,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-225",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "aM4Ri8LPIdll1OvDn8pEE3XJCMrDV+7gzP6nAz/nVnc=",
@@ -9481,7 +9482,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-225",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "MNC0AonTMfF3SWXL2WbSDM3Svt0NLDKIe5f0Wf//qEA=",
@@ -9500,7 +9501,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-226",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "aCNybfSZnWHcHY++dWaV3qvqJmXMXgWnAEzF6x2lqGI=",
@@ -9523,7 +9524,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-226",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "CFufRQ7BX7xFFhTSj8UxC3vXTEzveZHhOeKgr91x1HU=",
@@ -9542,7 +9543,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-227",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "aA+2mEmJOns5Xa7gFXBEwqxCmtX3mkV82KtFaHIuG1I=",
@@ -9565,7 +9566,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-227",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "SPIL8QnWHOKvHPUmbVuq42xI/mgxokwJOsxzi+5071U=",
@@ -9584,7 +9585,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-228",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "WLM3/fGInyeqkmrhhKigWNnoIlVm3BcJF5qK4isDUVQ=",
@@ -9607,7 +9608,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-228",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "GD7pG5PUiiHSmFctyDRUTgglf5OiaPge0xF2Dv6nH1M=",
@@ -9626,7 +9627,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-229",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "WEy3jjaIhXu+K8hqT5wDfOuY89lIN3A+tZpN2iRqKXs=",
@@ -9649,7 +9650,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-229",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "CBBdsXmR5b1WBbbfTOe6+cN6QjATj3XPiISPfZpfIko=",
@@ -9668,7 +9669,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-230",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "SNZ9/RpUE8wMt6xnIJG94dTo4kJPCJy6PGOi9I3zxlA=",
@@ -9691,7 +9692,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-230",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "WK84zerXmygg8FUL4UVia8q4SfIPQe20o7nqp/Tjz3U=",
@@ -9710,7 +9711,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-231",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "SMPcjqU3V89LCmYWGL1Cr4UGwIHnEboAsSdCFlXZOEA=",
@@ -9733,7 +9734,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-231",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "ON0KH6ohruqnsWrMwMf5Dv5Ra+TdqDKxBTgCgNk88ko=",
@@ -9752,7 +9753,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-232",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "OM2pM/3F2Suo2KXfNlX8xKxHfMLTlMiu1a51mkv6d0I=",
@@ -9775,7 +9776,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-232",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "iFtqok5GO5HoMYeIfnszMht83XS1W/SFlPpX+bMceF0=",
@@ -9794,7 +9795,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-233",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "OIUYrJy8gEW3o0yCTsdHpKZrVQnw3pqR2k0CCdtfZkw=",
@@ -9817,7 +9818,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-233",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "IM8zU9TqRqsJuBvotXLOdYFOBtNPiK82FG8qyjOQbWM=",
@@ -9836,7 +9837,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-234",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "MIaRvP0ua9RMN87TgWolycvD0ckjDTRmzI++5v9Hc3A=",
@@ -9859,7 +9860,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-234",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "cFRoYqbCC4bL8a9fLNVbDEK/x56+HxVliv27VLk+FmA=",
@@ -9878,7 +9879,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-235",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "KIZT0AB9mV2c3TRv8r/yTOmzGfsK7glFxa9ygn/srHA=",
@@ -9901,7 +9902,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-235",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "CCO60IcMnfXmjeYT/AZ9vvBHVuoI1FpYZ3wB090ySkA=",
@@ -9920,7 +9921,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-236",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "KAHiOhX2eLFVEvls2FaJpQHpWqswJ8IM40kz9zpK/Wo=",
@@ -9943,7 +9944,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-236",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "4FfU0ia7I7H+4fauJGyKik/1RICPYeW+zcsdi956T2A=",
@@ -9962,7 +9963,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-237",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "IB2QIhmQeNJ32qXjifdlTX56kaqnc7aIi+K82pcK8lI=",
@@ -9985,7 +9986,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-237",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "oLtwNdk6xJ5fpMacHczMejIhZHXrp5I6DhND/zzKT1c=",
@@ -10004,7 +10005,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-238",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "GNLLNJnR8gH4rKcBsYgxx9b8gfsWbmZhSH1iMGjWoUI=",
@@ -10027,7 +10028,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-238",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "CE5QwQZhaLarLX8/6wcu7Uhf1tkPHE0a28zNbccBFUc=",
@@ -10046,7 +10047,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-239",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "GKin4qLnYTUZiAcO/M6XvXVt1wmEBNNbKAJaN2Xx4VA=",
@@ -10069,7 +10070,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-239",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "mPFO3wzL2f/IFQL7r2sChguedVhBCuLZaI+Ghw3CV3U=",
@@ -10088,7 +10089,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-240",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "CMEcUHTl40uwokfpHUR11wY5LmkRTT7RKV8jI1mJ7UQ=",
@@ -10111,7 +10112,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-240",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "aHMUsArt6KyES7lvu+egF5aWLzEeoge0/Jur7M1QX2c=",
@@ -10130,7 +10131,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-241",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "CE3dI8/CsjRQpWon8p5vQN+z/gdBXrMcuBw8XRo4El0=",
@@ -10153,7 +10154,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-241",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "qLeYY+0F5D2gRNgP9MkDzP9RdXmOeoBNlQBM3TXbxEE=",
@@ -10172,7 +10173,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-242",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "AN4c8CzLzoZ0yPZkDN7xd4MIRuktMh/VtzSav7LeGGc=",
@@ -10195,7 +10196,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-242",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "EMA6EBmKxNidLTaEmrYSLX6aYzo10d9kRzlpAzVsFVQ=",
@@ -10214,7 +10215,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-243",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "8O2Jq14Od372/nG3S0yvSpg6SNJmz2bOwT85QEnIJUY=",
@@ -10237,7 +10238,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-243",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "ENj+SCYEwpF3rCk1aUIkMOrH6asjzKNZG0043vNRk0A=",
@@ -10256,7 +10257,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-244",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "6GTPh2rgUz3HIqUz1yL8djar4LFq9oGWjyr5on/0/1s=",
@@ -10279,7 +10280,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-244",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "yDSfe/4bLsfpUS8UtVgKRTpd+8YQo978m99SD87K/lI=",
@@ -10298,7 +10299,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-245",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "4D0ER9hUry2NsvkjHl/bK3ERdemYz9y/lnacg8yRiXs=",
@@ -10321,7 +10322,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-245",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "OAp0alJ0PVDebsSXly6gTBmwR1JKFRGlFQtt/9a4MHc=",
@@ -10340,7 +10341,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-246",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "0JPMUP6lnMSue/FLAsU7XPegGDFgjHaIH0TgeMSwCEs=",
@@ -10363,7 +10364,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-246",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "kLY1rfEa5tM61Bw9RwDdoLF3At+l9zmcwsiVZ5w2gks=",
@@ -10382,7 +10383,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-247",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "0HH0uVTiAED0/IpRgZvM+67AXPvRmKQgzWk+FLFBBEQ=",
@@ -10405,7 +10406,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-247",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "0Ko+CUEa1Jt9Mi0MMTvhkxRpYdQ4zKT2McY9WktYEWs=",
@@ -10424,7 +10425,7 @@
       "type": "wireguard",
       "tag": "Tel=🔹️Warp-IR💦-248",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "yHuSEjW9taRpFBs036cS4VwKnuk4xncGPfZZuF5rwnE=",
@@ -10447,7 +10448,7 @@
       "tag": "Tel=🔸️Warp-Main⭐️-248",
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
-        "172.16.0.2/32",
+        "172.16.0.2/24",
         "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "OAXbiv+Vesfb8npaldfnML50o7B6GP50bLvTkgstmlQ=",
@@ -10461,7 +10462,7 @@
       ],
       "mtu": 1300,
       "fake_packets_mode": "m4"
-    },
-    {}
+    }
   ]
 }
+
