@@ -1,9 +1,8 @@
 //profile-title: base64:8J+UpSBXQVJQIPCflKU=
 //profile-update-interval: 240
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
-//support-url: https://t.me/Mahdi
+//support-url: https://t.me/Mahdi 
 {
-  
   "outbounds": [
     {
       "type": "wireguard",
@@ -14,7 +13,7 @@
       ],
       "private_key": "yMoUawfEawUJOjfmbaYZL1CWnPZQ0fgx5qkuYFVG0k0=",
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "server": "162.159.195.137",
+      "server": "2606:4700:d0:0::a29f:c389",
       "server_port": 0,
       "reserved": [
         55,
@@ -56,7 +55,7 @@
       ],
       "private_key": "wL5tu6xO7RZw0IgY7VuHYyFcBMKOiLBW1dnto/ncD2Y=",
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "server": "162.159.192.81",
+      "server": " 2606:4700:d0:0::a29f:c051",
       "server_port": 0,
       "reserved": [
         109,
@@ -98,7 +97,7 @@
       ],
       "private_key": "uBsD+h7kAeFOHcP/n620HBpkQiPrkRpeJTqtA/dTvGE=",
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "server": "188.114.98.15",
+      "server": "2606:4700:d0:0::bc72:620f",
       "server_port": 0,
       "reserved": [
         173,
@@ -140,7 +139,7 @@
       ],
       "private_key": "sFA8qbVd7HPn9eIlbqaiUm1UhscuxxFTdz2Lv0QEXFA=",
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "server": "162.159.192.53",
+      "server": "2606:4700:d0:0::a29f:c035",
       "server_port": 0,
       "reserved": [
         168,
@@ -182,7 +181,7 @@
       ],
       "private_key": "qBldyTxQkX05tYbNlEWccBBbmB9fM2oYCDIBycyDeHA=",
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "server": "162.159.195.214",
+      "server": " 2606:4700:d0:0::a29f:c3d6",
       "server_port": 0,
       "reserved": [
         124,
@@ -224,7 +223,7 @@
       ],
       "private_key": "oHyyWqdMj2NVNtlA5s0JqujLhckn5nSfSxP4YsclPmQ=",
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "server": "162.159.192.140",
+      "server": "2606:4700:d0:0::a29f:c08c",
       "server_port": 0,
       "reserved": [
         221,
@@ -9525,7 +9524,7 @@
       "detour": "Tel=🔹️Warp-IR💦",
       "local_address": [
         "172.16.0.2/24",
-        "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
+        "2606:700:110:846c:e510:bfa1:ea9f:5247/128"
       ],
       "private_key": "CFufRQ7BX7xFFhTSj8UxC3vXTEzveZHhOeKgr91x1HU=",
       "server": "162.159.195.169",
