@@ -1,0 +1,225 @@
+#profile-title: base64:8J+GkyBCYXJyeS1mYXIgfCBXYXJwIPCfjJA=
+#profile-update-interval: 1
+#subscription-userinfo: upload=29; download=12; total=10737418240000000; expire=2546249531
+#support-url: https://github.com/barry-far/V2ray-Configs
+{
+  "outbounds": [
+    {
+      "type": "wireguard",
+      "tag": "WarpInWarp ⭐️ 0",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8e3d:b310:a0b5:484:ab7c/128"
+      ],
+      "private_key": "8HtnO/ZzQBUC/gIBPIP0xOx73yUakxKQUoEFb5FaRmk=",
+      "server": "2606:4700:d1:0:ecc2:c5f7:9157:387f",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "9zpM",
+      "mtu": 1330,
+      "fake_packets": "10-20",
+      "fake_packets_size": "10-20",
+      "fake_packets_delay": "1-2",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Warp 🇮🇷  1",
+      "detour": "WarpInWarp ⭐️ 0",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8ea0:4f11:a135:31f8:344b/128"
+      ],
+      "private_key": "2OT3qg58ybMDOIOtn+xpMQSpmEQ9J+k2VH24+fFwZVk=",
+      "server": "engage.cloudflareclient.com",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "pNvV",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Warp2 🇮🇷 2",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8fb5:4c0b:d92e:5949:d04e/128"
+      ],
+      "private_key": "QANuteS2OVOJ25wb9GtCRXQuFf6qXOHUhcJLHPGLRnc=",
+      "server": "2606:4700:d0:0:7393:ad:e335:1a49",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "XVzx",
+      "mtu": 1330,
+      "fake_packets": "40-80",
+      "fake_packets_size": "40-100",
+      "fake_packets_delay": "4-8",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "WarpInWarp 🇩🇪 3",
+      "detour": "Warp2 🇮🇷 2",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8be1:6af5:3d87:dd13:6b56/128"
+      ],
+      "private_key": "oCYWPpGJlsdF18TJvAbU4k3vm1hVWV8LUEARxeCqmVs=",
+      "server": "zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "fzDp",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Warp3 🇮🇷 4",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8bf9:8197:38b7:88cd:115/128"
+      ],
+      "private_key": "sFOIY0qqM2xubDug1PanvOvnc3u0sggedl3+FAHXBlI=",
+      "server": "2606:4700:d1:0:b5df:3f11:eed:9a57",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "J1ht",
+      "mtu": 1330,
+      "fake_packets": "5-10",
+      "fake_packets_size": "40-100",
+      "fake_packets_delay": "20-250",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "WarpInWarp 🇩🇪 5",
+      "detour": "Warp3 🇮🇷 4",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8104:6445:2942:e015:cb3c/128"
+      ],
+      "private_key": "uD0Gk5RMA3PhHmigzgWjtR62rUFfDAaTsAREgukcjmg=",
+      "server":"engage.cloudflareclient.com",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "b+mW",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "m4 6 🔷️",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8fb5:4c0b:d92e:5949:d04e/128"
+      ],
+      "private_key": "QANuteS2OVOJ25wb9GtCRXQuFf6qXOHUhcJLHPGLRnc=",
+      "server": "2606:4700:d1:0:8179:5a9e:7a9e:f48",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "XVzx",
+      "mtu": 1330,
+      "fake_packets": "40-80",
+      "fake_packets_size": "40-100",
+      "fake_packets_delay": "4-8",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "warp in warp️ 🔶️7",
+      "detour": "m4 6 🔷️",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8be1:6af5:3d87:dd13:6b56/128"
+      ],
+      "private_key": "oCYWPpGJlsdF18TJvAbU4k3vm1hVWV8LUEARxeCqmVs=",
+      "server": "speedtest.org",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "fzDp",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "LocalIP 🔷️8",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8fb5:4c0b:d92e:5949:d04e/128"
+      ],
+      "private_key": "QANuteS2OVOJ25wb9GtCRXQuFf6qXOHUhcJLHPGLRnc=",
+      "server": "2606:4700:d0:0:7393:ad:e335:3131",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "XVzx",
+      "mtu": 1330,
+      "fake_packets": "8-15",
+      "fake_packets_size": "40-100",
+      "fake_packets_delay": "20-250",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "WarpInWarp✅ 9",
+      "detour": "LocalIP🔷️ 8",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8be1:6af5:3d87:dd13:6b56/128"
+      ],
+      "private_key": "oCYWPpGJlsdF18TJvAbU4k3vm1hVWV8LUEARxeCqmVs=",
+      "server": "2606:4700:d0:0:554b:491:9564:2b22",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Warp 🇮🇷 IP 10",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8be1:6af5:3d87:dd13:6b56/128"
+      ],
+      "private_key": "oCYWPpGJlsdF18TJvAbU4k3vm1hVWV8LUEARxeCqmVs=",
+      "server": "speedtest.org",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "fzDp",
+      "mtu": 1330,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Warp-IR 🔶️11",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8f29:6812:a44b:447c:8c4d/128"
+      ],
+      "private_key": "0NX9oQtPZJrypd6BnU8c3RFmOStPvl/g+f/j5J897E8=",
+      "server": "2606:4700:d1:0:501a:9737:368d:c4af",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "TsyY",
+      "mtu": 1330,
+      "fake_packets": "10-20",
+      "fake_packets_size": "20-60",
+      "fake_packets_delay": "5-10",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Warp-IN-Warp 🔷️12",
+      "detour": "Warp-IR 🔶️11",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8857:fb64:b903:7750:f1e7/128"
+      ],
+      "private_key": "UHcVsn+vdvzlXaLFPQfegTkJR6goaLqZLjVBcAeIsFc=",
+      "server": "engage.cloudflareclient.com",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Ngsn",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    }
+  ]
+}
