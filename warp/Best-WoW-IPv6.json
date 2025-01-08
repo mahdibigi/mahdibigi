@@ -2,6 +2,7 @@
 //profile-update-interval: 240
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/Mahdi
+
 {
   "outbounds": [
     {
@@ -25,13 +26,13 @@
     {
       "type": "wireguard",
       "tag": "WoW-IPv6🇸🇪",
-      "detour": "Warp🇮🇷 ",
+      "detour": "Warp🇮🇷",
       "local_address": [
         "172.16.0.2/24",
         "2606:4700:110:8b1f:13a8:24a8:4479:1e0f/128"
       ],
       "private_key": "cOsjO8e0ahQIHo29mYb66ICKner/0zWqSqhOCjMb/Fc=",
-      "server": "engage.cloudflareclient.com",
+      "server": "www.zula.ir",
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "Idpd",
@@ -229,13 +230,13 @@
     {
       "type": "wireguard",
       "tag": "WoW-IPv6🇸🇪-6",
-      "detour": "warp🇮🇷",
+      "detour": "Warp🇮🇷",
       "local_address": [
         "172.16.0.2/24",
         "2606:4700:110:83af:4f2:ea8c:ca69:9ebf/128"
       ],
       "private_key": "aB20Jqun8xyAReZSgGMAIsbC4va0i6qdfCgKpRa5L3k=",
-      "server": "engage.cloudflareclient.com",
+      "server": "2606:4700:d1::c3f0:c62b:f31e:518c",
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "fhzM",
@@ -275,6 +276,6 @@
       "reserved": "SOgt",
       "mtu": 1300,
       "fake_packets_mode": "m4"
-    }
-  ]
-}
+      }
+   ]
+ }
