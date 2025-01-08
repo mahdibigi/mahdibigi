@@ -31,7 +31,7 @@
         "2606:4700:110:8ca8:a46a:b710:9954:d06f/128"
       ],
       "private_key": "4IndTvhjryP6yjElDNS7r6H6pjg0kraddQu1K88Mx0M=",
-      "server": "2606:4700:d0::45dd:b927:8c4d:ceec",
+      "server": "engage.cloudflareclient.com",
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "ih5I",
@@ -65,7 +65,7 @@
         "2606:4700:110:8968:75c4:2d4a:575c:aeae/128"
       ],
       "private_key": "YLgdbzEL/vBuhcrX6W5inP8e5owDNmqIlxWPKeaIQXY=",
-      "server": "2606:4700:d0::45dd:b927:8c4d:ceec",
+      "server": "engage.cloudflareclient.com",
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "FGNb",
@@ -99,7 +99,7 @@
         "2606:4700:110:8bf3:bcb3:17e:e59a:620f/128"
       ],
       "private_key": "GIvphKisw7c75aMMr5MftOMYTsw+aSPST6V2DG4EV2s=",
-      "server": "2606:4700:d0::45dd:b927:8c4d:ceec",
+      "server": "engage.cloudflareclient.com",
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "Jcue",
