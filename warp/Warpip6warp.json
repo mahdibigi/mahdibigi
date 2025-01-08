@@ -818,7 +818,7 @@
       ],
       "private_key": "ONxPVyfoOAsm2x3ECzxWZifCX17gKNgBylO3WT7MAGA=",
       "server": "2606:4700:d1:0:1920:7a8b:2035:1a49",
-      "server_port": 3581,
+      "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "bHUO",
       "mtu": 1330,
