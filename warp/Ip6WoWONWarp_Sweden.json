@@ -1,0 +1,314 @@
+//profile-title: base64:8J+UpSBXQVJQIPCflKU=
+//profile-update-interval: 240
+//subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
+//support-url: https://t.me/Mahdi
+{   
+   "outbounds": [
+    {
+      "type": "wireguard",
+      "tag": "Iran💠  0",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:80a1:61f0:45a8:8d60:d5a5/128"
+      ],
+      "private_key": "cNG3sOONLQ3ctN/aL+K1kUzJ1GQ2PvMj8J2G/Iajflg=",
+      "server": "2606:4700:d0::e5c2:dcf4:f5a:693d",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Tuhm",
+      "mtu": 1300,
+      "fake_packets": "40-80",
+      "fake_packets_size": "5-100",
+      "fake_packets_delay": "2-6",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "🇸🇪-WoW-IPv6  1",
+      "detour": "Iran💠  0",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8b66:e477:c1fc:b570:15f/128"
+      ],
+      "private_key": "OAMqGLJFhTtuEKKLgS+pSE3Di3VExg5VDRkG3sGhAUc=",
+      "server": "engage.cloudflareclient.com",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "+TPG",
+      "mtu": 1308,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Iran💠  2",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8a69:d4fd:f9d2:c7c1:a2f1/128"
+      ],
+      "private_key": "kLSPYKBOjK1ZX1OlwbvkkJ5aTnREunX9jyppjh3yb30=",
+      "server": "2606:4700:d1::c3f0:c62b:f31e:518c",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Qc3o",
+      "mtu": 1300,
+      "fake_packets": "40-80",
+      "fake_packets_size": "5-100",
+      "fake_packets_delay": "2-6",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "🇸🇪-WoW-IPv6  3",
+      "detour": "Iran💠  2",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8aa1:e305:e127:50dd:ff85/128"
+      ],
+      "private_key": "0MPYsIwhYyBfVJi8lzBhKwH1uGyWBxaO4Rgo6UW0108=",
+      "server": "speedtest.org",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "rTD5",
+      "mtu": 1308,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Iran💠  4",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:82cb:17ac:deb3:600:a53c/128"
+      ],
+      "private_key": "4FDS+UzwTC+Regchvi0/Cx1k6gH9BoppKpeGg9UaIl4=",
+      "server": "2606:4700:d0::1a00:e902:e9cc:ee60",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "CgEP",
+      "mtu": 1300,
+      "fake_packets": "40-80",
+      "fake_packets_size": "5-100",
+      "fake_packets_delay": "2-6",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "🇸🇪-WoW-IPv6  5",
+      "detour": "Iran💠  4",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8e96:fc09:19d0:2e69:dc92/128"
+      ],
+      "private_key": "uDVsPdDxMe3ZQq4I6YKEU7SzDpZMI6M8V9Nmnw9ATW4=",
+      "server": "zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "a5/Q",
+      "mtu": 1308,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Iran💠  5",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846e:97fb:b08e:5106:bf05/128"
+      ],
+      "private_key": "OJJdAIfgB7SSaw3eQuBQkYQMHR4gfTOn4Y7x0nDxGFI=",
+      "server": "2606:4700:d0:0::416c:cd34",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "E77G",
+      "mtu": 1300,
+      "fake_packets": "40-80",
+      "fake_packets_size": "5-100",
+      "fake_packets_delay": "2-6",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "🇸🇪-WoW-IPv6  6",
+      "detour": "Iran💠  5",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8c0b:69ff:4ec5:f43e:21ee/128"
+      ],
+      "private_key": "8NC4koz9viaohzoOh/QG/v14vX5Y1oShBk9rUC97qno=",
+      "server": "www.sdxtv.com",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Dw+d",
+      "mtu": 1308,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Iran💠  6",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8064:7368:5629:385b:2951/128"
+      ],
+      "private_key": "kDf4h7NLYWFIptOnKu+sOBaNu2/5MubSmcUHbmVo+34=",
+      "server": "2606:4700:d0:0::a237:5c79",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "faZm",
+      "mtu": 1300,
+      "fake_packets": "40-80",
+      "fake_packets_size": "5-100",
+      "fake_packets_delay": "2-6",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "🇸🇪-WoW-IPv6  7",
+      "detour": "Iran💠  6",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:892d:2e3e:1bbf:b0cb:7b32/128"
+      ],
+      "private_key": "UMVujGMNiygx1F7qAg8APs0kuDiP6raoTV6rw/3hOnA=",
+      "server": "uoone.com",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "yrMR",
+      "mtu": 1308,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Iran💠  7",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:824a:f29d:8f73:fc5b:b477/128"
+      ],
+      "private_key": "uAtpc9vk7ywvBeQeYFcNqUChBffRoieiwsLeAKnKs00=",
+      "server": "2606:4700:d1:0::681f:10f1",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "xMox",
+      "mtu": 1300,
+      "fake_packets": "40-80",
+      "fake_packets_size": "5-100",
+      "fake_packets_delay": "2-6",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "🇸🇪-WoW-IPv6  8",
+      "detour": "Iran💠  7",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8e83:c961:4d68:37d2:e790/128"
+      ],
+      "private_key": "WGk0UF86ycPy/XEIt8642Rkq9rPa90iYTYPk4nQZeFs=",
+      "server": "www.ruit56.com",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "pA4I",
+      "mtu": 1308,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Iran💠  8",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:87c8:b991:be1f:aabe:ed10/128"
+      ],
+      "private_key": "gLnNOMpACXQr37p+yxWsX6HC+3FyaYjaCiTtsxoTvk4=",
+      "server": "2606:4700:d0:0::a29f:c31e",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "5m6g",
+      "mtu": 1300,
+      "fake_packets": "40-80",
+      "fake_packets_size": "5-100",
+      "fake_packets_delay": "2-6",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "🇸🇪-WoW-IPv6  9",
+      "detour": "Iran💠  8",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8bd2:d19b:4776:b020:5674/128"
+      ],
+      "private_key": "cPlSkp1tR9q4F9QXbtauREKiqdgXAKW7t6YpRXkgjn4=",
+      "server": "jsdelivr.ren",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "8Mr8",
+      "mtu": 1308,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Iran💠  9",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8709:1cb2:b4ab:5a93:991f/128"
+      ],
+      "private_key": "4AT7dmh+q0H0XeORd25fz+XEil7MBnDqOjR19YVLxUc=",
+      "server": "2606:4700:d0:0::a29f:c03d",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "eZ1e",
+      "mtu": 1300,
+      "fake_packets": "40-80",
+      "fake_packets_size": "5-100",
+      "fake_packets_delay": "2-6",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "🇸🇪-WoW-IPv6  10",
+      "detour": "Iran💠  9",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8bda:22dd:5d9a:ad41:ad4d/128"
+      ],
+      "private_key": "UFP+ooT0ZmoC3IWjpBtOMlwiFdMpOnv6eYoHHYw4Nng=",
+      "server": "www.lwscyx.com",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "6RWq",
+      "mtu": 1308,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Iran💠  10",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:89b2:c9be:9a91:23f8:5ff4/128"
+      ],
+      "private_key": "MHyRvRtg5HZ+wZbIAT4jwpXbaGfD9OfYYLWffsAeBG8=",
+      "server": "2606:4700:d0:0::bc72:63e0",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "GG+h",
+      "mtu": 1300,
+      "fake_packets": "40-80",
+      "fake_packets_size": "5-100",
+      "fake_packets_delay": "2-6",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "🇸🇪-WoW-IPv6  11",
+      "detour": "Iran💠  10",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8506:f45e:ed70:80fe:59a8/128"
+      ],
+      "private_key": "SNAUjXicyu6p68JMaCfKbHkevzuuTgm44Kn2LlZnSXI=",
+      "server": "engage.cloudflareclient.com",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "V632",
+      "mtu": 1308,
+      "fake_packets_mode": "m4"
+    }
+  ]
+}
