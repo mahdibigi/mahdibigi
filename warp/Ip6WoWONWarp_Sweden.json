@@ -1,4 +1,4 @@
-//profile-title: base64:8J+UpSBXQVJQIPCflKU=
+e//profile-title: base64:8J+UpSBXQVJQIPCflKU=
 //profile-update-interval: 240
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/Mahdi
@@ -148,7 +148,7 @@
         "2606:4700:110:8064:7368:5629:385b:2951/128"
       ],
       "private_key": "kDf4h7NLYWFIptOnKu+sOBaNu2/5MubSmcUHbmVo+34=",
-      "server": "2606:4700:d0:0::a237:5c79",
+      "server": "2606:4700:d0::3859:1c1d:faf8:ea73",
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "faZm",
@@ -216,7 +216,7 @@
         "2606:4700:110:87c8:b991:be1f:aabe:ed10/128"
       ],
       "private_key": "gLnNOMpACXQr37p+yxWsX6HC+3FyaYjaCiTtsxoTvk4=",
-      "server": "2606:4700:d0:0::a29f:c31e",
+      "server": "2606:4700:d0::1d35:c4ff:c261:c6ff",
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "5m6g",
@@ -250,7 +250,7 @@
         "2606:4700:110:8709:1cb2:b4ab:5a93:991f/128"
       ],
       "private_key": "4AT7dmh+q0H0XeORd25fz+XEil7MBnDqOjR19YVLxUc=",
-      "server": "2606:4700:d0:0::a29f:c03d",
+      "server": "2606:4700:d1::1dc1:9639:67c:b53e",
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "eZ1e",
