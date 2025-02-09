@@ -1,0 +1,4288 @@
+{
+  "outbounds": [
+    {
+      "tag": "IRAN-🇮🇷-0",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "oty3VDZwgXBnupmg9Pr1",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-1",
+      "detour": "IRAN-🇮🇷-0",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "speedtest.org",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-2",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "XX6wDyZGRDaFWEOgM57x",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-3",
+      "detour": "IRAN-🇮🇷-2",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "speedtest.org",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-4",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "yGkDCtczeibwPwv036YQ",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-5",
+      "detour": "IRAN-🇮🇷-4",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-6",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "lnlYhfvG9S2wAuR8duAr",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-7",
+      "detour": "IRAN-🇮🇷-6",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "dev95.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-8",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "_EfuW6a2Oh-sRwjFzfHB",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-9",
+      "detour": "IRAN-🇮🇷-8",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-10",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "Lh6IVgUvKDcCHwi0AOpi",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-11",
+      "detour": "IRAN-🇮🇷-10",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "speedtest.org",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-12",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "1DVsy0jgwb0PMtRBYLLd",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-13",
+      "detour": "IRAN-🇮🇷-12",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-14",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "TL4umeLbycu3TDCLA8yL",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-15",
+      "detour": "IRAN-🇮🇷-14",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "kadelidelsar.ejustageram.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-16",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "px6FAYab9d9SdvtNBzal",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-17",
+      "detour": "IRAN-🇮🇷-16",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-18",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "s9A-WZMjpuNeZLfSu1-Z",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-19",
+      "detour": "IRAN-🇮🇷-18",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "imarketshop.ir",
+      "server_port.": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-20",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "jZ9v0mAP6O7O_IbV3hQK",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-21",
+      "detour": "IRAN-🇮🇷-20",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "ssiam.arad98.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-22",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "jr-p5X5orwO3wPgAIHE4",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-23",
+      "detour": "IRAN-🇮🇷-22",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "cdn.license-market.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-24",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "J7fnS5_f2_GJs3jZRHkL",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-25",
+      "detour": "IRAN-🇮🇷-24",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "roxanmta.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-26",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "fU_TZSeNfQNP8IIoytDT",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-27",
+      "detour": "IRAN-🇮🇷-26",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "speedtest.org",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-28",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "RXpq16IVyMUdfXi1XVhb",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-29",
+      "detour": "IRAN-🇮🇷-28",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-30",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "ZE_RtNObPB2zTTP9vCyr",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-31",
+      "detour": "IRAN-🇮🇷-30",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "speedtest.org",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-32",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "QYwHTklLhRfyjSxtI3Ny",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-33",
+      "detour": "IRAN-🇮🇷-32",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-34",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "HYlUkkrkkh048RrHYBtK",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-35",
+      "detour": "IRAN-🇮🇷-34",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "speedtest.org",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-36",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "mk-867EY59BFTP6bJqG_",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-37",
+      "detour": "IRAN-🇮🇷-36",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-38",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "LJSmH7QFFVkrh4OQ_y7M",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-39",
+      "detour": "IRAN-🇮🇷-38",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "speedtest.org",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-40",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "wZ8CDdSSXSI7lB6cpzik",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-41",
+      "detour": "IRAN-🇮🇷-40",
+      "local_address": [
+        "172.16.0.2/24",
+       "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-42",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "cO_-sLbJ6EH79TqlImys",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-43",
+      "detour": "IRAN-🇮🇷-42",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "speedtest.org",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-44",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "Yl5A-gODsrfFxLGptcvu",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-45",
+      "detour": "IRAN-🇮🇷-44",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-46",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "geCQUcI8pwlW8QM67nxC",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-47",
+      "detour": "IRAN-🇮🇷-46",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "speedtest.org",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-48",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "dVAvSXYyHIdt6AohF_GC",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-49",
+      "detour": "IRAN-🇮🇷-48",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-50",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "zzZJq4pPkz9kut4jg2wd",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-51",
+      "detour": "IRAN-🇮🇷-50",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "speedtest.org",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-52",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "7djnJwc48KchVzpSK6oS",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-53",
+      "detour": "IRAN-🇮🇷-52",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-54",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "qP76it4M8B8csVuVvkW0",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-55",
+      "detour": "IRAN-🇮🇷-54",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "speedtest.org",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-56",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "fKRISPxeEnd1YP1ha65T",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-57",
+      "detour": "IRAN-🇮🇷-56",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-58",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "x8nkPlPYHHZDBPxYhx98",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-59",
+      "detour": "IRAN-🇮🇷-58",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "speedtest.org",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-60",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "naSrSXrcvgwKH_wFOMsU",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-61",
+      "detour": "IRAN-🇮🇷-60",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-62",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "mtTmK0v4jB_G0Ty0cpCJ",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-63",
+      "detour": "IRAN-🇮🇷-62",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "speedtest.org",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-64",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "7YG9hmLzQpISIe8EPhHU",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-65",
+      "detour": "IRAN-🇮🇷-64",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-66",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "85g3q_1m476QJkmZ8cVa",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-67",
+      "detour": "IRAN-🇮🇷-66",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "speedtest.org",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-68",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "ipo87o2J0wxkyZtbL3uD",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-69",
+      "detour": "IRAN-🇮🇷-68",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-70",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "fEeNhAceyx6JuXqfOQ0T",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-71",
+      "detour": "IRAN-🇮🇷-70",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "speedtest.org",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-72",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "3segNyCI0tYXL00YG4oZ",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-73",
+      "detour": "IRAN-🇮🇷-72",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-74",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "6DToumZnO1cGUmJl37x2",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-75",
+      "detour": "IRAN-🇮🇷-74",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "speedtest.org",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-76",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "NqVizYG7NmXk_ZnmkjPU",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-77",
+      "detour": "IRAN-🇮🇷-76",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-78",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "l-pGs2Y3oo7W8FR6-_x7",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-79",
+      "detour": "IRAN-🇮🇷-78",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "speedtest.org",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-80",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "6RXZadXEQVGo__sUWQ-P",
+      "server_port": 0,
+ "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-81",
+      "detour": "IRAN-🇮🇷-80",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-82",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "hbKOVo1wyFTZ8zoUQErD",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-83",
+      "detour": "IRAN-🇮🇷-82",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "speedtest.org",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-84",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "bi3UIykT6gLhdjSKZs94",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-85",
+      "detour": "IRAN-🇮🇷-84",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-86",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "D3VvHJg-3KXhkpwvo_QE",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-87",
+      "detour": "IRAN-🇮🇷-86",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "speedtest.org",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-88",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "vn6XTzml3ruQe0alcOFJ",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-89",
+      "detour": "IRAN-🇮🇷-88",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-90",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "Nja4_SBQ9KLBJn_WgCXe",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-91",
+      "detour": "IRAN-🇮🇷-90",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "speedtest.org",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-92",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "brUruElMFLfNLyuRX8_H",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-93",
+      "detour": "IRAN-🇮🇷-92",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-94",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "WbqXoxbcf__MEkwoAR1V",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-95",
+      "detour": "IRAN-🇮🇷-94",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "speedtest.org",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-96",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "zKsJqknJlOsIIgoZEFN_",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-97",
+      "detour": "IRAN-🇮🇷-96",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-98",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "dbzIE5OlFD01nFEgkOT3",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-99",
+      "detour": "IRAN-🇮🇷-98",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "speedtest.org",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-100",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "YsoDsb2XPR9Ku3jNYUL8",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-101",
+      "detour": "IRAN-🇮🇷-100",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-102",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "nBipF9_F8v7W4iSHCALc",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-103",
+      "detour": "IRAN-🇮🇷-102",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "speedtest.org",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-104",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "bPksZV4iJpotGpGSdfk0",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-105",
+      "detour": "IRAN-🇮🇷-104",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-106",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "H3BAJ1Pqe5ekgN_LpV6Y",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-107",
+      "detour": "IRAN-🇮🇷-106",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "speedtest.org",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-108",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "yS1kHITmPjjH6X7z1uUG",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-109",
+      "detour": "IRAN-🇮🇷-108",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-110",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "yulIQ4YF2SR-EWnn52j1",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-111",
+      "detour": "IRAN-🇮🇷-110",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "speedtest.org",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-112",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "DTMQhs0Z74L1cNC-6q04",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-113",
+      "detour": "IRAN-🇮🇷-112",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-114",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "-CgvQqoNKwRbcxRrAMCr",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-115",
+      "detour": "IRAN-🇮🇷-114",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-116",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "gJZYAloeYAd7VAdDRMu2",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-117",
+      "detour": "IRAN-🇮🇷-116",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "speedtest.org",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-118",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "hSBjBeSpk5m6mmeLDJcr",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-119",
+      "detour": "IRAN-🇮🇷-118",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-120",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "bR0Jd6a01EvbCeNnnAd-",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-121",
+      "detour": "IRAN-🇮🇷-120",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "speedtest.org",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-122",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "CM_jiXE4auxZF5FY2paK",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-123",
+      "detour": "IRAN-🇮🇷-122",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-124",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "F5W1zN3iti-YiFh9e0kY",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-125",
+      "detour": "IRAN-🇮🇷-124",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "speedtest.org",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-126",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "WlAyQc8-Xjo8HFuLoLN4",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-127",
+      "detour": "IRAN-🇮🇷-126",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-128",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "vtq9kIU76DUpHtGnsZ3_",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-129",
+      "detour": "IRAN-🇮🇷-128",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "speedtest.org",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-130",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "xCqoSgmJEXvIsRLLFMFh",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-131",
+      "detour": "IRAN-🇮🇷-130",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-132",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "pc7Z6T6bfrOG4oy03pFX",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-133",
+      "detour": "IRAN-🇮🇷-132",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "speedtest.org",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-134",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "QaNbbC9ZblkoCIqFaNUn",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-135",
+      "detour": "IRAN-🇮🇷-134",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-136",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "6hMNND-ixojEYVd26oa7",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-137",
+      "detour": "IRAN-🇮🇷-136",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "speedtest.org",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-138",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "3MSU47hywfFnzVA0xREK",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-139",
+      "detour": "IRAN-🇮🇷-138",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-140",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "2E5yHRHLaUKsrcSJ6bq2",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-141",
+      "detour": "IRAN-🇮🇷-140",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "speedtest.org",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-142",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "2X0eaCTgwZXlGW7fvMul",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-143",
+      "detour": "IRAN-🇮🇷-142",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-144",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "-MD1f6L7KZd4_CmhjHya",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-145",
+      "detour": "IRAN-🇮🇷-144",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "speedtest.org",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-146",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "hBq1IMm-zK1MhtUbj9E2",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-147",
+      "detour": "IRAN-🇮🇷-146",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-148",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "-P9Z8i0DH74yeI2bV5gl",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-149",
+      "detour": "IRAN-🇮🇷-148",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "speedtest.org",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-150",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "TZtm3ffJazuuj8NsLniL",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-151",
+      "detour": "IRAN-🇮🇷-150",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-152",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "47MmZgalSAMt--fH19yN",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-153",
+      "detour": "IRAN-🇮🇷-152",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "speedtest.org",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-154",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "NfAerwvjzD0HYmAAzq9K",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-155",
+      "detour": "IRAN-🇮🇷-154",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-156",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "XlNdyx-1gyB8z_liXE2K",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-157",
+      "detour": "IRAN-🇮🇷-156",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "speedtest.org",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-158",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "dW_CaJ4pC49vdXnY6Ne3",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-159",
+      "detour": "IRAN-🇮🇷-158",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-160",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "4siR2oKhccVN3PvJAZtu",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-161",
+      "detour": "IRAN-🇮🇷-160",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-162",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "wQfS6PvlsLINHX69K9mW",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-163",
+      "detour": "IRAN-🇮🇷-162",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "speedtest.org",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-164",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "_DFwJEXfxyKYpnRU2-Io",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-165",
+      "detour": "IRAN-🇮🇷-164",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-166",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "x5eHMSm_-Tc7mwuKBdrh",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-167",
+      "detour": "IRAN-🇮🇷-166",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "speedtest.org",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-168",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "jlhRMmla3U4zfza9T0YH",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-169",
+      "detour": "IRAN-🇮🇷-168",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-170",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "9zb52qZuAsozN0mFAwkp",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-171",
+      "detour": "IRAN-🇮🇷-170",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-172",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "YVqWv0M2_TxaU7nlMHGy",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-173",
+      "detour": "IRAN-🇮🇷-172",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-174",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "vEZefmhwEoeHI4q9D95h",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-175",
+      "detour": "IRAN-🇮🇷-174",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-176",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "eXXHwctynFt2DzI6C0uN",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-177",
+      "detour": "IRAN-🇮🇷-176",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-178",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "oqVY2bK1Ap_hTSCj1ymh",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-179",
+      "detour": "IRAN-🇮🇷-178",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-180",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "CqqTjRh-TwW7VE-irGqW",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-181",
+      "detour": "IRAN-🇮🇷-180",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-182",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "-bktWS1QEUVKUpw9M7v1",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-183",
+      "detour": "IRAN-🇮🇷-182",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-184",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "AvJy_iBaJgzAUQVr_F4P",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-185",
+      "detour": "IRAN-🇮🇷-184",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-186",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "Taz5Zd-vAYScOnjnPI7F",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-187",
+      "detour": "IRAN-🇮🇷-186",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-188",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "zthyKfI1qGRt-aiXRHXs",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-189",
+      "detour": "IRAN-🇮🇷-188",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-190",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "WI05wbsDe2fZBpW3vwnv",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-191",
+      "detour": "IRAN-🇮🇷-190",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-192",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "2ajpXpkrEe41HKmCswJU",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-193",
+      "detour": "IRAN-🇮🇷-192",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-194",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "X338l1pbj1r8AmMmbcW_",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-195",
+      "detour": "IRAN-🇮🇷-194",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-196",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "KHwGGiC0agAQaIYMubCj",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-197",
+      "detour": "IRAN-🇮🇷-196",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-198",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "dBeAX3Iw7xZ70n65kfN_",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-199",
+      "detour": "IRAN-🇮🇷-198",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-200",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "KfdG8CpQ7BDqenJtsbX4",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-201",
+      "detour": "IRAN-🇮🇷-200",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-202",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "YHOQO5j2cV2adRUI2I9w",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-203",
+      "detour": "IRAN-🇮🇷-202",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-204",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "XxveD5deI5HMQlRVMg9S",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-205",
+      "detour": "IRAN-🇮🇷-204",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-206",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "0kyIMIGiipymi_vn_3zx",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-207",
+      "detour": "IRAN-🇮🇷-206",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-208",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "yfuIMCzGT_Yy8EP7tOsy",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-209",
+      "detour": "IRAN-🇮🇷-208",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-210",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "BnoGki5R3Jsc7qeKIFcA",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-211",
+      "detour": "IRAN-🇮🇷-210",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-212",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "WaTbz8ovD5RbdtHsR5gU",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-213",
+      "detour": "IRAN-🇮🇷-212",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-214",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "BIxuCqIglHk8NTFDOif_",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-215",
+      "detour": "IRAN-🇮🇷-214",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-216",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "6u6q4rn_pQNkeLgWwg2J",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-217",
+      "detour": "IRAN-🇮🇷-216",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-218",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "JL581JlsXtaXpyQ0ikGD",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-219",
+      "detour": "IRAN-🇮🇷-218",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-220",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "1tGLjSKR55fKrSGy5pAy",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-221",
+      "detour": "IRAN-🇮🇷-220",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-222",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "wyURE911GUjsibBk_lHH",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-223",
+      "detour": "IRAN-🇮🇷-222",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-224",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "XuH0krBpzKY1YmXImAr6",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-225",
+      "detour": "IRAN-🇮🇷-224",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-226",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "jx15gn4HyjnCGuJxkOdz",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-227",
+      "detour": "IRAN-🇮🇷-226",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-228",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "vHQVpd0-wT0bOZ3h5qbn",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-229",
+      "detour": "IRAN-🇮🇷-228",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-230",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "u8givhtUR7zOOXXHaSs2",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-231",
+      "detour": "IRAN-🇮🇷-230",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-232",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "F0HTk-VjZwiIScD-Y_Qd",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-233",
+      "detour": "IRAN-🇮🇷-232",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-234",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "f1r7t_VGuUlfz_e_YXR0",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-235",
+      "detour": "IRAN-🇮🇷-234",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-236",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "ciOOO488FhszxlF7mvQ-",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-237",
+      "detour": "IRAN-🇮🇷-236",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-238",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "Gcw4oqclLNHTM7phzgXs",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-239",
+      "detour": "IRAN-🇮🇷-238",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-240",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "wDevew9rtYS9d8kufnPA",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-241",
+      "detour": "IRAN-🇮🇷-240",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-242",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "ut0R78DtYYqyg7i2ve7H",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-243",
+      "detour": "IRAN-🇮🇷-242",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-244",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "udad1SN-MQvMfMWCGnSq",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-245",
+      "detour": "IRAN-🇮🇷-244",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-246",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "OFYUqNM0EVRj-Rd-tk5u",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-247",
+      "detour": "IRAN-🇮🇷-246",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-248",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "G5lfYSZWGmSFnctsVX7S",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-249",
+      "detour": "IRAN-🇮🇷-248",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRAN-🇮🇷-250",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8410:ce77:bd1b:2aab:f922/128"
+      ],
+      "private_key": "uBHM6qfZtEXgK+B7ZF2bXqXFWU8G0asygJlOqMduUFM=",
+      "server": "VawrRvr9yyEQf1oLGnR9",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "muC8",
+      "mtu": 1330,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-30",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Germany-🇩🇪-251",
+      "detour": "IRAN-🇮🇷-250",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:846b:afc9:b35:8cbd:887a/128"
+      ],
+      "private_key": "8MXwmiGo6qcWbkvNg5GVw5jz61hNE6fugqAf11ssdU8=",
+      "server": "www.zula.ir",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Cyf7",
+      "mtu": 1280,
+      "fake_packets_mode": "m4"
+    }
+  ]
+}
+
