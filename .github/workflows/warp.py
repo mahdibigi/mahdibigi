@@ -96,10 +96,10 @@ def warp_ip():
     return config_prefix, formatted_time
 
 
-title = "//profile-title: base64:" + base64.b64encode('xawir WARP 🐱'.encode('utf-8')).decode('utf-8') + "\n"
+title = "//profile-title: base64:" + base64.b64encode('Best WARP 👻'.encode('utf-8')).decode('utf-8') + "\n"
 update_interval = "//profile-update-interval: 1\n"
 sub_info = "//subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531\n"
-profile_web = "//profile-web-page-url: https://t.me/SirPishi \n"
+profile_web = "//profile-web-page-url: https://t.me/M \n"
 last_modified = "//last update on: " + warp_ip()[1] + "\n"
 configs = warp_ip()[0]
 with open('Hiddify/sub', 'w') as op:
