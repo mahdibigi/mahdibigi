@@ -33,7 +33,7 @@
       "private_key": "OOfyxCCBx0Cx6Ouww3qMSVSdO2XTg1f4xL3r1xpO4HI=",
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "NjeG",
-      "mtu": 1130
+      "mtu": 1300
     },
     {
       "type": "wireguard",
@@ -63,7 +63,7 @@
       "private_key": "OOfyxCCBx0Cx6Ouww3qMSVSdO2XTg1f4xL3r1xpO4HI=",
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "NjeG",
-      "mtu": 1130
+      "mtu": 1300
     },
     {
       "type": "wireguard",
@@ -93,7 +93,7 @@
       "private_key": "OOfyxCCBx0Cx6Ouww3qMSVSdO2XTg1f4xL3r1xpO4HI=",
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "NjeG",
-      "mtu": 1130
+      "mtu": 1300
     },
     {
       "type": "wireguard",
@@ -123,7 +123,7 @@
       "private_key": "OOfyxCCBx0Cx6Ouww3qMSVSdO2XTg1f4xL3r1xpO4HI=",
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "NjeG",
-      "mtu": 1130
+      "mtu": 1300
     },
     {
       "type": "wireguard",
@@ -153,7 +153,7 @@
       "private_key": "OOfyxCCBx0Cx6Ouww3qMSVSdO2XTg1f4xL3r1xpO4HI=",
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "NjeG",
-      "mtu": 1130
+      "mtu": 1300
     },
     {
       "type": "wireguard",
@@ -183,7 +183,7 @@
       "private_key": "OOfyxCCBx0Cx6Ouww3qMSVSdO2XTg1f4xL3r1xpO4HI=",
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "NjeG",
-      "mtu": 1130
+      "mtu": 1300
     },
     {
       "type": "wireguard",
@@ -213,7 +213,7 @@
       "private_key": "OOfyxCCBx0Cx6Ouww3qMSVSdO2XTg1f4xL3r1xpO4HI=",
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "NjeG",
-      "mtu": 1130
+      "mtu": 1300
     },
     {
       "type": "wireguard",
@@ -243,7 +243,7 @@
       "private_key": "OOfyxCCBx0Cx6Ouww3qMSVSdO2XTg1f4xL3r1xpO4HI=",
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "NjeG",
-      "mtu": 1130
+      "mtu": 1300
     },
     {
       "type": "wireguard",
@@ -273,7 +273,7 @@
       "private_key": "OOfyxCCBx0Cx6Ouww3qMSVSdO2XTg1f4xL3r1xpO4HI=",
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "NjeG",
-      "mtu": 1130
+      "mtu": 1300
     }
   ]
 }
