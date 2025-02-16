@@ -6,6 +6,6 @@
 
 warp://[2606:4700:d0:0::6815:452c]?ifp=1-3&ifpm=m4#IRAN-🇮🇷&&detour=warp://188.114.97.3?ifp=1-3&ifpm=m4#Germany-🇩🇪
 warp://[2606:4700:d1:0::ac43:cc54]?ifp=2-4&ifpm=m4#IRAN-🇮🇷&&detour=warp://engage.cloudflareclient.com?ifp=1-3&ifpm=m4#Germany-🇩🇪
-warp://p1@auto6?ifp=1-3&ifpm=m4#LocalV6💎&&detour=warp://p2@auto4?ifp=1-3&ifpm=m4#WoWV4_v6💠
+warp://@auto6?ifp=1-3&ifpm=m4#LocalV6💎&&detour=warp://p2@auto4?ifp=1-3&ifpm=m4#WoWV4_v6💠
 
 
