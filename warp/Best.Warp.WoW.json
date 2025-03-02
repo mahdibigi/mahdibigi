@@ -1,0 +1,3992 @@
+[
+  {
+    "remarks": "⭐️Tel=Warp💦-WoW💥",
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "hosts": {},
+      "servers": [
+        "https://1.1.1.1/dns-query",
+        {
+          "address": "8.8.8.8",
+          "domains": [
+            "geosite:category-ir",
+            "domain:.ir"
+          ],
+          "expectIPs": [
+            "geoip:ir"
+          ],
+          "port": 53
+        }
+      ],
+      "tag": "dns"
+    },
+    "inbounds": [
+      {
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "socks-in"
+      },
+      {
+        "port": 10809,
+        "protocol": "http",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "http-in"
+      },
+      {
+        "listen": "127.0.0.1",
+        "port": 10853,
+        "protocol": "dokodemo-door",
+        "settings": {
+          "address": "1.1.1.1",
+          "network": "tcp,udp",
+          "port": 53
+        },
+        "tag": "dns-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "wireguard",
+        "settings": {
+          "address": [
+            "172.16.0.2/32",
+            "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
+          ],
+          "mtu": 1300,
+          "peers": [
+            {
+              "endpoint": "188.114.97.172:7281",
+              "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+            }
+          ],
+          "reserved": [
+            236,
+            119,
+            178
+          ],
+          "secretKey": "4H+IhxizjYUP3whvZreCIBBm/+kpl/5FxVY/CxYItEQ=",
+          "keepAlive": 10,
+          "wnoise": "quic",
+          "wnoisecount": "10-15",
+          "wpayloadsize": "1-8",
+          "wnoisedelay": "1-3"
+        },
+        "streamSettings": {
+          "sockopt": {
+            "dialerProxy": "warp-ir"
+          }
+        },
+        "tag": "warp-out"
+      },
+      {
+        "protocol": "wireguard",
+        "settings": {
+          "address": [
+            "172.16.0.2/32",
+            "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
+          ],
+          "mtu": 1300,
+          "peers": [
+            {
+              "endpoint": "188.114.97.249:7281",
+              "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+            }
+          ],
+          "reserved": [
+            122,
+            148,
+            67
+          ],
+          "secretKey": "MOeA54XU6FjXKXisC/1s/8kVK7jSK8Lq5IoAqWD2n14=",
+          "keepAlive": 10,
+          "wnoise": "quic",
+          "wnoisecount": "10-15",
+          "wpayloadsize": "1-8",
+          "wnoisedelay": "1-3"
+        },
+        "tag": "warp-ir"
+      },
+      {
+        "protocol": "dns",
+        "tag": "dns-out"
+      },
+      {
+        "protocol": "freedom",
+        "settings": {},
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "policy": {
+      "levels": {
+        "8": {
+          "connIdle": 300,
+          "downlinkOnly": 1,
+          "handshake": 4,
+          "uplinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundUplink": true,
+        "statsOutboundDownlink": true
+      }
+    },
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "inboundTag": [
+            "dns-in"
+          ],
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "8.8.8.8"
+          ],
+          "outboundTag": "direct",
+          "port": "53",
+          "type": "field"
+        },
+        {
+          "domain": [
+            "geosite:category-ir",
+            "domain:.ir"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "geoip:ir",
+            "geoip:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "outboundTag": "warp-out",
+          "type": "field",
+          "network": "tcp,udp"
+        }
+      ]
+    },
+    "stats": {}
+  },
+  {
+    "remarks": "⭐️Tel=Warp💦-WoW💥",
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "hosts": {},
+      "servers": [
+        "https://1.1.1.1/dns-query",
+        {
+          "address": "8.8.8.8",
+          "domains": [
+            "geosite:category-ir",
+            "domain:.ir"
+          ],
+          "expectIPs": [
+            "geoip:ir"
+          ],
+          "port": 53
+        }
+      ],
+      "tag": "dns"
+    },
+    "inbounds": [
+      {
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "socks-in"
+      },
+      {
+        "port": 10809,
+        "protocol": "http",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "http-in"
+      },
+      {
+        "listen": "127.0.0.1",
+        "port": 10853,
+        "protocol": "dokodemo-door",
+        "settings": {
+          "address": "1.1.1.1",
+          "network": "tcp,udp",
+          "port": 53
+        },
+        "tag": "dns-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "wireguard",
+        "settings": {
+          "address": [
+            "172.16.0.2/32",
+            "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
+          ],
+          "mtu": 1300,
+          "peers": [
+            {
+              "endpoint": "188.114.97.178:1010",
+              "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+            }
+          ],
+          "reserved": [
+            36,
+            240,
+            50
+          ],
+          "secretKey": "GHSN7lmJSQfgkqgYR4Hk0/GLicgOklZXLPoXnmc4U1o=",
+          "keepAlive": 10,
+          "wnoise": "quic",
+          "wnoisecount": "10-15",
+          "wpayloadsize": "1-8",
+          "wnoisedelay": "1-3"
+        },
+        "streamSettings": {
+          "sockopt": {
+            "dialerProxy": "warp-ir"
+          }
+        },
+        "tag": "warp-out"
+      },
+      {
+        "protocol": "wireguard",
+        "settings": {
+          "address": [
+            "172.16.0.2/32",
+            "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
+          ],
+          "mtu": 1300,
+          "peers": [
+            {
+              "endpoint": "188.114.97.120:1010",
+              "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+            }
+          ],
+          "reserved": [
+            236,
+            126,
+            183
+          ],
+          "secretKey": "2MlpeSqNRB7zeQRdQK5IZha045zt8uuvVOVk0gZYqHY=",
+          "keepAlive": 10,
+          "wnoise": "quic",
+          "wnoisecount": "10-15",
+          "wpayloadsize": "1-8",
+          "wnoisedelay": "1-3"
+        },
+        "tag": "warp-ir"
+      },
+      {
+        "protocol": "dns",
+        "tag": "dns-out"
+      },
+      {
+        "protocol": "freedom",
+        "settings": {},
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "policy": {
+      "levels": {
+        "8": {
+          "connIdle": 300,
+          "downlinkOnly": 1,
+          "handshake": 4,
+          "uplinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundUplink": true,
+        "statsOutboundDownlink": true
+      }
+    },
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "inboundTag": [
+            "dns-in"
+          ],
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "8.8.8.8"
+          ],
+          "outboundTag": "direct",
+          "port": "53",
+          "type": "field"
+        },
+        {
+          "domain": [
+            "geosite:category-ir",
+            "domain:.ir"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "geoip:ir",
+            "geoip:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "outboundTag": "warp-out",
+          "type": "field",
+          "network": "tcp,udp"
+        }
+      ]
+    },
+    "stats": {}
+  },
+  {
+    "remarks": "⭐️Tel=Warp💦-WoW💥",
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "hosts": {},
+      "servers": [
+        "https://1.1.1.1/dns-query",
+        {
+          "address": "8.8.8.8",
+          "domains": [
+            "geosite:category-ir",
+            "domain:.ir"
+          ],
+          "expectIPs": [
+            "geoip:ir"
+          ],
+          "port": 53
+        }
+      ],
+      "tag": "dns"
+    },
+    "inbounds": [
+      {
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "socks-in"
+      },
+      {
+        "port": 10809,
+        "protocol": "http",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "http-in"
+      },
+      {
+        "listen": "127.0.0.1",
+        "port": 10853,
+        "protocol": "dokodemo-door",
+        "settings": {
+          "address": "1.1.1.1",
+          "network": "tcp,udp",
+          "port": 53
+        },
+        "tag": "dns-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "wireguard",
+        "settings": {
+          "address": [
+            "172.16.0.2/32",
+            "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
+          ],
+          "mtu": 1300,
+          "peers": [
+            {
+              "endpoint": "188.114.97.33:943",
+              "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+            }
+          ],
+          "reserved": [
+            138,
+            62,
+            16
+          ],
+          "secretKey": "yMQIKlRz7QqsqRkigbzwz76MxHc8KJI+0Fk86k9iIkY=",
+          "keepAlive": 10,
+          "wnoise": "quic",
+          "wnoisecount": "10-15",
+          "wpayloadsize": "1-8",
+          "wnoisedelay": "1-3"
+        },
+        "streamSettings": {
+          "sockopt": {
+            "dialerProxy": "warp-ir"
+          }
+        },
+        "tag": "warp-out"
+      },
+      {
+        "protocol": "wireguard",
+        "settings": {
+          "address": [
+            "172.16.0.2/32",
+            "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
+          ],
+          "mtu": 1300,
+          "peers": [
+            {
+              "endpoint": "188.114.99.164:943",
+              "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+            }
+          ],
+          "reserved": [
+            157,
+            181,
+            101
+          ],
+          "secretKey": "YISPFjzvzXYlxaqpryXfPoPAgB4VZa0xf73nzojRg3w=",
+          "keepAlive": 10,
+          "wnoise": "quic",
+          "wnoisecount": "10-15",
+          "wpayloadsize": "1-8",
+          "wnoisedelay": "1-3"
+        },
+        "tag": "warp-ir"
+      },
+      {
+        "protocol": "dns",
+        "tag": "dns-out"
+      },
+      {
+        "protocol": "freedom",
+        "settings": {},
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "policy": {
+      "levels": {
+        "8": {
+          "connIdle": 300,
+          "downlinkOnly": 1,
+          "handshake": 4,
+          "uplinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundUplink": true,
+        "statsOutboundDownlink": true
+      }
+    },
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "inboundTag": [
+            "dns-in"
+          ],
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "8.8.8.8"
+          ],
+          "outboundTag": "direct",
+          "port": "53",
+          "type": "field"
+        },
+        {
+          "domain": [
+            "geosite:category-ir",
+            "domain:.ir"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "geoip:ir",
+            "geoip:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "outboundTag": "warp-out",
+          "type": "field",
+          "network": "tcp,udp"
+        }
+      ]
+    },
+    "stats": {}
+  },
+  {
+    "remarks": "⭐️Tel=Warp💦-WoW💥",
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "hosts": {},
+      "servers": [
+        "https://1.1.1.1/dns-query",
+        {
+          "address": "8.8.8.8",
+          "domains": [
+            "geosite:category-ir",
+            "domain:.ir"
+          ],
+          "expectIPs": [
+            "geoip:ir"
+          ],
+          "port": 53
+        }
+      ],
+      "tag": "dns"
+    },
+    "inbounds": [
+      {
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "socks-in"
+      },
+      {
+        "port": 10809,
+        "protocol": "http",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "http-in"
+      },
+      {
+        "listen": "127.0.0.1",
+        "port": 10853,
+        "protocol": "dokodemo-door",
+        "settings": {
+          "address": "1.1.1.1",
+          "network": "tcp,udp",
+          "port": 53
+        },
+        "tag": "dns-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "wireguard",
+        "settings": {
+          "address": [
+            "172.16.0.2/32",
+            "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
+          ],
+          "mtu": 1300,
+          "peers": [
+            {
+              "endpoint": "188.114.97.66:4500",
+              "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+            }
+          ],
+          "reserved": [
+            18,
+            152,
+            193
+          ],
+          "secretKey": "yFn6h9AK/RA3jWI5XmVoYzzbvVa6NH4V2XQaTz5bEWM=",
+          "keepAlive": 10,
+          "wnoise": "quic",
+          "wnoisecount": "10-15",
+          "wpayloadsize": "1-8",
+          "wnoisedelay": "1-3"
+        },
+        "streamSettings": {
+          "sockopt": {
+            "dialerProxy": "warp-ir"
+          }
+        },
+        "tag": "warp-out"
+      },
+      {
+        "protocol": "wireguard",
+        "settings": {
+          "address": [
+            "172.16.0.2/32",
+            "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
+          ],
+          "mtu": 1300,
+          "peers": [
+            {
+              "endpoint": "188.114.99.158:4500",
+              "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+            }
+          ],
+          "reserved": [
+            164,
+            182,
+            246
+          ],
+          "secretKey": "kEXSrXJsMpp6ZfJ9/SAtiDU6KvefNwovkCTuv6YdNUs=",
+          "keepAlive": 10,
+          "wnoise": "quic",
+          "wnoisecount": "10-15",
+          "wpayloadsize": "1-8",
+          "wnoisedelay": "1-3"
+        },
+        "tag": "warp-ir"
+      },
+      {
+        "protocol": "dns",
+        "tag": "dns-out"
+      },
+      {
+        "protocol": "freedom",
+        "settings": {},
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "policy": {
+      "levels": {
+        "8": {
+          "connIdle": 300,
+          "downlinkOnly": 1,
+          "handshake": 4,
+          "uplinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundUplink": true,
+        "statsOutboundDownlink": true
+      }
+    },
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "inboundTag": [
+            "dns-in"
+          ],
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "8.8.8.8"
+          ],
+          "outboundTag": "direct",
+          "port": "53",
+          "type": "field"
+        },
+        {
+          "domain": [
+            "geosite:category-ir",
+            "domain:.ir"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "geoip:ir",
+            "geoip:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "outboundTag": "warp-out",
+          "type": "field",
+          "network": "tcp,udp"
+        }
+      ]
+    },
+    "stats": {}
+  },
+  {
+    "remarks": "⭐️Tel=Warp💦-WoW💥",
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "hosts": {},
+      "servers": [
+        "https://1.1.1.1/dns-query",
+        {
+          "address": "8.8.8.8",
+          "domains": [
+            "geosite:category-ir",
+            "domain:.ir"
+          ],
+          "expectIPs": [
+            "geoip:ir"
+          ],
+          "port": 53
+        }
+      ],
+      "tag": "dns"
+    },
+    "inbounds": [
+      {
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "socks-in"
+      },
+      {
+        "port": 10809,
+        "protocol": "http",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "http-in"
+      },
+      {
+        "listen": "127.0.0.1",
+        "port": 10853,
+        "protocol": "dokodemo-door",
+        "settings": {
+          "address": "1.1.1.1",
+          "network": "tcp,udp",
+          "port": 53
+        },
+        "tag": "dns-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "wireguard",
+        "settings": {
+          "address": [
+            "172.16.0.2/32",
+            "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
+          ],
+          "mtu": 1300,
+          "peers": [
+            {
+              "endpoint": "188.114.96.204:4500",
+              "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+            }
+          ],
+          "reserved": [
+            168,
+            72,
+            9
+          ],
+          "secretKey": "qPxVtPhR4hNypsHQHaojv2MRAFPSDSuoAU9o4I2L6k4=",
+          "keepAlive": 10,
+          "wnoise": "quic",
+          "wnoisecount": "10-15",
+          "wpayloadsize": "1-8",
+          "wnoisedelay": "1-3"
+        },
+        "streamSettings": {
+          "sockopt": {
+            "dialerProxy": "warp-ir"
+          }
+        },
+        "tag": "warp-out"
+      },
+      {
+        "protocol": "wireguard",
+        "settings": {
+          "address": [
+            "172.16.0.2/32",
+            "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
+          ],
+          "mtu": 1300,
+          "peers": [
+            {
+              "endpoint": "188.114.98.37:4500",
+              "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+            }
+          ],
+          "reserved": [
+            242,
+            21,
+            79
+          ],
+          "secretKey": "kADyX/hgm6U1pVm/E3iln3ObRpey0CQxdRlT9VQX1E8=",
+          "keepAlive": 10,
+          "wnoise": "quic",
+          "wnoisecount": "10-15",
+          "wpayloadsize": "1-8",
+          "wnoisedelay": "1-3"
+        },
+        "tag": "warp-ir"
+      },
+      {
+        "protocol": "dns",
+        "tag": "dns-out"
+      },
+      {
+        "protocol": "freedom",
+        "settings": {},
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "policy": {
+      "levels": {
+        "8": {
+          "connIdle": 300,
+          "downlinkOnly": 1,
+          "handshake": 4,
+          "uplinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundUplink": true,
+        "statsOutboundDownlink": true
+      }
+    },
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "inboundTag": [
+            "dns-in"
+          ],
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "8.8.8.8"
+          ],
+          "outboundTag": "direct",
+          "port": "53",
+          "type": "field"
+        },
+        {
+          "domain": [
+            "geosite:category-ir",
+            "domain:.ir"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "geoip:ir",
+            "geoip:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "outboundTag": "warp-out",
+          "type": "field",
+          "network": "tcp,udp"
+        }
+      ]
+    },
+    "stats": {}
+  },
+  {
+    "remarks": "⭐️Tel=Warp💦-WoW💥",
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "hosts": {},
+      "servers": [
+        "https://1.1.1.1/dns-query",
+        {
+          "address": "8.8.8.8",
+          "domains": [
+            "geosite:category-ir",
+            "domain:.ir"
+          ],
+          "expectIPs": [
+            "geoip:ir"
+          ],
+          "port": 53
+        }
+      ],
+      "tag": "dns"
+    },
+    "inbounds": [
+      {
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "socks-in"
+      },
+      {
+        "port": 10809,
+        "protocol": "http",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "http-in"
+      },
+      {
+        "listen": "127.0.0.1",
+        "port": 10853,
+        "protocol": "dokodemo-door",
+        "settings": {
+          "address": "1.1.1.1",
+          "network": "tcp,udp",
+          "port": 53
+        },
+        "tag": "dns-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "wireguard",
+        "settings": {
+          "address": [
+            "172.16.0.2/32",
+            "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
+          ],
+          "mtu": 1300,
+          "peers": [
+            {
+              "endpoint": "188.114.96.213:1701",
+              "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+            }
+          ],
+          "reserved": [
+            187,
+            115,
+            22
+          ],
+          "secretKey": "yKInh6TXfbn49pDQj4K1voFdnLInMv6ZhHTQWK75Y3o=",
+          "keepAlive": 10,
+          "wnoise": "quic",
+          "wnoisecount": "10-15",
+          "wpayloadsize": "1-8",
+          "wnoisedelay": "1-3"
+        },
+        "streamSettings": {
+          "sockopt": {
+            "dialerProxy": "warp-ir"
+          }
+        },
+        "tag": "warp-out"
+      },
+      {
+        "protocol": "wireguard",
+        "settings": {
+          "address": [
+            "172.16.0.2/32",
+            "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
+          ],
+          "mtu": 1300,
+          "peers": [
+            {
+              "endpoint": "188.114.98.246:1701",
+              "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+            }
+          ],
+          "reserved": [
+            121,
+            140,
+            102
+          ],
+          "secretKey": "MF/BJr6SQ+NVLaR/yuz/xDQRyOa258Vn2RjdvnpjVlA=",
+          "keepAlive": 10,
+          "wnoise": "quic",
+          "wnoisecount": "10-15",
+          "wpayloadsize": "1-8",
+          "wnoisedelay": "1-3"
+        },
+        "tag": "warp-ir"
+      },
+      {
+        "protocol": "dns",
+        "tag": "dns-out"
+      },
+      {
+        "protocol": "freedom",
+        "settings": {},
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "policy": {
+      "levels": {
+        "8": {
+          "connIdle": 300,
+          "downlinkOnly": 1,
+          "handshake": 4,
+          "uplinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundUplink": true,
+        "statsOutboundDownlink": true
+      }
+    },
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "inboundTag": [
+            "dns-in"
+          ],
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "8.8.8.8"
+          ],
+          "outboundTag": "direct",
+          "port": "53",
+          "type": "field"
+        },
+        {
+          "domain": [
+            "geosite:category-ir",
+            "domain:.ir"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "geoip:ir",
+            "geoip:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "outboundTag": "warp-out",
+          "type": "field",
+          "network": "tcp,udp"
+        }
+      ]
+    },
+    "stats": {}
+  },
+  {
+    "remarks": "⭐️Tel=Warp💦-WoW💥",
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "hosts": {},
+      "servers": [
+        "https://1.1.1.1/dns-query",
+        {
+          "address": "8.8.8.8",
+          "domains": [
+            "geosite:category-ir",
+            "domain:.ir"
+          ],
+          "expectIPs": [
+            "geoip:ir"
+          ],
+          "port": 53
+        }
+      ],
+      "tag": "dns"
+    },
+    "inbounds": [
+      {
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "socks-in"
+      },
+      {
+        "port": 10809,
+        "protocol": "http",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "http-in"
+      },
+      {
+        "listen": "127.0.0.1",
+        "port": 10853,
+        "protocol": "dokodemo-door",
+        "settings": {
+          "address": "1.1.1.1",
+          "network": "tcp,udp",
+          "port": 53
+        },
+        "tag": "dns-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "wireguard",
+        "settings": {
+          "address": [
+            "172.16.0.2/32",
+            "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
+          ],
+          "mtu": 1300,
+          "peers": [
+            {
+              "endpoint": "188.114.96.21:942",
+              "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+            }
+          ],
+          "reserved": [
+            194,
+            197,
+            175
+          ],
+          "secretKey": "gMqv6jkDb7kbF4Tdfb0MPanmf3y2j4o/EHMr4fzpNHc=",
+          "keepAlive": 10,
+          "wnoise": "quic",
+          "wnoisecount": "10-15",
+          "wpayloadsize": "1-8",
+          "wnoisedelay": "1-3"
+        },
+        "streamSettings": {
+          "sockopt": {
+            "dialerProxy": "warp-ir"
+          }
+        },
+        "tag": "warp-out"
+      },
+      {
+        "protocol": "wireguard",
+        "settings": {
+          "address": [
+            "172.16.0.2/32",
+            "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
+          ],
+          "mtu": 1300,
+          "peers": [
+            {
+              "endpoint": "188.114.96.137:942",
+              "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+            }
+          ],
+          "reserved": [
+            27,
+            46,
+            121
+          ],
+          "secretKey": "wJYo5b1/tL5yBnq1IOO/L/Z1hPdviClq7LCskH+j9EY=",
+          "keepAlive": 10,
+          "wnoise": "quic",
+          "wnoisecount": "10-15",
+          "wpayloadsize": "1-8",
+          "wnoisedelay": "1-3"
+        },
+        "tag": "warp-ir"
+      },
+      {
+        "protocol": "dns",
+        "tag": "dns-out"
+      },
+      {
+        "protocol": "freedom",
+        "settings": {},
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "policy": {
+      "levels": {
+        "8": {
+          "connIdle": 300,
+          "downlinkOnly": 1,
+          "handshake": 4,
+          "uplinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundUplink": true,
+        "statsOutboundDownlink": true
+      }
+    },
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "inboundTag": [
+            "dns-in"
+          ],
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "8.8.8.8"
+          ],
+          "outboundTag": "direct",
+          "port": "53",
+          "type": "field"
+        },
+        {
+          "domain": [
+            "geosite:category-ir",
+            "domain:.ir"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "geoip:ir",
+            "geoip:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "outboundTag": "warp-out",
+          "type": "field",
+          "network": "tcp,udp"
+        }
+      ]
+    },
+    "stats": {}
+  },
+  {
+    "remarks": "⭐️Tel=Warp💦-WoW💥",
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "hosts": {},
+      "servers": [
+        "https://1.1.1.1/dns-query",
+        {
+          "address": "8.8.8.8",
+          "domains": [
+            "geosite:category-ir",
+            "domain:.ir"
+          ],
+          "expectIPs": [
+            "geoip:ir"
+          ],
+          "port": 53
+        }
+      ],
+      "tag": "dns"
+    },
+    "inbounds": [
+      {
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "socks-in"
+      },
+      {
+        "port": 10809,
+        "protocol": "http",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "http-in"
+      },
+      {
+        "listen": "127.0.0.1",
+        "port": 10853,
+        "protocol": "dokodemo-door",
+        "settings": {
+          "address": "1.1.1.1",
+          "network": "tcp,udp",
+          "port": 53
+        },
+        "tag": "dns-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "wireguard",
+        "settings": {
+          "address": [
+            "172.16.0.2/32",
+            "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
+          ],
+          "mtu": 1300,
+          "peers": [
+            {
+              "endpoint": "188.114.96.92:1070",
+              "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+            }
+          ],
+          "reserved": [
+            179,
+            106,
+            179
+          ],
+          "secretKey": "2Fkef6NujSkSAAZQyhC25haVQxDcUJuuZlWTmnv6K3I=",
+          "keepAlive": 10,
+          "wnoise": "quic",
+          "wnoisecount": "10-15",
+          "wpayloadsize": "1-8",
+          "wnoisedelay": "1-3"
+        },
+        "streamSettings": {
+          "sockopt": {
+            "dialerProxy": "warp-ir"
+          }
+        },
+        "tag": "warp-out"
+      },
+      {
+        "protocol": "wireguard",
+        "settings": {
+          "address": [
+            "172.16.0.2/32",
+            "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
+          ],
+          "mtu": 1300,
+          "peers": [
+            {
+              "endpoint": "188.114.98.75:1070",
+              "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+            }
+          ],
+          "reserved": [
+            147,
+            126,
+            85
+          ],
+          "secretKey": "eA/qkxqQrqoo0tHMUlDAyVNYopmgv5EQq3HN60cVDHY=",
+          "keepAlive": 10,
+          "wnoise": "quic",
+          "wnoisecount": "10-15",
+          "wpayloadsize": "1-8",
+          "wnoisedelay": "1-3"
+        },
+        "tag": "warp-ir"
+      },
+      {
+        "protocol": "dns",
+        "tag": "dns-out"
+      },
+      {
+        "protocol": "freedom",
+        "settings": {},
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "policy": {
+      "levels": {
+        "8": {
+          "connIdle": 300,
+          "downlinkOnly": 1,
+          "handshake": 4,
+          "uplinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundUplink": true,
+        "statsOutboundDownlink": true
+      }
+    },
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "inboundTag": [
+            "dns-in"
+          ],
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "8.8.8.8"
+          ],
+          "outboundTag": "direct",
+          "port": "53",
+          "type": "field"
+        },
+        {
+          "domain": [
+            "geosite:category-ir",
+            "domain:.ir"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "geoip:ir",
+            "geoip:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "outboundTag": "warp-out",
+          "type": "field",
+          "network": "tcp,udp"
+        }
+      ]
+    },
+    "stats": {}
+  },
+  {
+    "remarks": "⭐️Tel=Warp💦-WoW💥",
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "hosts": {},
+      "servers": [
+        "https://1.1.1.1/dns-query",
+        {
+          "address": "8.8.8.8",
+          "domains": [
+            "geosite:category-ir",
+            "domain:.ir"
+          ],
+          "expectIPs": [
+            "geoip:ir"
+          ],
+          "port": 53
+        }
+      ],
+      "tag": "dns"
+    },
+    "inbounds": [
+      {
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "socks-in"
+      },
+      {
+        "port": 10809,
+        "protocol": "http",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "http-in"
+      },
+      {
+        "listen": "127.0.0.1",
+        "port": 10853,
+        "protocol": "dokodemo-door",
+        "settings": {
+          "address": "1.1.1.1",
+          "network": "tcp,udp",
+          "port": 53
+        },
+        "tag": "dns-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "wireguard",
+        "settings": {
+          "address": [
+            "172.16.0.2/32",
+            "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
+          ],
+          "mtu": 1300,
+          "peers": [
+            {
+              "endpoint": "188.114.97.43:1701",
+              "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+            }
+          ],
+          "reserved": [
+            16,
+            80,
+            87
+          ],
+          "secretKey": "UFjKSk3Au7AUsJ9Z1VOn/KJAYj0s4BbGsrHvyeRZLEU=",
+          "keepAlive": 10,
+          "wnoise": "quic",
+          "wnoisecount": "10-15",
+          "wpayloadsize": "1-8",
+          "wnoisedelay": "1-3"
+        },
+        "streamSettings": {
+          "sockopt": {
+            "dialerProxy": "warp-ir"
+          }
+        },
+        "tag": "warp-out"
+      },
+      {
+        "protocol": "wireguard",
+        "settings": {
+          "address": [
+            "172.16.0.2/32",
+            "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
+          ],
+          "mtu": 1300,
+          "peers": [
+            {
+              "endpoint": "188.114.99.179:1701",
+              "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+            }
+          ],
+          "reserved": [
+            104,
+            1,
+            92
+          ],
+          "secretKey": "yPxOHdGeXEXJI4U96X1BLZAWWsuWF+bkj6VU6ywF4lA=",
+          "keepAlive": 10,
+          "wnoise": "quic",
+          "wnoisecount": "10-15",
+          "wpayloadsize": "1-8",
+          "wnoisedelay": "1-3"
+        },
+        "tag": "warp-ir"
+      },
+      {
+        "protocol": "dns",
+        "tag": "dns-out"
+      },
+      {
+        "protocol": "freedom",
+        "settings": {},
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "policy": {
+      "levels": {
+        "8": {
+          "connIdle": 300,
+          "downlinkOnly": 1,
+          "handshake": 4,
+          "uplinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundUplink": true,
+        "statsOutboundDownlink": true
+      }
+    },
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "inboundTag": [
+            "dns-in"
+          ],
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "8.8.8.8"
+          ],
+          "outboundTag": "direct",
+          "port": "53",
+          "type": "field"
+        },
+        {
+          "domain": [
+            "geosite:category-ir",
+            "domain:.ir"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "geoip:ir",
+            "geoip:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "outboundTag": "warp-out",
+          "type": "field",
+          "network": "tcp,udp"
+        }
+      ]
+    },
+    "stats": {}
+  },
+  {
+    "remarks": "⭐️Tel=Warp💦-WoW💥",
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "hosts": {},
+      "servers": [
+        "https://1.1.1.1/dns-query",
+        {
+          "address": "8.8.8.8",
+          "domains": [
+            "geosite:category-ir",
+            "domain:.ir"
+          ],
+          "expectIPs": [
+            "geoip:ir"
+          ],
+          "port": 53
+        }
+      ],
+      "tag": "dns"
+    },
+    "inbounds": [
+      {
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "socks-in"
+      },
+      {
+        "port": 10809,
+        "protocol": "http",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "http-in"
+      },
+      {
+        "listen": "127.0.0.1",
+        "port": 10853,
+        "protocol": "dokodemo-door",
+        "settings": {
+          "address": "1.1.1.1",
+          "network": "tcp,udp",
+          "port": 53
+        },
+        "tag": "dns-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "wireguard",
+        "settings": {
+          "address": [
+            "172.16.0.2/32",
+            "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
+          ],
+          "mtu": 1300,
+          "peers": [
+            {
+              "endpoint": "188.114.97.48:3854",
+              "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+            }
+          ],
+          "reserved": [
+            52,
+            254,
+            22
+          ],
+          "secretKey": "cMnWhTTfBHQ+bvFrKNww/oM51UePhwR2Jk4t/gO/9mM=",
+          "keepAlive": 10,
+          "wnoise": "quic",
+          "wnoisecount": "10-15",
+          "wpayloadsize": "1-8",
+          "wnoisedelay": "1-3"
+        },
+        "streamSettings": {
+          "sockopt": {
+            "dialerProxy": "warp-ir"
+          }
+        },
+        "tag": "warp-out"
+      },
+      {
+        "protocol": "wireguard",
+        "settings": {
+          "address": [
+            "172.16.0.2/32",
+            "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
+          ],
+          "mtu": 1300,
+          "peers": [
+            {
+              "endpoint": "188.114.96.75:3854",
+              "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+            }
+          ],
+          "reserved": [
+            240,
+            142,
+            83
+          ],
+          "secretKey": "iOm8gt9K/fJw443getFD7WnBNfUvNN4wzTlgcgADc2U=",
+          "keepAlive": 10,
+          "wnoise": "quic",
+          "wnoisecount": "10-15",
+          "wpayloadsize": "1-8",
+          "wnoisedelay": "1-3"
+        },
+        "tag": "warp-ir"
+      },
+      {
+        "protocol": "dns",
+        "tag": "dns-out"
+      },
+      {
+        "protocol": "freedom",
+        "settings": {},
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "policy": {
+      "levels": {
+        "8": {
+          "connIdle": 300,
+          "downlinkOnly": 1,
+          "handshake": 4,
+          "uplinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundUplink": true,
+        "statsOutboundDownlink": true
+      }
+    },
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "inboundTag": [
+            "dns-in"
+          ],
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "8.8.8.8"
+          ],
+          "outboundTag": "direct",
+          "port": "53",
+          "type": "field"
+        },
+        {
+          "domain": [
+            "geosite:category-ir",
+            "domain:.ir"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "geoip:ir",
+            "geoip:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "outboundTag": "warp-out",
+          "type": "field",
+          "network": "tcp,udp"
+        }
+      ]
+    },
+    "stats": {}
+  },
+  {
+    "remarks": "⭐️Tel=Warp💦-WoW💥",
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "hosts": {},
+      "servers": [
+        "https://1.1.1.1/dns-query",
+        {
+          "address": "8.8.8.8",
+          "domains": [
+            "geosite:category-ir",
+            "domain:.ir"
+          ],
+          "expectIPs": [
+            "geoip:ir"
+          ],
+          "port": 53
+        }
+      ],
+      "tag": "dns"
+    },
+    "inbounds": [
+      {
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "socks-in"
+      },
+      {
+        "port": 10809,
+        "protocol": "http",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "http-in"
+      },
+      {
+        "listen": "127.0.0.1",
+        "port": 10853,
+        "protocol": "dokodemo-door",
+        "settings": {
+          "address": "1.1.1.1",
+          "network": "tcp,udp",
+          "port": 53
+        },
+        "tag": "dns-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "wireguard",
+        "settings": {
+          "address": [
+            "172.16.0.2/32",
+            "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
+          ],
+          "mtu": 1300,
+          "peers": [
+            {
+              "endpoint": "188.114.98.104:2371",
+              "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+            }
+          ],
+          "reserved": [
+            236,
+            74,
+            200
+          ],
+          "secretKey": "gAR/at0ZhvvVMEoVLJK6kyKI7nFGtmpd5eFjdtF+lGg=",
+          "keepAlive": 10,
+          "wnoise": "quic",
+          "wnoisecount": "10-15",
+          "wpayloadsize": "1-8",
+          "wnoisedelay": "1-3"
+        },
+        "streamSettings": {
+          "sockopt": {
+            "dialerProxy": "warp-ir"
+          }
+        },
+        "tag": "warp-out"
+      },
+      {
+        "protocol": "wireguard",
+        "settings": {
+          "address": [
+            "172.16.0.2/32",
+            "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
+          ],
+          "mtu": 1300,
+          "peers": [
+            {
+              "endpoint": "188.114.97.195:2371",
+              "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+            }
+          ],
+          "reserved": [
+            93,
+            207,
+            89
+          ],
+          "secretKey": "yNbXmVs1xg9A4olYZyhcgIfA+ugyRDVWhGJbK9ZKFW4=",
+          "keepAlive": 10,
+          "wnoise": "quic",
+          "wnoisecount": "10-15",
+          "wpayloadsize": "1-8",
+          "wnoisedelay": "1-3"
+        },
+        "tag": "warp-ir"
+      },
+      {
+        "protocol": "dns",
+        "tag": "dns-out"
+      },
+      {
+        "protocol": "freedom",
+        "settings": {},
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "policy": {
+      "levels": {
+        "8": {
+          "connIdle": 300,
+          "downlinkOnly": 1,
+          "handshake": 4,
+          "uplinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundUplink": true,
+        "statsOutboundDownlink": true
+      }
+    },
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "inboundTag": [
+            "dns-in"
+          ],
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "8.8.8.8"
+          ],
+          "outboundTag": "direct",
+          "port": "53",
+          "type": "field"
+        },
+        {
+          "domain": [
+            "geosite:category-ir",
+            "domain:.ir"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "geoip:ir",
+            "geoip:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "outboundTag": "warp-out",
+          "type": "field",
+          "network": "tcp,udp"
+        }
+      ]
+    },
+    "stats": {}
+  },
+  {
+    "remarks": "⭐️Tel=Warp💦-WoW💥",
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "hosts": {},
+      "servers": [
+        "https://1.1.1.1/dns-query",
+        {
+          "address": "8.8.8.8",
+          "domains": [
+            "geosite:category-ir",
+            "domain:.ir"
+          ],
+          "expectIPs": [
+            "geoip:ir"
+          ],
+          "port": 53
+        }
+      ],
+      "tag": "dns"
+    },
+    "inbounds": [
+      {
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "socks-in"
+      },
+      {
+        "port": 10809,
+        "protocol": "http",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "http-in"
+      },
+      {
+        "listen": "127.0.0.1",
+        "port": 10853,
+        "protocol": "dokodemo-door",
+        "settings": {
+          "address": "1.1.1.1",
+          "network": "tcp,udp",
+          "port": 53
+        },
+        "tag": "dns-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "wireguard",
+        "settings": {
+          "address": [
+            "172.16.0.2/32",
+            "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
+          ],
+          "mtu": 1300,
+          "peers": [
+            {
+              "endpoint": "188.114.98.159:908",
+              "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+            }
+          ],
+          "reserved": [
+            162,
+            65,
+            186
+          ],
+          "secretKey": "yLNuda3eEzydWBJPVp/eCprCUUZ52hsrkRYv/O1Znlo=",
+          "keepAlive": 10,
+          "wnoise": "quic",
+          "wnoisecount": "10-15",
+          "wpayloadsize": "1-8",
+          "wnoisedelay": "1-3"
+        },
+        "streamSettings": {
+          "sockopt": {
+            "dialerProxy": "warp-ir"
+          }
+        },
+        "tag": "warp-out"
+      },
+      {
+        "protocol": "wireguard",
+        "settings": {
+          "address": [
+            "172.16.0.2/32",
+            "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
+          ],
+          "mtu": 1300,
+          "peers": [
+            {
+              "endpoint": "188.114.97.246:908",
+              "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+            }
+          ],
+          "reserved": [
+            190,
+            207,
+            32
+          ],
+          "secretKey": "mKhhS+Zu8r1GhAJ35bCqpPcJWtLY+5EpP7m3EMnW5XQ=",
+          "keepAlive": 10,
+          "wnoise": "quic",
+          "wnoisecount": "10-15",
+          "wpayloadsize": "1-8",
+          "wnoisedelay": "1-3"
+        },
+        "tag": "warp-ir"
+      },
+      {
+        "protocol": "dns",
+        "tag": "dns-out"
+      },
+      {
+        "protocol": "freedom",
+        "settings": {},
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "policy": {
+      "levels": {
+        "8": {
+          "connIdle": 300,
+          "downlinkOnly": 1,
+          "handshake": 4,
+          "uplinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundUplink": true,
+        "statsOutboundDownlink": true
+      }
+    },
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "inboundTag": [
+            "dns-in"
+          ],
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "8.8.8.8"
+          ],
+          "outboundTag": "direct",
+          "port": "53",
+          "type": "field"
+        },
+        {
+          "domain": [
+            "geosite:category-ir",
+            "domain:.ir"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "geoip:ir",
+            "geoip:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "outboundTag": "warp-out",
+          "type": "field",
+          "network": "tcp,udp"
+        }
+      ]
+    },
+    "stats": {}
+  },
+  {
+    "remarks": "⭐️Tel=Warp💦-WoW💥",
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "hosts": {},
+      "servers": [
+        "https://1.1.1.1/dns-query",
+        {
+          "address": "8.8.8.8",
+          "domains": [
+            "geosite:category-ir",
+            "domain:.ir"
+          ],
+          "expectIPs": [
+            "geoip:ir"
+          ],
+          "port": 53
+        }
+      ],
+      "tag": "dns"
+    },
+    "inbounds": [
+      {
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "socks-in"
+      },
+      {
+        "port": 10809,
+        "protocol": "http",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "http-in"
+      },
+      {
+        "listen": "127.0.0.1",
+        "port": 10853,
+        "protocol": "dokodemo-door",
+        "settings": {
+          "address": "1.1.1.1",
+          "network": "tcp,udp",
+          "port": 53
+        },
+        "tag": "dns-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "wireguard",
+        "settings": {
+          "address": [
+            "172.16.0.2/32",
+            "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
+          ],
+          "mtu": 1300,
+          "peers": [
+            {
+              "endpoint": "188.114.98.203:7281",
+              "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+            }
+          ],
+          "reserved": [
+            12,
+            92,
+            212
+          ],
+          "secretKey": "KMdEiP3WGyQ3rNgOVNgfQ4Q6bNJsiBw+QPhtJkJ/M1c=",
+          "keepAlive": 10,
+          "wnoise": "quic",
+          "wnoisecount": "10-15",
+          "wpayloadsize": "1-8",
+          "wnoisedelay": "1-3"
+        },
+        "streamSettings": {
+          "sockopt": {
+            "dialerProxy": "warp-ir"
+          }
+        },
+        "tag": "warp-out"
+      },
+      {
+        "protocol": "wireguard",
+        "settings": {
+          "address": [
+            "172.16.0.2/32",
+            "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
+          ],
+          "mtu": 1300,
+          "peers": [
+            {
+              "endpoint": "188.114.97.123:7281",
+              "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+            }
+          ],
+          "reserved": [
+            177,
+            220,
+            188
+          ],
+          "secretKey": "sC+zKBAJO32gPu0eXi4cwovpN7257d1UJ+C/jqEwNHo=",
+          "keepAlive": 10,
+          "wnoise": "quic",
+          "wnoisecount": "10-15",
+          "wpayloadsize": "1-8",
+          "wnoisedelay": "1-3"
+        },
+        "tag": "warp-ir"
+      },
+      {
+        "protocol": "dns",
+        "tag": "dns-out"
+      },
+      {
+        "protocol": "freedom",
+        "settings": {},
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "policy": {
+      "levels": {
+        "8": {
+          "connIdle": 300,
+          "downlinkOnly": 1,
+          "handshake": 4,
+          "uplinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundUplink": true,
+        "statsOutboundDownlink": true
+      }
+    },
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "inboundTag": [
+            "dns-in"
+          ],
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "8.8.8.8"
+          ],
+          "outboundTag": "direct",
+          "port": "53",
+          "type": "field"
+        },
+        {
+          "domain": [
+            "geosite:category-ir",
+            "domain:.ir"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "geoip:ir",
+            "geoip:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "outboundTag": "warp-out",
+          "type": "field",
+          "network": "tcp,udp"
+        }
+      ]
+    },
+    "stats": {}
+  },
+  {
+    "remarks": "⭐️Tel=Warp💦-WoW💥",
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "hosts": {},
+      "servers": [
+        "https://1.1.1.1/dns-query",
+        {
+          "address": "8.8.8.8",
+          "domains": [
+            "geosite:category-ir",
+            "domain:.ir"
+          ],
+          "expectIPs": [
+            "geoip:ir"
+          ],
+          "port": 53
+        }
+      ],
+      "tag": "dns"
+    },
+    "inbounds": [
+      {
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "socks-in"
+      },
+      {
+        "port": 10809,
+        "protocol": "http",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "http-in"
+      },
+      {
+        "listen": "127.0.0.1",
+        "port": 10853,
+        "protocol": "dokodemo-door",
+        "settings": {
+          "address": "1.1.1.1",
+          "network": "tcp,udp",
+          "port": 53
+        },
+        "tag": "dns-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "wireguard",
+        "settings": {
+          "address": [
+            "172.16.0.2/32",
+            "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
+          ],
+          "mtu": 1300,
+          "peers": [
+            {
+              "endpoint": "188.114.98.207:1701",
+              "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+            }
+          ],
+          "reserved": [
+            171,
+            50,
+            165
+          ],
+          "secretKey": "ECDJjWziwXYwePCO6fv/7/y2T9d1IZmV3t1GLXNzB1M=",
+          "keepAlive": 10,
+          "wnoise": "quic",
+          "wnoisecount": "10-15",
+          "wpayloadsize": "1-8",
+          "wnoisedelay": "1-3"
+        },
+        "streamSettings": {
+          "sockopt": {
+            "dialerProxy": "warp-ir"
+          }
+        },
+        "tag": "warp-out"
+      },
+      {
+        "protocol": "wireguard",
+        "settings": {
+          "address": [
+            "172.16.0.2/32",
+            "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
+          ],
+          "mtu": 1300,
+          "peers": [
+            {
+              "endpoint": "188.114.97.151:1701",
+              "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+            }
+          ],
+          "reserved": [
+            104,
+            97,
+            53
+          ],
+          "secretKey": "2G20tCH7PnEbpb5k/0VTAK4UJOJFJ2WMY3N8tEKREnc=",
+          "keepAlive": 10,
+          "wnoise": "quic",
+          "wnoisecount": "10-15",
+          "wpayloadsize": "1-8",
+          "wnoisedelay": "1-3"
+        },
+        "tag": "warp-ir"
+      },
+      {
+        "protocol": "dns",
+        "tag": "dns-out"
+      },
+      {
+        "protocol": "freedom",
+        "settings": {},
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "policy": {
+      "levels": {
+        "8": {
+          "connIdle": 300,
+          "downlinkOnly": 1,
+          "handshake": 4,
+          "uplinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundUplink": true,
+        "statsOutboundDownlink": true
+      }
+    },
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "inboundTag": [
+            "dns-in"
+          ],
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "8.8.8.8"
+          ],
+          "outboundTag": "direct",
+          "port": "53",
+          "type": "field"
+        },
+        {
+          "domain": [
+            "geosite:category-ir",
+            "domain:.ir"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "geoip:ir",
+            "geoip:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "outboundTag": "warp-out",
+          "type": "field",
+          "network": "tcp,udp"
+        }
+      ]
+    },
+    "stats": {}
+  },
+  {
+    "remarks": "⭐️Tel=Warp💦-WoW💥",
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "hosts": {},
+      "servers": [
+        "https://1.1.1.1/dns-query",
+        {
+          "address": "8.8.8.8",
+          "domains": [
+            "geosite:category-ir",
+            "domain:.ir"
+          ],
+          "expectIPs": [
+            "geoip:ir"
+          ],
+          "port": 53
+        }
+      ],
+      "tag": "dns"
+    },
+    "inbounds": [
+      {
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "socks-in"
+      },
+      {
+        "port": 10809,
+        "protocol": "http",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "http-in"
+      },
+      {
+        "listen": "127.0.0.1",
+        "port": 10853,
+        "protocol": "dokodemo-door",
+        "settings": {
+          "address": "1.1.1.1",
+          "network": "tcp,udp",
+          "port": 53
+        },
+        "tag": "dns-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "wireguard",
+        "settings": {
+          "address": [
+            "172.16.0.2/32",
+            "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
+          ],
+          "mtu": 1300,
+          "peers": [
+            {
+              "endpoint": "188.114.98.211:987",
+              "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+            }
+          ],
+          "reserved": [
+            251,
+            20,
+            16
+          ],
+          "secretKey": "6M0GG3fDfJBxZCbEo81vgVjIoyqfLfZyjRoA/rTqzEE=",
+          "keepAlive": 10,
+          "wnoise": "quic",
+          "wnoisecount": "10-15",
+          "wpayloadsize": "1-8",
+          "wnoisedelay": "1-3"
+        },
+        "streamSettings": {
+          "sockopt": {
+            "dialerProxy": "warp-ir"
+          }
+        },
+        "tag": "warp-out"
+      },
+      {
+        "protocol": "wireguard",
+        "settings": {
+          "address": [
+            "172.16.0.2/32",
+            "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
+          ],
+          "mtu": 1300,
+          "peers": [
+            {
+              "endpoint": "188.114.97.166:987",
+              "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+            }
+          ],
+          "reserved": [
+            180,
+            144,
+            121
+          ],
+          "secretKey": "uDxsZfydhHmHmGd2HFZE7DkAN+slw4ceD1G4Ut/1tFE=",
+          "keepAlive": 10,
+          "wnoise": "quic",
+          "wnoisecount": "10-15",
+          "wpayloadsize": "1-8",
+          "wnoisedelay": "1-3"
+        },
+        "tag": "warp-ir"
+      },
+      {
+        "protocol": "dns",
+        "tag": "dns-out"
+      },
+      {
+        "protocol": "freedom",
+        "settings": {},
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "policy": {
+      "levels": {
+        "8": {
+          "connIdle": 300,
+          "downlinkOnly": 1,
+          "handshake": 4,
+          "uplinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundUplink": true,
+        "statsOutboundDownlink": true
+      }
+    },
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "inboundTag": [
+            "dns-in"
+          ],
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "8.8.8.8"
+          ],
+          "outboundTag": "direct",
+          "port": "53",
+          "type": "field"
+        },
+        {
+          "domain": [
+            "geosite:category-ir",
+            "domain:.ir"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "geoip:ir",
+            "geoip:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "outboundTag": "warp-out",
+          "type": "qfield",
+          "network": "tcp,udp"
+        }
+      ]
+    },
+    "stats": {}
+  },
+  {
+    "remarks": "⭐️Tel=Warp💦-WoW💥",
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "hosts": {},
+      "servers": [
+        "https://1.1.1.1/dns-query",
+        {
+          "address": "8.8.8.8",
+          "domains": [
+            "geosite:category-ir",
+            "domain:.ir"
+          ],
+          "expectIPs": [
+            "geoip:ir"
+          ],
+          "port": 53
+        }
+      ],
+      "tag": "dns"
+    },
+    "inbounds": [
+      {
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "socks-in"
+      },
+      {
+        "port": 10809,
+        "protocol": "http",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "http-in"
+      },
+      {
+        "listen": "127.0.0.1",
+        "port": 10853,
+        "protocol": "dokodemo-door",
+        "settings": {
+          "address": "1.1.1.1",
+          "network": "tcp,udp",
+          "port": 53
+        },
+        "tag": "dns-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "wireguard",
+        "settings": {
+          "address": [
+            "172.16.0.2/32",
+            "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
+          ],
+          "mtu": 1300,
+          "peers": [
+            {
+              "endpoint": "188.114.98.24:942",
+              "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+            }
+          ],
+          "reserved": [
+            67,
+            248,
+            36
+          ],
+          "secretKey": "WJvZ2juHXK5A+H90mpt1QetDrPHcnaJsuhjV1dRNrH4=",
+          "keepAlive": 10,
+          "wnoise": "quic",
+          "wnoisecount": "10-15",
+          "wpayloadsize": "1-8",
+          "wnoisedelay": "1-3"
+        },
+        "streamSettings": {
+          "sockopt": {
+            "dialerProxy": "warp-ir"
+          }
+        },
+        "tag": "warp-out"
+      },
+      {
+        "protocol": "wireguard",
+        "settings": {
+          "address": [
+            "172.16.0.2/32",
+            "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
+          ],
+          "mtu": 1300,
+          "peers": [
+            {
+              "endpoint": "188.114.97.174:942",
+              "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+            }
+          ],
+          "reserved": [
+            174,
+            227,
+            229
+          ],
+          "secretKey": "iKU1ysIv/jEe2Coe74uNld/HNSykdwHVGD/lfhQRVE4=",
+          "keepAlive": 10,
+          "wnoise": "quic",
+          "wnoisecount": "10-15",
+          "wpayloadsize": "1-8",
+          "wnoisedelay": "1-3"
+        },
+        "tag": "warp-ir"
+      },
+      {
+        "protocol": "dns",
+        "tag": "dns-out"
+      },
+      {
+        "protocol": "freedom",
+        "settings": {},
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "policy": {
+      "levels": {
+        "8": {
+          "connIdle": 300,
+          "downlinkOnly": 1,
+          "handshake": 4,
+          "uplinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundUplink": true,
+        "statsOutboundDownlink": true
+      }
+    },
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "inboundTag": [
+            "dns-in"
+          ],
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "8.8.8.8"
+          ],
+          "outboundTag": "direct",
+          "port": "53",
+          "type": "field"
+        },
+        {
+          "domain": [
+            "geosite:category-ir",
+            "domain:.ir"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "geoip:ir",
+            "geoip:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "outboundTag": "warp-out",
+          "type": "field",
+          "network": "tcp,udp"
+        }
+      ]
+    },
+    "stats": {}
+  },
+  {
+    "remarks": "⭐️Tel=Warp💦-WoW💥",
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "hosts": {},
+      "servers": [
+        "https://1.1.1.1/dns-query",
+        {
+          "address": "8.8.8.8",
+          "domains": [
+            "geosite:category-ir",
+            "domain:.ir"
+          ],
+          "expectIPs": [
+            "geoip:ir"
+          ],
+          "port": 53
+        }
+      ],
+      "tag": "dns"
+    },
+    "inbounds": [
+      {
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "socks-in"
+      },
+      {
+        "port": 10809,
+        "protocol": "http",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "http-in"
+      },
+      {
+        "listen": "127.0.0.1",
+        "port": 10853,
+        "protocol": "dokodemo-door",
+        "settings": {
+          "address": "1.1.1.1",
+          "network": "tcp,udp",
+          "port": 53
+        },
+        "tag": "dns-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "wireguard",
+        "settings": {
+          "address": [
+            "172.16.0.2/32",
+            "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
+          ],
+          "mtu": 1300,
+          "peers": [
+            {
+              "endpoint": "188.114.98.85:2408",
+              "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+            }
+          ],
+          "reserved": [
+            65,
+            9,
+            208
+          ],
+          "secretKey": "4A5nh42pMqkBU1e7rWz7fTXsmhU17dAtqHAmXCmEYGI=",
+          "keepAlive": 10,
+          "wnoise": "quic",
+          "wnoisecount": "10-15",
+          "wpayloadsize": "1-8",
+          "wnoisedelay": "1-3"
+        },
+        "streamSettings": {
+          "sockopt": {
+            "dialerProxy": "warp-ir"
+          }
+        },
+        "tag": "warp-out"
+      },
+      {
+        "protocol": "wireguard",
+        "settings": {
+          "address": [
+            "172.16.0.2/32",
+            "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
+          ],
+          "mtu": 1300,
+          "peers": [
+            {
+              "endpoint": "188.114.99.206:2408",
+              "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+            }
+          ],
+          "reserved": [
+            13,
+            247,
+            124
+          ],
+          "secretKey": "aFWGk/nx47lVj1YZejNcU1WvdbEx3tyh/Kpc+m+4Q14=",
+          "keepAlive": 10,
+          "wnoise": "quic",
+          "wnoisecount": "10-15",
+          "wpayloadsize": "1-8",
+          "wnoisedelay": "1-3"
+        },
+        "tag": "warp-ir"
+      },
+      {
+        "protocol": "dns",
+        "tag": "dns-out"
+      },
+      {
+        "protocol": "freedom",
+        "settings": {},
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "policy": {
+      "levels": {
+        "8": {
+          "connIdle": 300,
+          "downlinkOnly": 1,
+          "handshake": 4,
+          "uplinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundUplink": true,
+        "statsOutboundDownlink": true
+      }
+    },
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "inboundTag": [
+            "dns-in"
+          ],
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "8.8.8.8"
+          ],
+          "outboundTag": "direct",
+          "port": "53",
+          "type": "field"
+        },
+        {
+          "domain": [
+            "geosite:category-ir",
+            "domain:.ir"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "geoip:ir",
+            "geoip:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "outboundTag": "warp-out",
+          "type": "field",
+          "network": "tcp,udp"
+        }
+      ]
+    },
+    "stats": {}
+  },
+  {
+    "remarks": "⭐️Tel=Warp💦-WoW💥",
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "hosts": {},
+      "servers": [
+        "https://1.1.1.1/dns-query",
+        {
+          "address": "8.8.8.8",
+          "domains": [
+            "geosite:category-ir",
+            "domain:.ir"
+          ],
+          "expectIPs": [
+            "geoip:ir"
+          ],
+          "port": 53
+        }
+      ],
+      "tag": "dns"
+    },
+    "inbounds": [
+      {
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "socks-in"
+      },
+      {
+        "port": 10809,
+        "protocol": "http",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "http-in"
+      },
+      {
+        "listen": "127.0.0.1",
+        "port": 10853,
+        "protocol": "dokodemo-door",
+        "settings": {
+          "address": "1.1.1.1",
+          "network": "tcp,udp",
+          "port": 53
+        },
+        "tag": "dns-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "wireguard",
+        "settings": {
+          "address": [
+            "172.16.0.2/32",
+            "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
+          ],
+          "mtu": 1300,
+          "peers": [
+            {
+              "endpoint": "188.114.99.36:1014",
+              "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+            }
+          ],
+          "reserved": [
+            133,
+            44,
+            13
+          ],
+          "secretKey": "iCHCuPSWOfHyETYvA7h07J1nzPn5WMhKW9766ShJNEc=",
+          "keepAlive": 10,
+          "wnoise": "quic",
+          "wnoisecount": "10-15",
+          "wpayloadsize": "1-8",
+          "wnoisedelay": "1-3"
+        },
+        "streamSettings": {
+          "sockopt": {
+            "dialerProxy": "warp-ir"
+          }
+        },
+        "tag": "warp-out"
+      },
+      {
+        "protocol": "wireguard",
+        "settings": {
+          "address": [
+            "172.16.0.2/32",
+            "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
+          ],
+          "mtu": 1300,
+          "peers": [
+            {
+              "endpoint": "188.114.99.45:1014",
+              "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+            }
+          ],
+          "reserved": [
+            241,
+            72,
+            42
+          ],
+          "secretKey": "qKJOhGGH+HxZvlQrd/IAfxg90fY1GTFrI5hLY0N+sXg=",
+          "keepAlive": 10,
+          "wnoise": "quic",
+          "wnoisecount": "10-15",
+          "wpayloadsize": "1-8",
+          "wnoisedelay": "1-3"
+        },
+        "tag": "warp-ir"
+      },
+      {
+        "protocol": "dns",
+        "tag": "dns-out"
+      },
+      {
+        "protocol": "freedom",
+        "settings": {},
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "policy": {
+      "levels": {
+        "8": {
+          "connIdle": 300,
+          "downlinkOnly": 1,
+          "handshake": 4,
+          "uplinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundUplink": true,
+        "statsOutboundDownlink": true
+      }
+    },
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "inboundTag": [
+            "dns-in"
+          ],
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "8.8.8.8"
+          ],
+          "outboundTag": "direct",
+          "port": "53",
+          "type": "field"
+        },
+        {
+          "domain": [
+            "geosite:category-ir",
+            "domain:.ir"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "geoip:ir",
+            "geoip:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "outboundTag": "warp-out",
+          "type": "field",
+          "network": "tcp,udp"
+        }
+      ]
+    },
+    "stats": {}
+  },
+  {
+    "remarks": "⭐️Tel=Warp💦-WoW💥",
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "hosts": {},
+      "servers": [
+        "https://1.1.1.1/dns-query",
+        {
+          "address": "8.8.8.8",
+          "domains": [
+            "geosite:category-ir",
+            "domain:.ir"
+          ],
+          "expectIPs": [
+            "geoip:ir"
+          ],
+          "port": 53
+        }
+      ],
+      "tag": "dns"
+    },
+    "inbounds": [
+      {
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "socks-in"
+      },
+      {
+        "port": 10809,
+        "protocol": "http",
+        "settings": {
+          "auth": "noauth",
+          "udp": true,
+          "userLevel": 8
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "http-in"
+      },
+      {
+        "listen": "127.0.0.1",
+        "port": 10853,
+        "protocol": "dokodemo-door",
+        "settings": {
+          "address": "1.1.1.1",
+          "network": "tcp,udp",
+          "port": 53
+        },
+        "tag": "dns-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "wireguard",
+        "settings": {
+          "address": [
+            "172.16.0.2/32",
+            "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
+          ],
+          "mtu": 1300,
+          "peers": [
+            {
+              "endpoint": "188.114.99.95:7559",
+              "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+            }
+          ],
+          "reserved": [
+            233,
+            227,
+            25
+          ],
+          "secretKey": "0NGQAoujMkmQKoZQnQuYM21RI0gJs+KkgSSOWAH3H1c=",
+          "keepAlive": 10,
+          "wnoise": "quic",
+          "wnoisecount": "10-15",
+          "wpayloadsize": "1-8",
+          "wnoisedelay": "1-3"
+        },
+        "streamSettings": {
+          "sockopt": {
+            "dialerProxy": "warp-ir"
+          }
+        },
+        "tag": "warp-out"
+      },
+      {
+        "protocol": "wireguard",
+        "settings": {
+          "address": [
+            "172.16.0.2/32",
+            "2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
+          ],
+          "mtu": 1300,
+          "peers": [
+            {
+              "endpoint": "188.114.98.186:7559",
+              "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+            }
+          ],
+          "reserved": [
+            134,
+            255,
+            175
+          ],
+          "secretKey": "CGsI4+LvY8DgWO2HgiS9GiLc0DiI3ejwkvu1CDnoJmI=",
+          "keepAlive": 10,
+          "wnoise": "quic",
+          "wnoisecount": "10-15",
+          "wpayloadsize": "1-8",
+          "wnoisedelay": "1-3"
+        },
+        "tag": "warp-ir"
+      },
+      {
+        "protocol": "dns",
+        "tag": "dns-out"
+      },
+      {
+        "protocol": "freedom",
+        "settings": {},
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "policy": {
+      "levels": {
+        "8": {
+          "connIdle": 300,
+          "downlinkOnly": 1,
+          "handshake": 4,
+          "uplinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundUplink": true,
+        "statsOutboundDownlink": true
+      }
+    },
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "inboundTag": [
+            "dns-in"
+          ],
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "8.8.8.8"
+          ],
+          "outboundTag": "direct",
+          "port": "53",
+          "type": "field"
+        },
+        {
+          "domain": [
+            "geosite:category-ir",
+            "domain:.ir"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "geoip:ir",
+            "geoip:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "outboundTag": "warp-out",
+          "type": "field",
+          "network": "tcp,udp"
+        }
+      ]
+    },
+    "stats": {}
+  }
+]
