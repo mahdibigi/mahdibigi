@@ -2,9 +2,6 @@
 //profile-update-interval: 24
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/hiddify
-//profile-web-page-url: https://hiddify.com
-
-
 {
   "outbounds": [
     {
@@ -19,10 +16,10 @@
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "3W3b",
-      "mtu": 1330,
-      "fake_packets": "50-100",
-      "fake_packets_size": "50-100",
-      "fake_packets_delay": "2-4",
+      "mtu": 1308,
+      "fake_packets": "5-10",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-20",
       "fake_packets_mode": "m4"
     },
     {
@@ -38,7 +35,7 @@
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "m2aU",
-      "mtu": 1280,
+      "mtu": 1308,
       "fake_packets_mode": "m4"
     },
     {
@@ -53,10 +50,10 @@
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "4vH7",
-      "mtu": 1330,
-      "fake_packets": "50-100",
-      "fake_packets_size": "50-100",
-      "fake_packets_delay": "2-4",
+      "mtu": 1308,
+      "fake_packets": "5-10",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-20",
       "fake_packets_mode": "m4"
     },
     {
@@ -72,7 +69,7 @@
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "x0bD",
-      "mtu": 1180,
+      "mtu": 1308,
       "fake_packets_mode": "m4"
     },
     {
@@ -87,10 +84,10 @@
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "nJK3",
-      "mtu": 1330,
-      "fake_packets": "50-100",
-      "fake_packets_size": "50-100",
-      "fake_packets_delay": "2-4",
+      "mtu": 1308,
+      "fake_packets": "5-10",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-20",
       "fake_packets_mode": "m4"
     },
     {
@@ -106,7 +103,7 @@
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "m2aU",
-      "mtu": 1280,
+      "mtu": 1308,
       "fake_packets_mode": "m4"
     },
     {
@@ -122,9 +119,9 @@
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "BOII",
       "mtu": 1308,
-      "fake_packets": "50-100",
-      "fake_packets_size": "50-100",
-      "fake_packets_delay": "2-4",
+      "fake_packets": "5-10",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-20",
       "fake_packets_mode": "m4"
     },
     {
@@ -140,7 +137,7 @@
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "3VJ2",
-      "mtu": 1280,
+      "mtu": 1308,
       "fake_packets_mode": "m4"
     },
     {
@@ -156,9 +153,9 @@
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "BOII",
       "mtu": 1308,
-      "fake_packets": "50-100",
-      "fake_packets_size": "50-100",
-      "fake_packets_delay": "2-4",
+      "fake_packets": "5-10",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-20",
       "fake_packets_mode": "m4"
     },
     {
@@ -174,7 +171,7 @@
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "3VJ2",
-      "mtu": 1280,
+      "mtu": 1308,
       "fake_packets_mode": "m4"
     },
     {
@@ -190,9 +187,9 @@
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "BOII",
       "mtu": 1308,
-      "fake_packets": "50-100",
-      "fake_packets_size": "50-100",
-      "fake_packets_delay": "2-4",
+      "fake_packets": "5-10",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-20",
       "fake_packets_mode": "m4"
     },
     {
@@ -208,7 +205,7 @@
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "3VJ2",
-      "mtu": 1280,
+      "mtu": 1308,
       "fake_packets_mode": "m4"
     },
     {
@@ -224,9 +221,9 @@
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "BOII",
       "mtu": 1308,
-      "fake_packets": "50-100",
-      "fake_packets_size": "50-100",
-      "fake_packets_delay": "2-4",
+      "fake_packets": "5-10",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-20",
       "fake_packets_mode": "m4"
     },
     {
@@ -242,7 +239,7 @@
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "3VJ2",
-      "mtu": 1280,
+      "mtu": 1308,
       "fake_packets_mode": "m4"
     },
     {
@@ -258,9 +255,9 @@
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "BOII",
       "mtu": 1308,
-      "fake_packets": "50-100",
-      "fake_packets_size": "50-100",
-      "fake_packets_delay": "2-4",
+      "fake_packets": "5-10",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-20",
       "fake_packets_mode": "m4"
     },
     {
@@ -276,7 +273,7 @@
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "3VJ2",
-      "mtu": 1280,
+      "mtu": 1308,
       "fake_packets_mode": "m4"
     },
     {
@@ -292,9 +289,9 @@
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "BOII",
       "mtu": 1308,
-      "fake_packets": "50-100",
-      "fake_packets_size": "50-100",
-      "fake_packets_delay": "2-4",
+      "fake_packets": "5-10",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-20",
       "fake_packets_mode": "m4"
     },
     {
@@ -310,7 +307,7 @@
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "3VJ2",
-      "mtu": 1280,
+      "mtu": 1308,
       "fake_packets_mode": "m4"
     },
     {
@@ -326,9 +323,9 @@
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "BOII",
       "mtu": 1308,
-      "fake_packets": "50-100",
-      "fake_packets_size": "50-100",
-      "fake_packets_delay": "2-4",
+      "fake_packets": "5-10",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-20",
       "fake_packets_mode": "m4"
     },
     {
@@ -344,7 +341,7 @@
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "3VJ2",
-      "mtu": 1280,
+      "mtu": 1308,
       "fake_packets_mode": "m4"
     },
     {
@@ -360,9 +357,9 @@
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "BOII",
       "mtu": 1308,
-      "fake_packets": "50-100",
-      "fake_packets_size": "50-100",
-      "fake_packets_delay": "2-4",
+      "fake_packets": "5-10",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-20",
       "fake_packets_mode": "m4"
     },
     {
@@ -378,7 +375,7 @@
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "3VJ2",
-      "mtu": 1280,
+      "mtu": 1308,
       "fake_packets_mode": "m4"
     },
     {
@@ -394,9 +391,9 @@
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "BOII",
       "mtu": 1308,
-      "fake_packets": "50-100",
-      "fake_packets_size": "50-100",
-      "fake_packets_delay": "2-4",
+      "fake_packets": "5-10",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-20",
       "fake_packets_mode": "m4"
     },
     {
@@ -412,7 +409,7 @@
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "3VJ2",
-      "mtu": 1280,
+      "mtu": 1308,
       "fake_packets_mode": "m4"
     },
     {
@@ -428,9 +425,9 @@
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "BOII",
       "mtu": 1308,
-      "fake_packets": "50-100",
-      "fake_packets_size": "50-100",
-      "fake_packets_delay": "2-4",
+      "fake_packets": "5-10",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-20",
       "fake_packets_mode": "m4"
     },
     {
@@ -446,7 +443,7 @@
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "3VJ2",
-      "mtu": 1280,
+      "mtu": 1308,
       "fake_packets_mode": "m4"
     },
     {
@@ -462,9 +459,9 @@
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "BOII",
       "mtu": 1308,
-      "fake_packets": "50-100",
-      "fake_packets_size": "50-100",
-      "fake_packets_delay": "2-4",
+      "fake_packets": "5-10",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-20",
       "fake_packets_mode": "m4"
     },
     {
@@ -480,7 +477,7 @@
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "3VJ2",
-      "mtu": 1280,
+      "mtu": 1308,
       "fake_packets_mode": "m4"
     },
     {
@@ -496,9 +493,9 @@
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "BOII",
       "mtu": 1308,
-      "fake_packets": "50-100",
-      "fake_packets_size": "50-100",
-      "fake_packets_delay": "2-4",
+      "fake_packets": "5-10",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-20",
       "fake_packets_mode": "m4"
     },
     {
@@ -514,7 +511,7 @@
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "3VJ2",
-      "mtu": 1280,
+      "mtu": 1308,
       "fake_packets_mode": "m4"
     },
     {
@@ -530,9 +527,9 @@
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "BOII",
       "mtu": 1308,
-      "fake_packets": "50-100",
-      "fake_packets_size": "50-100",
-      "fake_packets_delay": "2-4",
+      "fake_packets": "5-10",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-20",
       "fake_packets_mode": "m4"
     },
     {
@@ -548,7 +545,7 @@
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "3VJ2",
-      "mtu": 1280,
+      "mtu": 1308,
       "fake_packets_mode": "m4"
     },
     {
@@ -564,9 +561,9 @@
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "BOII",
       "mtu": 1308,
-      "fake_packets": "50-100",
-      "fake_packets_size": "50-100",
-      "fake_packets_delay": "2-4",
+      "fake_packets": "5-10",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-20",
       "fake_packets_mode": "m4"
     },
     {
@@ -578,11 +575,11 @@
         "2606:4700:110:8bd8:df80:5921:ddf9:6be8/128"
       ],
       "private_key": "4A0Eb50b9fcYo1QtLLw5V2WW7W9TyapLM90a8qqzgFQ=",
-      "server": "2606:4700:d0::bc72:60e0",
+      "server": "2606:4700:d0::1bb2:9bb:5ac5:fe4a",
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "3VJ2",
-      "mtu": 1280,
+      "mtu": 1308,
       "fake_packets_mode": "m4"
     },
     {
@@ -598,9 +595,9 @@
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "BOII",
       "mtu": 1308,
-      "fake_packets": "50-100",
-      "fake_packets_size": "50-100",
-      "fake_packets_delay": "2-4",
+      "fake_packets": "5-10",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-20",
       "fake_packets_mode": "m4"
     },
     {
@@ -616,7 +613,7 @@
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "3VJ2",
-      "mtu": 1280,
+      "mtu": 1308,
       "fake_packets_mode": "m4"
     },
     {
@@ -632,9 +629,9 @@
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "BOII",
       "mtu": 1308,
-      "fake_packets": "50-100",
-      "fake_packets_size": "50-100",
-      "fake_packets_delay": "2-4",
+      "fake_packets": "5-10",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-20",
       "fake_packets_mode": "m4"
     },
     {
@@ -650,7 +647,7 @@
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "3VJ2",
-      "mtu": 1280,
+      "mtu": 1308,
       "fake_packets_mode": "m4"
     },
     {
@@ -666,9 +663,9 @@
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "BOII",
       "mtu": 1308,
-      "fake_packets": "50-100",
-      "fake_packets_size": "50-100",
-      "fake_packets_delay": "2-4",
+      "fake_packets": "5-10",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-20",
       "fake_packets_mode": "m4"
     },
     {
@@ -684,7 +681,7 @@
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "3VJ2",
-      "mtu": 1280,
+      "mtu": 1308,
       "fake_packets_mode": "m4"
     },
     {
@@ -700,9 +697,9 @@
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "BOII",
       "mtu": 1308,
-      "fake_packets": "50-100",
-      "fake_packets_size": "50-100",
-      "fake_packets_delay": "2-4",
+      "fake_packets": "5-10",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-20",
       "fake_packets_mode": "m4"
     },
     {
@@ -718,7 +715,7 @@
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "3VJ2",
-      "mtu": 1280,
+      "mtu": 1308,
       "fake_packets_mode": "m4"
     },
     {
@@ -734,9 +731,9 @@
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "BOII",
       "mtu": 1308,
-      "fake_packets": "50-100",
-      "fake_packets_size": "50-100",
-      "fake_packets_delay": "2-4",
+      "fake_packets": "5-10",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-20",
       "fake_packets_mode": "m4"
     },
     {
@@ -752,7 +749,7 @@
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "3VJ2",
-      "mtu": 1280,
+      "mtu": 1308,
       "fake_packets_mode": "m4"
     },
     {
@@ -768,9 +765,9 @@
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "BOII",
       "mtu": 1308,
-      "fake_packets": "50-100",
-      "fake_packets_size": "50-100",
-      "fake_packets_delay": "2-4",
+      "fake_packets": "5-10",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-20",
       "fake_packets_mode": "m4"
     },
     {
@@ -786,7 +783,7 @@
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "3VJ2",
-      "mtu": 1280,
+      "mtu": 1308,
       "fake_packets_mode": "m4"
     },
     {
@@ -802,9 +799,9 @@
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "BOII",
       "mtu": 1308,
-      "fake_packets": "50-100",
-      "fake_packets_size": "50-100",
-      "fake_packets_delay": "2-4",
+      "fake_packets": "5-10",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-20",
       "fake_packets_mode": "m4"
     },
     {
@@ -820,7 +817,7 @@
       "server_port": 0,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "3VJ2",
-      "mtu": 1280,
+      "mtu": 1308,
       "fake_packets_mode": "m4"
     }
   ]
