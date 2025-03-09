@@ -59,7 +59,8 @@ jobs:
     - name: Run script
       run: python warp.py
     - name: Commit and push changes
-      run: |          
+      run: |        
+      
           git config --global user.email "xawiir@gmail.com"
           git config --global user.name "xawir"
           git config credential.helper store
