@@ -32,9 +32,8 @@ jobs:
           git add -A
           git commit -m "Automatic update"
           git push
-EF_Warp
-
-on:
+ 
+on:EF_Warp
   push:
     branches: [ "main" ]
   schedule:
