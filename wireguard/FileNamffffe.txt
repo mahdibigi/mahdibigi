@@ -1,0 +1,861 @@
+By --> Peyman * Github.com/Ptechgithub *
+
+**********************
+*  Endpoint Scanner  *
+*  wire-g installer  *
+*  License cloner    *
+**********************
+[1] Preferred IPV4   *
+                     *
+[2] Preferred IPV6   *
+                     *
+[3] Free Config Wgcf *
+                     *
+[4] Install wire-g   *
+                     *
+[5] License Cloner   *
+                     *
+[0] Exit             *
+**********************
+Enter your choice: 4
+
+*********************
+Run --> wire-g
+Help --> wire-g -h
+*********************
+~ $ wire-g
+******************
+Connecting...
+Successful👍 & Account Saved in warp-account.conf
+
+Copy & Use in V2rayNG
+
+******************
+
+  wireguard://0JK0vySLK9i%2FYeHChsFJzif35jBGe0qp4W8aRMFcYHU%3D@engage.cloudflarec
+lient.com:2408?address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A82ec%3A206a%3Afb39%3
+A9549%3Ad5ee%2F128&reserved=73%2C122%2C116&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1S
+UtzH0JuVo51h2wPfgyo%3D&mtu=1420#Peyman_wire-g
+
+******************
+~ $ wire-g
+
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+wire-g
+******************
+Connecting...
+Successful👍 & Account Saved in warp-account.conf
+
+Copy & Use in V2rayNG
+
+******************
+
+  wireguard://CDQlrongTFX1483ONCKRWS56VNIPAoUMFljhKiAOZ3k%3D@engage.cloudflarecli
+ent.com:2408?address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A8a0b%3A48fd%3Ac278%3A1
+d98%3A6cb8%2F128&reserved=101%2C159%2C165&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SU
+tzH0JuVo51h2wPfgyo%3D&mtu=1420#Peyman_wire-g
+
+******************
+~ $ wire-g
+******************
+Connecting...
+Successful👍 & Account Saved in warp-account.conf
+
+Copy & Use in V2rayNG
+
+******************
+
+  wireguard://oCH0j0ZKaSVcfXFZthKgdtW8N9m1gsMwO2Nv7JCFD2E%3D@engage.cloudflarecli
+ent.com:2408?address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A8eee%3Afccc%3Af886%3A7
+cc7%3Ae1d7%2F128&reserved=238%2C20%2C247&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUt
+zH0JuVo51h2wPfgyo%3D&mtu=1420#Peyman_wire-g
+
+******************
+~ $ wire-g
+******************
+Connecting...
+Successful👍 & Account Saved in warp-account.conf
+
+Copy & Use in V2rayNG
+
+******************
+
+  wireguard://%2BM8WhqArwjwEIFLtSLFNXu%2FAdWjuZKb9omnCIyxj6lA%3D@engage.cloudflar
+eclient.com:2408?address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A8d18%3Aff08%3Af11a
+%3A2554%3A108f%2F128&reserved=100%2C140%2C174&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2
+F1SUtzH0JuVo51h2wPfgyo%3D&mtu=1420#Peyman_wire-g
+
+******************
+~ $ wire-g
+******************
+Connecting...
+Successful👍 & Account Saved in warp-account.conf
+
+Copy & Use in V2rayNG
+
+******************
+
+  wireguard://4On8Jfk7s1BT70KoeQZYcUta1p0PZU5axDrEEgTNcV0%3D@engage.cloudflarecli
+ent.com:2408?address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A820b%3Aac5a%3Ae913%3A9
+5d%3Ad68a%2F128&reserved=208%2C128%2C18&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtz
+H0JuVo51h2wPfgyo%3D&mtu=1420#Peyman_wire-g
+
+******************
+~ $ wire-g
+******************
+Connecting...
+Successful👍 & Account Saved in warp-account.conf
+
+Copy & Use in V2rayNG
+
+******************
+
+  wireguard://ALD3v0S6yovDpXgd%2F%2FF8DBdeP8%2B8qI2qu0lfQ%2BuxpWw%3D@engage.cloud
+flareclient.com:2408?address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A8bd3%3A4857%3A
+b354%3Ab577%3A40f0%2F128&reserved=62%2C181%2C169&publickey=bmXOC%2BF1FxEMF9dyiK2H
+5%2F1SUtzH0JuVo51h2wPfgyo%3D&mtu=1420#Peyman_wire-g
+
+******************
+~ $ wire-g
+******************
+Connecting...
+Successful👍 & Account Saved in warp-account.conf
+
+Copy & Use in V2rayNG
+
+******************
+
+  wireguard://2AyeMHhxWLXH0PWLixnKbSggNoeQuvSJJMdcK%2FVF7kA%3D@engage.cloudflarec
+lient.com:2408?address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A8923%3A288%3A8ed1%3A
+71f6%3Ad47b%2F128&reserved=10%2C213%2C146&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SU
+tzH0JuVo51h2wPfgyo%3D&mtu=1420#Peyman_wire-g
+
+******************
+~ $ wire-g
+******************
+Connecting...
+Successful👍 & Account Saved in warp-account.conf
+
+Copy & Use in V2rayNG
+
+******************
+
+  wireguard://YO9Z%2BBJYrYvTgqUtaPxF7pik7f0yhDqeWNabBgjf9XY%3D@engage.cloudflarec
+lient.com:2408?address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A8fae%3A9cec%3A822c%3
+A27b5%3A3a4f%2F128&reserved=149%2C11%2C53&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SU
+tzH0JuVo51h2wPfgyo%3D&mtu=1420#Peyman_wire-g
+
+******************
+~ $ wire-g
+******************
+Connecting...
+Successful👍 & Account Saved in warp-account.conf
+
+Copy & Use in V2rayNG
+
+******************
+
+  wireguard://mFM5gjveOLf2YcwMx2BTaY%2BwbcQEg3%2Fc6IzPfgZgBEE%3D@engage.cloudflar
+eclient.com:2408?address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A8da5%3Ae924%3Afa39
+%3Add53%3Ad133%2F128&reserved=20%2C72%2C101&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1
+SUtzH0JuVo51h2wPfgyo%3D&mtu=1420#Peyman_wire-g
+
+******************
+~ $ wire-g
+******************
+Connecting...
+Successful👍 & Account Saved in warp-account.conf
+
+Copy & Use in V2rayNG
+
+******************
+
+  wireguard://UJmkOkPjPIoBbtD53xmctYYDMgUzdYxxlgHh84ehMUg%3D@engage.cloudflarecli
+ent.com:2408?address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A8324%3A3c2a%3A76fe%3Af
+5a8%3Ad94d%2F128&reserved=10%2C166%2C129&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUt
+zH0JuVo51h2wPfgyo%3D&mtu=1420#Peyman_wire-g
+
+******************
+~ $ wire-g
+******************
+Connecting...
+Successful👍 & Account Saved in warp-account.conf
+
+Copy & Use in V2rayNG
+
+******************
+
+  wireguard://oClCYcTtRjN6ItxZrgq7X8smwQboYpL8OfZvCRgPals%3D@engage.cloudflarecli
+ent.com:2408?address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A844d%3Aec56%3Ab508%3Ad
+8d3%3A19a9%2F128&reserved=95%2C108%2C46&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtz
+H0JuVo51h2wPfgyo%3D&mtu=1420#Peyman_wire-g
+
+******************
+~ $ wire-g
+******************
+Connecting...
+Successful👍 & Account Saved in warp-account.conf
+
+Copy & Use in V2rayNG
+
+******************
+
+  wireguard://KJjVkv%2Bnc%2F%2FjRhXe9nIOO0g1ZOuZqYflzdqU4eAgY18%3D@engage.cloudfl
+areclient.com:2408?address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A8c5e%3Ae8a3%3Aa5
+e0%3Aa90d%3Ae6d3%2F128&reserved=125%2C57%2C159&publickey=bmXOC%2BF1FxEMF9dyiK2H5%
+2F1SUtzH0JuVo51h2wPfgyo%3D&mtu=1420#Peyman_wire-g
+
+******************
+~ $ wire-g
+******************
+Connecting...
+Successful👍 & Account Saved in warp-account.conf
+
+Copy & Use in V2rayNG
+
+******************
+
+  wireguard://KDFNUqMLYqjMFJ6NuSA7jQ6VMgxBqZF3DmQXMubaj1w%3D@engage.cloudflarecli
+ent.com:2408?address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A8ef5%3A85c%3A803a%3Af6
+b4%3A5fc%2F128&reserved=41%2C164%2C216&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH
+0JuVo51h2wPfgyo%3D&mtu=1420#Peyman_wire-g
+
+******************
+~ $ wire-g
+******************
+Connecting...
+Successful👍 & Account Saved in warp-account.conf
+
+Copy & Use in V2rayNG
+
+******************
+
+  wireguard://INj3i3Xlo%2FCWDxWilH5p1Rwx9a4p4XUrRyOU%2F4vJ81M%3D@engage.cloudflar
+eclient.com:2408?address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A86cd%3Ab5a5%3Ac309
+%3A25bc%3A328f%2F128&reserved=38%2C211%2C168&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F
+1SUtzH0JuVo51h2wPfgyo%3D&mtu=1420#Peyman_wire-g
+
+******************
+~ $ wire-g
+******************
+Connecting...
+Successful👍 & Account Saved in warp-account.conf
+
+Copy & Use in V2rayNG
+
+******************
+
+  wireguard://8KSu9WeMxVtVCtnh8hSR2xgfiVr0GK5mt4ZSyjCGc1s%3D@engage.cloudflarecli
+ent.com:2408?address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A8027%3A4e41%3A3f4b%3Af
+505%3Abd39%2F128&reserved=182%2C211%2C242&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SU
+tzH0JuVo51h2wPfgyo%3D&mtu=1420#Peyman_wire-g
+
+******************
+~ $ wire-g
+******************
+Connecting...
+Successful👍 & Account Saved in warp-account.conf
+
+Copy & Use in V2rayNG
+
+******************
+
+  wireguard://MLossAkvhWiBgT5OJcb3RrUZ1ccWzbumf1e7dTUteW4%3D@engage.cloudflarecli
+ent.com:2408?address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A8a0b%3Ae6e1%3A8b09%3A3
+08d%3A73e3%2F128&reserved=198%2C229%2C212&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SU
+tzH0JuVo51h2wPfgyo%3D&mtu=1420#Peyman_wire-g
+
+******************
+~ $ wire-g
+******************
+Connecting...
+Successful👍 & Account Saved in warp-account.conf
+
+Copy & Use in V2rayNG
+
+******************
+
+  wireguard://4P%2FqkVEkBNAvSOuASt4gnO%2Bu5qnbLj27IH74sV1GLkc%3D@engage.cloudflar
+eclient.com:2408?address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A8539%3A525c%3A5fc%
+3A3a1%3Ae2c5%2F128&reserved=6%2C89%2C92&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtz
+H0JuVo51h2wPfgyo%3D&mtu=1420#Peyman_wire-g
+
+******************
+~ $ wire-g
+******************
+Connecting...
+Successful👍 & Account Saved in warp-account.conf
+
+Copy & Use in V2rayNG
+
+******************
+
+  wireguard://6CJvBTbGW7sHvmKehTlSoA4aeO%2FyuvFrhsi%2Fh1rWg1M%3D@engage.cloudflar
+eclient.com:2408?address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A89a9%3A414f%3A1df6
+%3A662a%3A17a1%2F128&reserved=52%2C76%2C135&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1
+SUtzH0JuVo51h2wPfgyo%3D&mtu=1420#Peyman_wire-g
+
+******************
+~ $ wire-g
+******************
+Connecting...
+Successful👍 & Account Saved in warp-account.conf
+
+Copy & Use in V2rayNG
+
+******************
+
+  wireguard://CIzDl1JSxOOo%2Bf6T2MAwbPrYI5P9%2F%2B8c3R41S%2Bnqy3Q%3D@engage.cloud
+flareclient.com:2408?address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A83a4%3A60%3Abb
+bc%3A1c9c%3Ae70f%2F128&reserved=17%2C153%2C140&publickey=bmXOC%2BF1FxEMF9dyiK2H5%
+2F1SUtzH0JuVo51h2wPfgyo%3D&mtu=1420#Peyman_wire-g
+
+******************
+~ $ wire-g
+******************
+Connecting...
+Successful👍 & Account Saved in warp-account.conf
+
+Copy & Use in V2rayNG
+
+******************
+
+  wireguard://YH78fRmE8qROUt%2F6LiPeuAIifxF%2BpSc83KJC6yMONUk%3D@engage.cloudflar
+eclient.com:2408?address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A8a09%3Ab256%3Ab57d
+%3A3896%3A66ce%2F128&reserved=2%2C188%2C71&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1S
+UtzH0JuVo51h2wPfgyo%3D&mtu=1420#Peyman_wire-g
+
+******************
+~ $ wire-g
+******************
+Connecting...
+Successful👍 & Account Saved in warp-account.conf
+
+Copy & Use in V2rayNG
+
+******************
+
+  wireguard://%2BJXh6uMKil2%2BLZjXjHj0rw233qLiXSfE79OxPMvDFVo%3D@engage.cloudflar
+eclient.com:2408?address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A8762%3A8614%3A3f2c
+%3A74e5%3A7381%2F128&reserved=140%2C137%2C167&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2
+F1SUtzH0JuVo51h2wPfgyo%3D&mtu=1420#Peyman_wire-g
+
+******************
+~ $ wire-g
+******************
+Connecting...
+Successful👍 & Account Saved in warp-account.conf
+
+Copy & Use in V2rayNG
+
+******************
+
+  wireguard://cOU0BfaK%2BurDl2VBuXl43RIegJBINoD60Ejtt7Jgjk4%3D@engage.cloudflarec
+lient.com:2408?address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A81db%3A7e62%3Aad74%3
+Ae86%3A961b%2F128&reserved=225%2C248%2C166&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1S
+UtzH0JuVo51h2wPfgyo%3D&mtu=1420#Peyman_wire-g
+
+******************
+~ $ wire-g
+******************
+Connecting...
+Successful👍 & Account Saved in warp-account.conf
+
+Copy & Use in V2rayNG
+
+******************
+
+  wireguard://WPBuZVatD3V3V1gCoAok3AH2A2CUq4YqnwO4jBLP8Vw%3D@engage.cloudflarecli
+ent.com:2408?address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A8917%3Ac5cc%3Aa8a1%3Ab
+173%3Af6b2%2F128&reserved=153%2C89%2C120&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUt
+zH0JuVo51h2wPfgyo%3D&mtu=1420#Peyman_wire-g
+
+******************
+~ $ wire-g
+******************
+Connecting...
+Successful👍 & Account Saved in warp-account.conf
+
+Copy & Use in V2rayNG
+
+******************
+
+  wireguard://4Pi9rXNNz6BZ%2FQuPZYtf5n5BpRsbFCEe%2BUx%2BSBOaMEM%3D@engage.cloudfl
+areclient.com:2408?address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A8f87%3Af49c%3Afd
+3c%3Ade84%3Ad712%2F128&reserved=251%2C138%2C211&publickey=bmXOC%2BF1FxEMF9dyiK2H5
+%2F1SUtzH0JuVo51h2wPfgyo%3D&mtu=1420#Peyman_wire-g
+
+******************
+~ $ wire-g
+******************
+Connecting...
+Successful👍 & Account Saved in warp-account.conf
+
+Copy & Use in V2rayNG
+
+******************
+
+  wireguard://OFW0MdH5XWZcW4xR41IEGRYGtL1vXQq0AlsSFYJ9Lng%3D@engage.cloudflarecli
+ent.com:2408?address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A8a17%3A1516%3A9deb%3A2
+22d%3A5ac0%2F128&reserved=221%2C78%2C201&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUt
+zH0JuVo51h2wPfgyo%3D&mtu=1420#Peyman_wire-g
+
+******************
+~ $ wire-g
+******************
+Connecting...
+Successful👍 & Account Saved in warp-account.conf
+
+Copy & Use in V2rayNG
+
+******************
+
+  wireguard://qMKkz16hIULZsudefUWKzh9MwIc1%2FVa2Z9H4dkMXIXo%3D@engage.cloudflarec
+lient.com:2408?address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A8f24%3A9e88%3Ad66a%3
+A2128%3Ac73d%2F128&reserved=179%2C16%2C14&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SU
+tzH0JuVo51h2wPfgyo%3D&mtu=1420#Peyman_wire-g
+
+******************
+~ $ wire-g
+******************
+Connecting...
+Successful👍 & Account Saved in warp-account.conf
+
+Copy & Use in V2rayNG
+
+******************
+
+  wireguard://YJrZE%2FOroywc4ME0cZjCKjomBEeoDeMO5JtcS7qLsFA%3D@engage.cloudflarec
+lient.com:2408?address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A8e88%3Ad90b%3A716d%3
+A713a%3Ab504%2F128&reserved=108%2C4%2C107&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SU
+tzH0JuVo51h2wPfgyo%3D&mtu=1420#Peyman_wire-g
+
+******************
+~ $ wire-g
+******************
+Connecting...
+Successful👍 & Account Saved in warp-account.conf
+
+Copy & Use in V2rayNG
+
+******************
+
+  wireguard://gIjLjKt7AqvVurkGtyBZiB4Cfc%2Ft%2BhLigbXVr12XG1A%3D@engage.cloudflar
+eclient.com:2408?address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A897e%3A3f5f%3A8c50
+%3A5836%3A151a%2F128&reserved=214%2C254%2C0&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1
+SUtzH0JuVo51h2wPfgyo%3D&mtu=1420#Peyman_wire-g
+
+******************
+~ $ wire-g
+******************
+Connecting...
+Successful👍 & Account Saved in warp-account.conf
+
+Copy & Use in V2rayNG
+
+******************
+
+  wireguard://IDsc6vc8eFjdkkannhLEgbu4mKtxzB%2BwANSsdVpn%2FGA%3D@engage.cloudflar
+eclient.com:2408?address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A80da%3A2970%3Ae674
+%3A2069%3Ae94d%2F128&reserved=147%2C58%2C200&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F
+1SUtzH0JuVo51h2wPfgyo%3D&mtu=1420#Peyman_wire-g
+
+******************
+~ $ wire-g
+******************
+Connecting...
+Successful👍 & Account Saved in warp-account.conf
+
+Copy & Use in V2rayNG
+
+******************
+
+  wireguard://IBigkXlXGO3Cu2CqoDzjhucc4qXg0sPqdr3BzoLG32g%3D@engage.cloudflarecli
+ent.com:2408?address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A8f0b%3A595b%3Ac3d7%3A9
+130%3A8b2b%2F128&reserved=255%2C4%2C74&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH
+0JuVo51h2wPfgyo%3D&mtu=1420#Peyman_wire-g
+
+******************
+~ $ wire-g
+******************
+Connecting...
+Successful👍 & Account Saved in warp-account.conf
+
+Copy & Use in V2rayNG
+
+******************
+
+  wireguard://4E%2BG8aDTWqH9Y1QKV7m8shuBfZlxbNIaq43xd0Qy5WY%3D@engage.cloudflarec
+lient.com:2408?address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A8e3e%3Ade88%3A4a35%3
+A1947%3A5c2d%2F128&reserved=34%2C8%2C165&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUt
+zH0JuVo51h2wPfgyo%3D&mtu=1420#Peyman_wire-g
+
+******************
+~ $ wire-g
+******************
+Connecting...
+Successful👍 & Account Saved in warp-account.conf
+
+Copy & Use in V2rayNG
+
+******************
+
+  wireguard://8BorTwt4%2F%2FfL1sNkf1DKjTJkS3s5DZFBlnDTIbn%2F2WE%3D@engage.cloudfl
+areclient.com:2408?address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A8baf%3A4a10%3A33
+f6%3Aadb9%3A8b86%2F128&reserved=136%2C177%2C245&publickey=bmXOC%2BF1FxEMF9dyiK2H5
+%2F1SUtzH0JuVo51h2wPfgyo%3D&mtu=1420#Peyman_wire-g
+
+******************
+~ $ wire-g
+******************
+Connecting...
+Successful👍 & Account Saved in warp-account.conf
+
+Copy & Use in V2rayNG
+
+******************
+
+  wireguard://YC%2Fr9KJ3z9nuBQstVu%2FszlBdW6Vdl6FLvMM55h3NKHU%3D@engage.cloudflar
+eclient.com:2408?address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A86eb%3A8458%3Abd2c
+%3A242d%3A53e2%2F128&reserved=142%2C81%2C184&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F
+1SUtzH0JuVo51h2wPfgyo%3D&mtu=1420#Peyman_wire-g
+
+******************
+~ $ wire-g
+******************
+Connecting...
+Successful👍 & Account Saved in warp-account.conf
+
+Copy & Use in V2rayNG
+
+******************
+
+  wireguard://AIzA8p247g50jUBESqwENp9YW1tF%2BdNkUelDNzSPAEU%3D@engage.cloudflarec
+lient.com:2408?address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A8ba8%3Aa70e%3Ae8fb%3
+A167f%3A8321%2F128&reserved=183%2C34%2C168&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1S
+UtzH0JuVo51h2wPfgyo%3D&mtu=1420#Peyman_wire-g
+
+******************
+~ $ wire-g
+******************
+Connecting...
+Successful👍 & Account Saved in warp-account.conf
+
+Copy & Use in V2rayNG
+
+******************
+
+  wireguard://cGrUnUsbQTCMl7yT0RZaYTaLihhPj5CzPHzu0ceOGmA%3D@engage.cloudflarecli
+ent.com:2408?address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A8f81%3Ad935%3A6036%3A3
+62d%3A5d47%2F128&reserved=16%2C203%2C100&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUt
+zH0JuVo51h2wPfgyo%3D&mtu=1420#Peyman_wire-g
+
+******************
+~ $ wire-g
+******************
+Connecting...
+Successful👍 & Account Saved in warp-account.conf
+
+Copy & Use in V2rayNG
+
+******************
+
+  wireguard://%2BG4uqUcRkvytPbLpQ%2BkDFKhtJXoWw9XqwMFMxJjCwlM%3D@engage.cloudflar
+eclient.com:2408?address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A8272%3A3f0d%3A3187
+%3Aa376%3Ad0c4%2F128&reserved=188%2C203%2C44&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F
+1SUtzH0JuVo51h2wPfgyo%3D&mtu=1420#Peyman_wire-g
+
+******************
+~ $ wire-g
+******************
+Connecting...
+Successful👍 & Account Saved in warp-account.conf
+
+Copy & Use in V2rayNG
+
+******************
+
+  wireguard://wAteIIfDAI%2BotWoFAxEzxYX0yR1fJhWUXPQgTaxPoEo%3D@engage.cloudflarec
+lient.com:2408?address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A8f1d%3Af23e%3A3910%3
+A1a4c%3A6268%2F128&reserved=13%2C98%2C116&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SU
+tzH0JuVo51h2wPfgyo%3D&mtu=1420#Peyman_wire-g
+
+******************
+~ $ wire-g
+******************
+Connecting...
+Successful👍 & Account Saved in warp-account.conf
+
+Copy & Use in V2rayNG
+
+******************
+
+  wireguard://SKvaoZBDT0Go1xmjb2ztSQU7hyDE8XMh8SBA7YZz9kM%3D@engage.cloudflarecli
+ent.com:2408?address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A8611%3Af83%3A178%3A1e6
+5%3Abcdf%2F128&reserved=166%2C102%2C252&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtz
+H0JuVo51h2wPfgyo%3D&mtu=1420#Peyman_wire-g
+
+******************
+~ $ wire-g
+******************
+Connecting...
+Successful👍 & Account Saved in warp-account.conf
+
+Copy & Use in V2rayNG
+
+******************
+
+  wireguard://AGctHwwPMb%2FrJNBW0DReD2ejFMCXiO1%2FvptSXsRQC0I%3D@engage.cloudflar
+eclient.com:2408?address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A88aa%3A90be%3Ae53f
+%3A66d4%3Adb02%2F128&reserved=92%2C221%2C143&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F
+1SUtzH0JuVo51h2wPfgyo%3D&mtu=1420#Peyman_wire-g
+
+******************
+~ $ wire-g
+******************
+Connecting...
+Successful👍 & Account Saved in warp-account.conf
+
+Copy & Use in V2rayNG
+
+******************
+
+  wireguard://UE%2BioAW6r3P5E97IF3onUTJ7rPi4OitWOzauIXGj93o%3D@engage.cloudflarec
+lient.com:2408?address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A8c47%3A57e5%3Aa80%3A
+ba14%3A18a1%2F128&reserved=31%2C57%2C148&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUt
+zH0JuVo51h2wPfgyo%3D&mtu=1420#Peyman_wire-g
+
+******************
+~ $ wire-g
+******************
+Connecting...
+Successful👍 & Account Saved in warp-account.conf
+
+Copy & Use in V2rayNG
+
+******************
+
+  wireguard://SLlw9QfZrDLsOwG4alNEJj09Wzpytg4kQ8dYtu%2BtOX0%3D@engage.cloudflarec
+lient.com:2408?address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A881c%3Aa85f%3Aef84%3
+A4b4d%3A5044%2F128&reserved=131%2C23%2C186&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1S
+UtzH0JuVo51h2wPfgyo%3D&mtu=1420#Peyman_wire-g
+
+******************
+~ $ wire-g
+******************
+Connecting...
+Successful👍 & Account Saved in warp-account.conf
+
+Copy & Use in V2rayNG
+
+******************
+
+  wireguard://sK2LoCJLbw16pCFF2omHqVrkrE02TuEDr60Ki1WpNnU%3D@engage.cloudflarecli
+ent.com:2408?address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A8db9%3Ab234%3Ab2ef%3A4
+09d%3Ab2b1%2F128&reserved=136%2C183%2C118&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SU
+tzH0JuVo51h2wPfgyo%3D&mtu=1420#Peyman_wire-g
+
+******************
+~ $ wire-g
+******************
+Connecting...
