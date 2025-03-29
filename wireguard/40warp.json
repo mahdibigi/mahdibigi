@@ -1,8 +1,7 @@
-//profile-title:Warp-IR.Warp-Main🔟
+https://raw.githubusercontent.com/mahdibigi/mahdibigi/refs/heads/main/wireguard/40warp.json//profile-title:🟢Warp-IR.Warp-Main🔟
 //profile-update-interval: 240
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/Mahdi
-
 {
 	"outbounds": [
 		{
@@ -218,7 +217,7 @@
 			],
 			"private_key": "KO5ISVkOhpq0LxQavuQRMWVQ9CFUXvn/dMVEhP+eqnM=",
 			"peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-			"server": ""azngzlzfzlx8z_5ghomq",
+			"server": "azngzlzfzlx8z_5ghomq",
 			"server_port": 0,
 			"reserved": [
 				80,
@@ -236,7 +235,7 @@
 				"2606:4700:110:846c:e510:bfa1:ea9f:5247/128"
 			],
 			"private_key": "iO9ryjxWDHzPFYjz+QJhbPA0fjhIPRgUC0UpNLth/Vc=",
-			"server": ""azngzlzfzlx8z_5ghomq",
+			"server": "azngzlzfzlx8z_5ghomq",
 			"server_port": 0,
 			"peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
 			"reserved": [
@@ -255,7 +254,7 @@
 			],
 			"private_key": "KO5ISVkOhpq0LxQavuQRMWVQ9CFUXvn/dMVEhP+eqnM=",
 			"peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-			"server": ""azngzlzfzlx8z_5ghomq",
+			"server": "azngzlzfzlx8z_5ghomq",
 			"server_port": 0,
 			"reserved": [
 				80,
