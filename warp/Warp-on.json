@@ -1,8 +1,7 @@
- //profile-titl:💥Warp.on.Warp💚2️⃣0️⃣
+//profile-titl:💥Warp.on.Warp💚2️⃣0️⃣
 //profile-update-interval: 24
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/hiddify
-//profile-web-page-url: https://hiddify.com
 {
   "outbounds": [
     {
@@ -180,7 +179,7 @@
       "server_port": 1070,
       "local_address": [
         "172.16.0.2/32",
-        ""
+        "2606:4700:110:8931:9e25:8e58:9e34:e19d/128"
       ],
       "private_key": "kMhYEWllS4Xzjq6N20oiDqsdSPmwZN6cQlcbARK7xmo=",
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
@@ -306,7 +305,7 @@
       "server_port": 1070,
       "local_address": [
         "172.16.0.2/32",
-        ""
+        "2606:4700:110:81e9:f47e:7a0:4c96:75cf/128"
       ],
       "private_key": "aIgGox0jef9/kRh/q5VV7ekh6F4SwFghCxyIzert2GA=",
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
@@ -348,7 +347,7 @@
       "server_port": 934,
       "local_address": [
         "172.16.0.2/32",
-        ""
+        "2606:4700:110:8f60:6882:f7f3:afed:8fb0/128"
       ],
       "private_key": "aDcGEyQtGf6F4GP55N523sWGFtqTTPxbeCyBE3SOmGw=",
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
