@@ -5,20 +5,7 @@ Date: Wed, 22 Jan 2025 04:56:09 +0330
 MIME-Version: 1.0
 Content-Type: multipart/related;
 	type="text/html";
-	boundary="----MultipartBoundary--W78boMJdlLAx9mRjckfp3LVNBhZ4Y2YO0dsDHSVB8a----"
-
-
-------MultipartBoundary--W78boMJdlLAx9mRjckfp3LVNBhZ4Y2YO0dsDHSVB8a----
-Content-Type: text/html
-Content-ID: <frame-BFEB9CDD2026329281C295495A4D89A5@mhtml.blink>
-Content-Transfer-Encoding: binary
-Content-Location: https://shervinofpersia.serv00.net/
-
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1256"></head><body>#profile-title: ܢܚ݅ܝ‌ࡐ‌ࡅ࡙ـܔ
-#profile-update-interval: 1
-#subscription-userinfo: upload=100; download=100; total=10000000000000; expire= 44462495316
-#support-url: shervinofpersia.serv00.net
-#profile-web-page-url: shervinofpersia.serv00.net
+	boundary=
 
 vmess://eyJ2IjoiMiIsInBzIjoiU0jOntCvVklO4oSi4pqg77iPIPCdl6fwnZep8J2XluG0hOG0j8m06pywyarJoiDhtI3Jqsm04bSHyoAiLCJhZGQiOiIxNDkuMjguODQuMTQ2IiwicG9ydCI6MzI5MDYsImlkIjoiYWRiNmZlM2EtYzg2Ny00YTRjLWViNGEtMWQ5ZjRmYWRlMGFhIiwiYWlkIjowLCJzY3kiOiJhdXRvIiwibmV0IjoidGNwIiwidGxzIjoiIn0=
 vmess://eyJ2IjoiMiIsInBzIjoiU0jOntCvVklO4oSi4pqg77iPIPCdl6fwnZep8J2XluG0hOG0j8m06pywyarJoiDhtI3Jqsm04bSHyoAiLCJhZGQiOiJjeGMtLWpvaW4ub3V0bGluZS12cG4uY2xvdWQiLCJwb3J0Ijo0NDMsImlkIjoiMDU2NDFjZjUtNThkMi00YmE0LWE5ZjEtYjNjZGEwYjFmYjFkIiwiYWlkIjowLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJob3N0Ijoib2JkaWkuY2ZkIiwicGF0aCI6Ii9saW5rd3MiLCJ0bHMiOiJ0bHMifQ==
