@@ -5,29 +5,30 @@
 #profile-web-page-url: https://github.com/barry-far/V2ray-Configs
 
 
-warp://auto?ifp=10-20&ifps=40-100&ifpd=10-20#WARP_10-20_40-100_10-20
-warp://auto?ifp=10-20&ifps=40-100&ifpd=30-200#WARP_10-20_40-100_30-50
-warp://auto?ifp=10-20&ifps=40-100&ifpd=300-500#WARP_10-20_40-100_300-500
-warp://auto?ifp=5-10&ifps=40-100&ifpd=10-20#WARP_5-10_40-100_10-20
-warp://auto?ifp=5-10&ifps=40-100&ifpd=30-50#WARP_5-10_40-100_30-50
-warp://auto?ifp=5-10&ifps=40-100&ifpd=300-500#WARP_5-10_40-100_300-500
+#warp://auto?ifp=10-20&ifps=40-100&ifpd=10-20#WARP_10-20_40-100_10-20
+#warp://auto?ifp=10-20&ifps=40-100&ifpd=30-200#WARP_10-20_40-100_30-50
+#warp://auto?ifp=10-20&ifps=40-100&ifpd=300-500#WARP_10-20_40-100_300-500
+#warp://auto?ifp=5-10&ifps=40-100&ifpd=10-20#WARP_5-10_40-100_10-20
+#warp://auto?ifp=5-10&ifps=40-100&ifpd=30-50#WARP_5-10_40-100_30-50
+#warp://auto?ifp=5-10&ifps=40-100&ifpd=300-500#WARP_5-10_40-100_300-500
 
 
 warp://auto:0&ifpm=m4#WARPInWarp⭐️&&detour=warp://auto:0&ifpm=m4#WARP 🇮🇷 IP
 warp://188.114.99.92:1180?ifp=1-3&ifpm=m4#WiW-🌏&&detour=warp://188.114.99.92:1180?ifp=1-3&ifpm=m4#WARP-🟢
 warp://188.114.99.147:1018?ifp=1-3&ifpm=m4#WiW-🌎&&detour=warp://188.114.99.147:1018?ifp=1-3&ifpm=m4#WARP-🟢
-warp://188.114.99.150:1018?ifp=5-10&ifpm=m4#WiW-🌐&&detour=warp://188.114.99.150:1018?ifp=1-3&ifpm=m4#WARP-♻️
-warp://188.114.99.99:939?ifp=5-10&ifpm=m4#WiW-🌐&&detour=warp://188.114.99.99:939?ifp=1-3&ifpm=m4#WARP-♻️
+warp://188.114.99.150:1018?ifp=1-1&ifpm=m4#WiW-🌐&&detour=warp://188.114.99.150:1018?ifp=1-1&ifpm=m4#WARP-♻️
+warp://188.114.99.99:939?ifp=1-1&ifpm=m4#WiW-🌐&&detour=warp://188.114.99.99:939?ifp=1-1&ifpm=m4#WARP-♻️
 warp://auto?ifp=10-20&ifps=20-60&ifpd=1-5&ifpm=m4#to the rain💧&&detour=warp://auto?ifp=10-20&ifps=20-60&ifpd=1-5&ifpm=m4#i set fire🔥
 
 warp://p1@auto#LocalIP⭐️&&detour=warp://p2@auto&ifpm=m4#WARPInWarp✅
 warp://p1@ip1?ifp=1-3&ifpm=m4#WARPInWarp✅&&detour=warp://p2@ip2ifp=1-3&ifpm=m4#WARP 🇮🇷 IP
-warp://p1@auto#LocalIP⭐️&&detour=warp://p2@auto&ifpm=m4#WARPInWarp✅//p1@ip1?ifp=1-3&ifpm=m4#WARPInWarp✅&&detour=warp://p2@ip2ifp=1-3&ifpm=m4#WARP 🇮🇷 IP
+warp://p1@auto#LocalIP⭐️&&detour=warp://p2@auto&ifpm=m4#WARPInWarp✅
+warp://p1@ip1?ifp=1-3&ifpm=m4#WARPInWarp✅&&detour=warp://p2@ip2ifp=1-3&ifpm=m4#WARP 🇮🇷 IP
 
 
-warp://auto?ifp=10-20&ifps=40-100&ifpd=10-20#WARP_10-20_40-100_10-20
-warp://auto?ifp=10-20&ifps=40-100&ifpd=30-200#WARP_10-20_40-100_30-50
-warp://auto?ifp=10-20&ifps=40-100&ifpd=300-500#WARP_10-20_40-100_300-500
-warp://auto?ifp=5-10&ifps=40-100&ifpd=10-20#WARP_5-10_40-100_10-20
-warp://auto?ifp=5-10&ifps=40-100&ifpd=30-50#WARP_5-10_40-100_30-50
-warp://auto?ifp=5-10&ifps=40-100&ifpd=300-500#WARP_5-10_40-100_300-50096
+#warp://auto?ifp=10-20&ifps=40-100&ifpd=10-20#WARP_10-20_40-100_10-20
+#warp://auto?ifp=10-20&ifps=40-100&ifpd=30-200#WARP_10-20_40-100_30-50
+#warp://auto?ifp=10-20&ifps=40-100&ifpd=300-500#WARP_10-20_40-100_300-500
+#warp://auto?ifp=5-10&ifps=40-100&ifpd=10-20#WARP_5-10_40-100_10-20
+#warp://auto?ifp=5-10&ifps=40-100&ifpd=30-50#WARP_5-10_40-100_30-50
+#warp://auto?ifp=5-10&ifps=40-100&ifpd=300-500#WARP_5-10_40-100_300-50096
