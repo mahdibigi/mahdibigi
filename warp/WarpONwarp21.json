@@ -1,4 +1,4 @@
-//profile-title:💥warpONwarp💥2️⃣1️⃣
+//profile-title: 💥warpONwarp💥2️⃣1️⃣
 //profile-update-interval: 24
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/hiddify
@@ -6,7 +6,7 @@
   "outbounds": [
     {
       "type": "wireguard",
-      "tag": "🌀Rain",
+      "tag": "🌀Rain-0",
       "local_address": [
         "172.16.0.2/32",
         "2606:4700:110:8859:7c5:dc64:2fd1:3c0d/128"
@@ -24,8 +24,8 @@
     },
     {
       "type": "wireguard",
-      "tag": "💥Fire-0",
-      "detour": "🌀Rain",
+      "tag": "💥Fire",
+      "detour": "🌀Rain-0",
       "local_address": [
         "172.16.0.2/32",
         "2606:4700:110:8cba:f4b3:aaa2:543d:dcda/128"
