@@ -1,9 +1,9 @@
 {
   "outbounds": [
     {
-      "server": "188.114.97.128",
-      "server_port": 987,
-      "tag": "IRAN-💙-1",
+      "server": "188.114.99.59",
+      "server_port": 859,
+      "tag": "IRAN-💙",
       "type": "wireguard",
       "private_key": "gF4p9FM0WT1hHUHZFdDcEBfyG3N13EzDOWd2Moowglo=",
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
@@ -23,11 +23,11 @@
       "fake_packets_mode": "m4"
     },
     {
-      "server": "188.114.99.130",
+      "server": "188.114.99.59",
       "server_port": 859,
-      "tag": "Germny-💚-1",
+      "tag": "Germny-💚",
       "type": "wireguard",
-      "detour": "IRAN-💙-1",
+      "detour": "IRAN-💙",
       "private_key": "+F2JWqZYBe+LaUNbLyBuaxEt8q83ngnTqaATmTD4K0Q=",
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "mtu": 1280,
@@ -43,9 +43,9 @@
       "fake_packets_mode": "m4"
     },
     {
-      "server": "188.114.97.200",
-      "server_port": 2371,
-      "tag": "IRAN-💙-2",
+      "server": "188.114.96.139",
+      "server_port": 854,
+      "tag": "IRAN-💙-1",
       "type": "wireguard",
       "private_key": "aIi2SxTtGotWi2nZzQ8XoKOy1kLMhDLImgTlUfr4MmQ=",
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
@@ -65,10 +65,11 @@
       "fake_packets_mode": "m4"
     },
     {
-      "server": "188.114.97.222",
-      "tag": "Germny-💚-2",
+      "server": "188.114.96.139",
+       "server_port": 894,
+      "tag": "Germny-💚-1",
       "type": "wireguard",
-      "detour": "IRAN-💙-2",
+      "detour": "IRAN-💙-1",
       "private_key": "IKepE3LJMgKgi4i74uyiAk6zag9fj50mjhsXIQYxhXI=",
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "mtu": 1280,
