@@ -7,8 +7,7 @@ hysteria2://37ff019f4a35e6da@rplcehysttya6.airlineshoma.com:443/?obfs=salamander
 hysteria2://37ff019f4a35e6da@rplcehysttya6.airlineshoma.com:443/?obfs=salamander&obfs-password=6c80ade6#Hy2🔷️
 hysteria2://37ff019f4a35e6da@rplcehysttya6.airlineshoma.com:443/?insecure=1&obfs=salamander&obfs-password=6c80ade6&sni=rplcehysttya6.airlineshoma.com#Hy2🔷️️
 hysteria2://37ff019f4a35e6da@rplcehysttya6.airlineshoma.com:443/?insecure=1&obfs=salamander&obfs-password=6c80ade6&sni=rplcehysttya6.airlineshoma.com#Hy2🔷️️
-️
-hysteria2://nfsn666@ld-arm.nfsn666.gq:8888?security=tls&insecure=1&sni=ld-arm.nfsn666.gq#Hy💚
+️hysteria2://nfsn666@ld-arm.nfsn666.gq:8888?security=tls&insecure=1&sni=ld-arm.nfsn666.gq#Hy💚
 hysteria2://nfsn666@130.162.182.250:8888?security=tls&insecure=1&sni=ld-arm.nfsn666.gq#Hy💚
 hysteria2://nfsn666@130.162.182.250:8888?security=tls&insecure=1&sni=ld-arm.nfsn666.gq#Hy💚
 hysteria2://fceba144-0aa0-11ee-bf3c-f23c9164ca5d@107.167.18.102:8443?security=tls&insecure=1&sni=7de3017c-svsps0-sz6btt-1fee.hy2.gotochinatown.net#Hy💚
