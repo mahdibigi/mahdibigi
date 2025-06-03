@@ -1,6 +1,5 @@
 {
 
- 
     {
       "type": "wireguard",
       "tag": "WARP 1308, 0",
