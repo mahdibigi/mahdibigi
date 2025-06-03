@@ -1,0 +1,214 @@
+//profile-title: base64:4pyF77iPV2FycPCflJtXYXJwNu+4j+KDow==
+//profile-update-interval: 240
+//subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
+//support-url: https://t.me/hiddify
+//profile-web-page-url: https://hiddify.com
+
+{
+  "outbounds": [
+    {
+      "type": "wireguard",
+      "tag": "Warp-💎-1",
+      "local_address": [
+        "172.16.0.2/32",
+        "2606:4700:110:8b1d:3aa:7cad:9ba6:e598/128"
+      ],
+      "private_key": "4O9CaLFCufrwKOGf+aFK6QW79zo9AV0KsKZHaiDuCFs=",
+      "server": "188.114.99.40",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "tcfW",
+      "mtu": 1208,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-20",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "WOW-🇩🇪-1",
+      "detour": "Warp-💎-1",
+      "local_address": [
+        "172.16.0.2/32",
+        "2606:4700:110:8eeb:901f:5a79:50e4:2c6e/128"
+      ],
+      "private_key": "gOfs13mgXfv4VnOMnvdquMibiS/BgT7S1mGNDP+kg2Q=",
+      "server": "188.114.99.40",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "izw/",
+      "mtu": 1230,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Warp-💎-2",
+      "local_address": [
+        "172.16.0.2/32",
+        "2606:4700:110:8fc9:696a:2843:4060:6590/128"
+      ],
+      "private_key": "4FAzYUcQrpbpmkPz7AmuaZHpMY4esDNP+6+t0yS/K04=",
+      "server": "188.114.97.59",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "hAWA",
+      "mtu": 1208,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-20",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "WOW-🇩🇪-2",
+      "detour": "Warp-💎-2",
+      "local_address": [
+        "172.16.0.2/32",
+        "2606:4700:110:8ec2:da1:4574:8f2d:220/128"
+      ],
+      "private_key": "kPswSASiRL2y8CY63R5EkLw8dk/m+4JpFS6EVGkIPHM=",
+      "server": "188.114.97.59",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "jSBC",
+      "mtu": 1230,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Warp-💎-3",
+      "local_address": [
+        "172.16.0.2/32",
+        "2606:4700:110:8c90:f6c6:5faf:fbf0:7695/128"
+      ],
+      "private_key": "aGLuTrNkBg3RDFYvmfZXPkk1bGGaP8QAGMUFFyRzdHI=",
+      "server": "188.114.96.97",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "esXe",
+      "mtu": 1208,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-20",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "WOW-🇩🇪-3",
+      "detour": "Warp-💎-3",
+      "local_address": [
+        "172.16.0.2/32",
+        "2606:4700:110:8b20:cb04:d389:251f:d087/128"
+      ],
+      "private_key": "qMH1gejL7YhmGpkQKatuQeExUEFvhv5OIh6YjfToeVQ=",
+      "server": "188.114.99.97",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "uD6u",
+      "mtu": 1230,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Warp-💎-4",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8bd7:9a3f:a25d:e62b:6ac2/128"
+      ],
+      "private_key": "OCgUj7jwn+el2NFXCVjck6BGqQlgIvRxJ36iTTnkYEE=",
+      "server": "188.114.99.66",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "Jx9d",
+      "mtu": 1208,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-20",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "WOW-🇩🇪-4",
+      "detour": "Warp-💎-4",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:87f3:2aff:bfe0:cb73:452/128"
+      ],
+      "private_key": "aJ2VaAEDpEPlJ+s/acARPY9cQS6WXrU3G8hI0TmWFVs=",
+      "server": "188.114.99.66",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "4+hC",
+      "mtu": 1230,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Warp-💎-5",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:81b3:9faa:c035:ae19:285e/128"
+      ],
+      "private_key": "uPqwkh6QVKVxLdM1rUWC1WWdFtBzOT99ziySP1YEn2o=",
+      "server": "188.114.99.88",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "5h9d",
+      "mtu": 1208,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-20",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "WOW-🇩🇪-5",
+      "detour": "Warp-💎-5",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8e5c:8264:b82:e7f7:c147/128"
+      ],
+      "private_key": "uOKqRi/qCm5xl10L8OzhwSXZsz60TetjuhDVJg7p2Gw=",
+      "server": "188.114.99.88",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "8Csb",
+      "mtu": 1230,
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Warp-💎-6",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8788:2d2a:8d0e:65ac:62bd/128"
+      ],
+      "private_key": "uGdd3Zgy8r7I7aWo4QhPQr+ieEHbky4rfYuhckVjknE=",
+      "server": "188.114.99.69",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "1xBN",
+      "mtu": 1208,
+      "fake_packets": "1-3",
+      "fake_packets_size": "10-30",
+      "fake_packets_delay": "10-20",
+      "fake_packets_mode": "m4"
+    },
+    {
+      "type": "wireguard",
+      "tag": "WOW-🇩🇪-6",
+      "detour": "Warp-💎-6",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:894e:63b6:a45c:993c:ccdc/128"
+      ],
+      "private_key": "wMuKVZ8b+E0TY+m6kMZWWWTexxvrUG9/7pIhUUkOPWw=",
+      "server": "188.114.99.69",
+      "server_port": 0,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "DWDR",
+      "mtu": 1230,
+      "fake_packets_mode": "m4"
+    }
+  ]
+}
