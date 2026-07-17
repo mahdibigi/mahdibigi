@@ -1,0 +1,292 @@
+# url 里填写自己的订阅,名称不能重复
+proxy-providers:
+  provider1:
+    url: "https://raw.githubusercontent.com/mahdibigi/mahdibigi/refs/heads/main/clash/Http%F0%9F%9A%80_Proxy_Auto.%E2%9A%A1%EF%B8%8F.yaml"
+    type: http
+    interval: 86400
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 300
+    override:
+      additional-prefix: 1️⃣|
+    include-all: true
+    exclude-type: direct
+    tolerance: 10
+  provider2:
+    url: "https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetcher/refs/heads/main/configs/proxy_configs.txt"
+    type: http
+    interval: 86400
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 300
+    override:
+      additional-prefix: 2️⃣|
+    include-all: true
+    exclude-type: direct
+    tolerance: 10
+  provider3:
+    type: http
+    url: "https://shz.al/~WangCai"
+    interval: 86400
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+    override:
+      additional-prefix: 3️⃣|
+    include-all: true
+    exclude-type: direct
+    tolerance: 10
+  provider4:
+    type: http
+    url: "https://shz.al/~socks5"
+    interval: 86400
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+    override:
+      additional-prefix: 4️⃣|
+    include-all: true
+    exclude-type: direct
+    tolerance: 10
+  provitru5:
+    url: "https://node.mibeifenxiang.com/uploads/2026/07/20260718.yaml"
+    type: http
+    interval: 86400
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 300
+    override:
+      additional-prefix: 5️⃣|
+    include-all: true
+    exclude-type: direct
+    tolerance: 10
+  provider6:
+    type: http
+    url: "https://node.mibeifenxiang.com/uploads/2026/07/20260717.yaml"
+    interval: 86400
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+    override:
+      additional-prefix: 6️⃣|
+    include-all: true
+    exclude-type: direct
+    tolerance: 10
+  provider7:
+    type: http
+    url: "https://node.mibeifenxiang.com/uploads/2026/07/20260716.yaml"
+    interval: 86400
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+    override:
+      additional-prefix: 7️⃣|
+    include-all: true
+    exclude-type: direct
+    tolerance: 10
+  provider8:
+    type: http
+    url: "https://node.mibeifenxiang.com/uploads/2026/07/20260715.yaml"
+    interval: 86400
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+    override:
+      additional-prefix: 8️⃣|
+    include-all: true
+    exclude-type: direct
+    tolerance: 10
+proxies: 
+  - name: "Direct Connection"
+    type: direct
+    udp: true
+
+mixed-port: 7890
+ipv6: true
+allow-lan: true
+unified-delay: false
+tcp-concurrent: true
+external-controller: 127.0.0.1:9090
+external-ui: ui
+external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip"
+
+geodata-mode: true
+geox-url:
+  geoip: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip-lite.dat"
+  geosite: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat"
+  mmdb: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country-lite.mmdb"
+  asn: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/GeoLite2-ASN.mmdb"
+
+find-process-mode: strict
+global-client-fingerprint: chrome
+
+profile:
+  store-selected: true
+  store-fake-ip: true
+
+sniffer:
+  enable: true
+  sniff:
+    HTTP:
+      ports: [80, 8080-8880]
+      override-destination: true
+    TLS:
+      ports: [443, 8443]
+    QUIC:
+      ports: [443, 8443]
+  skip-domain:
+    - "Mijia Cloud"
+    - "+.push.apple.com"
+
+tun:
+  enable: true
+  stack: mixed
+  dns-hijack:
+    - "any:53"
+    - "tcp://any:53"
+  auto-route: true
+  auto-redirect: true
+  auto-detect-interface: true
+
+dns:
+  enable: true
+  ipv6: true
+  enhanced-mode: fake-ip
+  fake-ip-filter:
+    - "*"
+    - "+.lan"
+    - "+.local"
+    - "+.market.xiaomi.com"
+  default-nameserver:
+    - tls://223.5.5.5
+    - tls://223.6.6.6
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+
+proxy-groups:
+
+  - name: Default
+    type: select
+    proxies: [Automatic selection,Direct Connection,Hongkong,Taiwan,Japan,Singapore,USA,Other regions,All Nodes]
+
+  - name: Google
+    type: select
+    proxies: [Default,Hongkong,Taiwan,Japan,Singapore,USA,Other regions,All Nodes,Automatic selection,Direct Connection]
+
+  - name: Telegram
+    type: select
+    proxies: [Default,Hongkong,Taiwan,Japan,Singapore,USA,Other regions,All Nodes,Automatic selection,Direct Connection]
+
+  - name: Twitter
+    type: select
+    proxies: [Default,Hongkong,Taiwan,Japan,Singapore,USA,Other regions,All Nodes,Automatic selection,Direct Connection]
+
+  - name: Bilibili
+    type: select
+    proxies: [Default,Hongkong,Taiwan,Japan,Singapore,USA,Other regions,All Nodes,Automatic selection,Direct Connection]
+
+  - name: Bahamut
+    type: select
+    proxies: [Default,Hongkong,Taiwan,Japan,Singapore,USA,Other regions,All Nodes,Automatic selection,Direct Connection]
+
+  - name: YouTube
+    type: select
+    proxies: [Default,Hongkong,Taiwan,Japan,Singapore,USA,Other regions,All Nodes,Automatic selection,Direct Connection]
+
+  - name: NETFLIX
+    type: select
+    proxies: [Default,Hongkong,Taiwan,Japan,Singapore,USA,Other regions,All Nodes,Automatic selection,Direct Connection]
+
+  - name: Spotify
+    type: select
+    proxies:  [Default,Hongkong,Taiwan,Japan,Singapore,USA,Other regions,All Nodes,Automatic selection,Direct Connection]
+
+  - name: Github
+    type: select
+    proxies:  [Default,Hongkong,Taiwan,Japan,Singapore,USA,Other regions,All Nodes,Automatic selection,Direct Connection]
+
+  - name: Domestic
+    type: select
+    proxies:  [Direct Connection,Default,Hongkong,Taiwan,Japan,Singapore,USA,Other regions,All Nodes,Automatic selection]
+
+  - name: Other
+    type: select
+    proxies:  [Default,Hongkong,Taiwan,Japan,Singapore,USA,Other regions,All Nodes,Automatic selection,Direct Connection]
+
+  #分隔,下面是地区分组
+  - name: Hongkong
+    type: select
+    include-all: true
+    exclude-type: direct
+    filter: "(?i)港|hk|hongkong|hong kong"
+
+  - name: Taiwan
+    type: select
+    include-all: true
+    exclude-type: direct
+    filter: "(?i)台|tw|taiwan"
+
+  - name: Japan
+    type: select
+    include-all: true
+    exclude-type: direct
+    filter: "(?i)日|jp|japan"
+
+  - name: USA
+    type: select
+    include-all: true
+    exclude-type: direct
+    filter: "(?i)美|us|unitedstates|united states"
+
+  - name: Singapore
+    type: select
+    include-all: true
+    exclude-type: direct
+    filter: "(?i)(新|sg|singapore)"
+
+  - name: Other regions
+    type: select
+    include-all: true
+    exclude-type: direct
+    filter: "(?i)^(?!.*(?:🇭🇰|🇯🇵|🇺🇸|🇸🇬|🇨🇳|港|hk|hongkong|台|tw|taiwan|日|jp|japan|新|sg|singapore|美|us|unitedstates)).*"
+
+  - name: All Nodes
+    type: select
+    include-all: true
+    exclude-type: direct
+
+  - name: Automatic selection
+    type: url-test
+    include-all: true
+    exclude-type: direct
+    tolerance: 10
+
+rules:
+  - GEOIP,lan,Direct Connection,no-resolve
+  - GEOSITE,github,Github
+  - GEOSITE,twitter,Twitter
+  - GEOSITE,youtube,YouTube
+  - GEOSITE,google,Google
+  - GEOSITE,telegram,Telegram
+  - GEOSITE,netflix,NETFLIX
+  - GEOSITE,bilibili,Bilibili
+  - GEOSITE,bahamut,Bahamut
+  - GEOSITE,spotify,Spotify
+  - GEOSITE,CN,Domestic
+  - GEOSITE,geolocation-!cn,Other
+
+  - GEOIP,google,Google
+  - GEOIP,netflix,NETFLIX
+  - GEOIP,telegram,Telegram
+  - GEOIP,twitter,Twitter
+  - GEOIP,CN,Domestic
+  - MATCH,Other
