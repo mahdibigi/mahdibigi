@@ -7,16 +7,16 @@
 
 #psiphon://auto/?region=...&remote_server_list_url=...&remote_server_list_download_filename=...&remote_server_list_signature_public_key=...
 psiphon://auto/
-warp://A1@188.114.97.170:894#🔥warp_in_warp -> warp://A2@188.114.97.170:894?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#Warp🚀
+warp://A1@[2606:4700:d0::a29f:c005]:2408#🔥warp_in_warp -> warp://A2@[2606:4700:d0::a29f:c005]:2408?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#Warp🚀
 warp://B1@auto#WarpInWarp✅ -> warp://B2@auto?ifpm=m4#LocalIP👻
-warp://A1@8.6.112.252:878#🔥warp_in_warp -> warp://A2@8.6.112.252:878?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#Warp🚀
-warp://A1@188.114.97.170:894#🔥warp_in_warp -> warp://A2@188.114.97.170:894?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#Warp🚀
-warp://A1@8.6.112.252:878#🔥warp_in_warp -> warp://A2@8.6.112.252:878?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#Warp🚀
-warp://A1@188.114.97.170:894#🔥warp_in_warp -> warp://A2@188.114.97.170:894?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#Warp🚀
-warp://A1@8.6.112.252:878#🔥warp_in_warp -> warp://A2@8.6.112.252:878?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#Warp🚀
-warp://A1@188.114.97.170:894#🔥warp_in_warp -> warp://A2@188.114.97.170:894?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#Warp🚀
-warp://A1@8.34.70.0:1010#🔥warp_in_warp -> warp://A2@8.34.70.0:1010?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#Warp🚀
-warp://A1@8.34.70.0:1010#🔥warp_in_warp -> warp://A2@8.34.70.0:1010?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#Warp🚀
+warp://A1@[2606:4700:d0::a29f:c001]:500#🔥warp_in_warp -> warp://A2@[2606:4700:d0::a29f:c001]:500?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#Warp🚀
+warp://A1@[2606:4700:d0::a29f:c005]:2408#🔥warp_in_warp -> warp://A2@[2606:4700:d0::a29f:c005]:1701?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#Warp🚀
+warp://A1@[2606:4700:d0::a29f:c005]:2408#🔥warp_in_warp -> warp://A2@[2606:4700:d0::a29f:c005]:2408?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#Warp🚀
+warp://A1@[2606:4700:d0::a29f:c001]:1010#🔥warp_in_warp -> warp://A2@[2606:4700:d0::a29f:c001]:1010?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#Warp🚀
+warp://A1@[2606:4700:d0::a29f:c005]:2408#🔥warp_in_warp -> warp://A2@[2606:4700:d0::a29f:c005]:2408?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#Warp🚀
+warp://A1@[2606:4700:d0::a29f:c001]:500#🔥warp_in_warp -> warp://A2@188.114.97.170:894?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#Warp🚀
+warp://A1@[2606:4700:d0::a29f:c001]:500#🔥warp_in_warp -> warp://A2@[2606:4700:d0::a29f:c001]:500?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#Warp🚀
+warp://A1@[2606:4700:d0::a29f:c005]:1701#🔥warp_in_warp -> warp://A2@[2606:4700:d0::a29f:c005]:1701?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#Warp🚀
 warp://B1@auto#WarpInWarp✅ -> warp://B2@auto?ifpm=m4#LocalIP👻
 warp://B1@auto#WarpInWarp✅ -> warp://B2@auto?ifpm=m4#LocalIP👻
 warp://B1@auto#WarpInWarp✅ -> warp://B2@auto?ifpm=m4#LocalIP👻
